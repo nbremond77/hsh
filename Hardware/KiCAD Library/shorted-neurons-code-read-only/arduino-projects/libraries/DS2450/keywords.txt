@@ -1,0 +1,26 @@
+#######################################
+# Syntax Coloring Map For DS2450
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+ds2450	KEYWORD1
+OneWire	KEYWORD1
+DeviceAddress KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+measure	KEYWORD2
+voltChA	KEYWORD2
+voltChB	KEYWORD2
+voltChC	KEYWORD2
+voltChD	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+

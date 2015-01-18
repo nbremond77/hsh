@@ -1,0 +1,40 @@
+atmega328P-PU 28 pin DIP
+
+AVR
+phys	Arduino		2-chan		4-Chan		N-chan
+pin	pin	Desc	testrig		rackunit	rackunit
+----    ------  ------  --------------  --------------  -------------
+1		*RST
+2	D0/RX	*RX
+3	D1/TX	*TX
+4	D2		RF-INT		RF-INT		RF-INT
+5	D3		swMasterSafety	link/actLed	safetyCoil
+6	D4		link/actionLed	fireCoil1	link/actLed
+7		*Vcc
+8		*GND
+9		*xtal1  8MHz
+10		*xtal2
+11	D5		LedC1-contin    fireCoil2
+12	D6		LedC2-contin    fireCoil3       displayDriverChipSelect(opt)
+13	D7		fireCoil1	fireCoil4       adcChipSel or analogMuxSelect
+14	D8		fireCoil2	safetyCoil	gpioOutChipSelect (indicators)
+15	D9		PWM buzzer	PWM buzzer	PWM buzzer
+					/initButton	/initButton
+16	D10	SS	RF-SEL		RF-SEL		RF-SEL
+17	D11	MOSI	RF-DI		RF-DI		RF-DI
+18	D12	MISO	RF-DO		RF-DO		RF-DO
+19	D13	SCK	RF-CLK		RF-CLK		RF-CLK
+20		*AVcc
+21		*AREF
+22		*GND
+23	A0/D14		sense-BATT	sense-BATT (opt)	sense-BATT
+24	A1/D15		link/actionLed  sense-AMPS (opt)
+25	A2/D16		sense-C1	sense-C1
+26	A3/D17		sense-C2	sense-C2
+27	A4/D18	SDA			sense-C3        adcIn if using analogMux
+28	A5/D19	SCL	sense-AMPS      sense-C4
+
+
+
+
+

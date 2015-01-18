@@ -1,0 +1,953 @@
+.
+├── arduino-libraries
+│   ├── EEPROMserialization
+│   │   ├── EEPROMserialization.cpp
+│   │   ├── EEPROMserialization.h
+│   │   ├── examples
+│   │   │   └── EEPROMserialization
+│   │   │       └── EEPROMserialization.pde
+│   │   └── keywords.txt
+│   └── RotaryEncoder
+│       ├── examples
+│       │   └── rotary_tester.pde
+│       ├── keywords.txt
+│       ├── RotaryEncoder.cpp
+│       └── RotaryEncoder.h
+├── arduino-projects
+│   ├── 35bit_clock
+│   │   ├── _35bitClock_v001
+│   │   │   └── _35bitClock_v001.pde
+│   │   ├── _35bitClock_v002
+│   │   │   ├── _35bitClock_v002.pde
+│   │   │   └── serialization.h
+│   │   └── _35bitClock_v002_JUNK
+│   │       └── _35bitClock_v002_JUNK.pde
+│   ├── _35bitClock
+│   │   ├── _35bitClock.pde
+│   │   └── serialization.h
+│   ├── AnalogInput_to_millivolts
+│   │   └── AnalogInput_to_millivolts.pde
+│   ├── ArduinoISP
+│   │   └── ArduinoISP.pde
+│   ├── ArduinoISP_bts
+│   │   └── ArduinoISP_bts.pde
+│   ├── cam_controller
+│   │   ├── metering_logatron_v008
+│   │   │   └── metering_logatron_v008.pde
+│   │   ├── nikon_L11_controller_v001
+│   │   │   └── nikon_L11_controller_v001.pde
+│   │   ├── nikon_L11_controller_v002
+│   │   │   └── nikon_L11_controller_v002.pde
+│   │   ├── nikon_L11_controller_v003
+│   │   │   └── nikon_L11_controller_v003.pde
+│   │   ├── nikon_L11_controller_v004
+│   │   │   └── nikon_L11_controller_v004.pde
+│   │   ├── SD_logger_plus_hongkongcam_v010
+│   │   │   └── SD_logger_plus_hongkongcam_v010.pde
+│   │   ├── SD_logger_plus_hongkongcam_v011
+│   │   │   └── SD_logger_plus_hongkongcam_v011.pde
+│   │   ├── SD_logger_plus_nikon_cam_v006
+│   │   │   └── SD_logger_plus_nikon_cam_v006.pde
+│   │   ├── SD_logger_plus_nikon_cam_v007
+│   │   │   └── SD_logger_plus_nikon_cam_v007.pde
+│   │   ├── SD_logger_plus_nikon_cam_v008
+│   │   │   └── SD_logger_plus_nikon_cam_v008.pde
+│   │   ├── SD_logger_plus_nikon_cam_v009
+│   │   │   └── SD_logger_plus_nikon_cam_v009.pde
+│   │   ├── SD_logger_plus_nikon_cam_v010
+│   │   │   ├── SD_logger_plus_nikon_cam_v010.pde
+│   │   │   └── SD_logger_plus_nikon_cam_v010.pde.accidentally_updated
+│   │   ├── SD_logger_plus_nikon_cam_v011
+│   │   │   └── SD_logger_plus_nikon_cam_v011.pde
+│   │   └── SD_logger_plus_nikon_cam_v012_christmas
+│   │       └── SD_logger_plus_nikon_cam_v012_christmas.pde
+│   ├── Clock_35bit
+│   │   ├── Clock_35bit.pde
+│   │   └── serialization.h
+│   ├── combinedClocks
+│   │   ├── clockBits.pde
+│   │   ├── combinedClocks.pde
+│   │   ├── flowerClockFunctions.pde
+│   │   ├── RTTL.pde
+│   │   └── serialization.h
+│   ├── combinedClocks-20110501.zip
+│   ├── crypRecv
+│   │   └── crypRecv.pde
+│   ├── dad_RTTTL_christmas_card
+│   │   └── dad_RTTTL_christmas_card.pde
+│   ├── ethernet_experiments
+│   │   ├── sensor_WebServer_v001
+│   │   │   └── sensor_WebServer_v001.pde
+│   │   ├── tBTS_temp_sensor_pusher_v002
+│   │   │   └── tBTS_temp_sensor_pusher_v002.pde
+│   │   ├── tBTS_temp_sensor_pusher_v003
+│   │   │   └── tBTS_temp_sensor_pusher_v003.pde
+│   │   ├── temp_sensor_pusher_v001
+│   │   │   └── temp_sensor_pusher_v001.pde
+│   │   ├── temp_sensor_pusher_v002
+│   │   │   └── temp_sensor_pusher_v002.pde
+│   │   └── temp_WebServer
+│   │       └── temp_WebServer.pde
+│   ├── fade_n_blink
+│   │   └── fade_n_blink.pde
+│   ├── fiveDigitClock
+│   │   ├── fiveDigitClock_v001
+│   │   │   └── fiveDigitClock_v001.pde
+│   │   ├── fiveDigitClock_v003
+│   │   │   └── fiveDigitClock_v003.pde
+│   │   ├── fiveDigitClock_v004
+│   │   │   └── fiveDigitClock_v004.pde
+│   │   ├── fiveDigitClock_wMAX7221_flowerclocktest_v006
+│   │   │   └── fiveDigitClock_wMAX7221_flowerclocktest_v006.pde
+│   │   ├── fiveDigitClock_wMAX7221_from35bit_v006
+│   │   │   └── fiveDigitClock_wMAX7221_from35bit_v006.pde
+│   │   ├── fiveDigitClock_wMAX7221_SDcoexist_v006
+│   │   │   └── fiveDigitClock_wMAX7221_SDcoexist_v006.pde
+│   │   ├── fiveDigitClock_wMAX7221_v005
+│   │   │   └── fiveDigitClock_wMAX7221_v005.pde
+│   │   ├── fiveDigitClock_wMAX7221_v006
+│   │   │   └── fiveDigitClock_wMAX7221_v006.pde
+│   │   ├── fiveDigitFreqCounter_v001
+│   │   │   └── fiveDigitFreqCounter_v001.pde
+│   │   ├── fiveDigit_rotaryEncoder_testing_v001
+│   │   │   └── fiveDigit_rotaryEncoder_testing_v001.pde
+│   │   ├── fiveDigit_rotaryEncoder_testing_v002
+│   │   │   └── fiveDigit_rotaryEncoder_testing_v002.pde
+│   │   └── rotary_and_backward_max7221_v001
+│   │       └── rotary_and_backward_max7221_v001.pde
+│   ├── fiveDigit_max7221_3v3testing
+│   │   └── fiveDigit_max7221_3v3testing.pde
+│   ├── fiveDigit_templogger_v001
+│   │   └── fiveDigit_templogger_v001.pde
+│   ├── fiveDigit_templogger_v002
+│   │   └── fiveDigit_templogger_v002.pde
+│   ├── fiveDigit_templogger_v003
+│   │   └── fiveDigit_templogger_v003.pde
+│   ├── fiveDigit_templogger_with_anemom_v004
+│   │   └── fiveDigit_templogger_with_anemom_v004.pde
+│   ├── flowerClock
+│   │   ├── flowerClock_v002
+│   │   │   └── flowerClock_v002.pde
+│   │   ├── flowerClock_v003
+│   │   │   └── flowerClock_v003.pde
+│   │   ├── flowerClock_v004
+│   │   │   └── flowerClock_v004.pde
+│   │   ├── flowerClock_v005
+│   │   │   └── flowerClock_v005.pde
+│   │   ├── flowerClock_v006
+│   │   │   └── flowerClock_v006.pde
+│   │   ├── flowerClock_v007
+│   │   │   └── flowerClock_v007.pde
+│   │   ├── flowerClock_v008
+│   │   │   ├── clockBits.pde
+│   │   │   ├── flowerClockFunctions.pde
+│   │   │   └── flowerClock_v008.pde
+│   │   ├── flowerClock_v010
+│   │   │   ├── clockBits.pde
+│   │   │   ├── flowerClockFunctions.pde
+│   │   │   └── flowerClock_v010.pde
+│   │   ├── flowerClock_v011
+│   │   │   ├── clockBits.pde
+│   │   │   ├── flowerClockFunctions.pde
+│   │   │   ├── flowerClock_v011.pde
+│   │   │   ├── RTTL.pde
+│   │   │   └── serialization.h
+│   │   └── flowerClock_v012
+│   │       ├── clockBits.pde
+│   │       ├── flowerClockFunctions.pde
+│   │       ├── flowerClock_v011.pde
+│   │       └── RTTL.pde
+│   ├── gps_LCD_kludge
+│   │   ├── debug.cpp
+│   │   ├── debug.h
+│   │   ├── gps.cpp
+│   │   ├── gps.h
+│   │   └── gps_LCD_kludge.pde
+│   ├── halloween_pumpkin1
+│   │   └── halloween_pumpkin1.pde
+│   ├── hardware
+│   │   ├── attiny45_85
+│   │   │   ├── boards.txt
+│   │   │   └── cores
+│   │   │       └── attiny45_85
+│   │   │           ├── binary.h
+│   │   │           ├── main.cpp
+│   │   │           ├── main.cxx
+│   │   │           ├── Makefile
+│   │   │           ├── pins_arduino.c
+│   │   │           ├── pins_arduino.h
+│   │   │           ├── Print.cpp
+│   │   │           ├── Print.h
+│   │   │           ├── WConstants.h
+│   │   │           ├── WInterrupts.c
+│   │   │           ├── wiring_analog.c
+│   │   │           ├── wiring.c
+│   │   │           ├── wiring_digital.c
+│   │   │           ├── wiring.h
+│   │   │           ├── wiring_private.h
+│   │   │           ├── wiring_pulse.c
+│   │   │           ├── wiring_shift.c
+│   │   │           ├── WMath.cpp
+│   │   │           └── WProgram.h
+│   │   ├── BBB_8MHz
+│   │   │   ├── boards.txt
+│   │   │   └── bootloaders -> /home/bts/arduino/hardware/arduino/bootloaders
+│   │   └── breadboard
+│   │       └── boards.txt
+│   ├── lcd117demo_already_setup
+│   │   └── lcd117demo_already_setup.pde
+│   ├── lcd117demo_for_1x16
+│   │   └── lcd117demo_for_1x16.pde
+│   ├── LCDemo7Segment_btsmod
+│   │   └── LCDemo7Segment_btsmod.pde
+│   ├── max7312_GPIO_testing_simple
+│   │   └── max7312_GPIO_testing_simple.pde
+│   ├── max7312_GPIO_testing_v001
+│   │   └── max7312_GPIO_testing_v001.pde
+│   ├── max7312_GPIO_testing_v002
+│   │   └── max7312_GPIO_testing_v002.pde
+│   ├── metering_logatron
+│   │   ├── metering_logatron_v009
+│   │   │   └── metering_logatron_v009.pde
+│   │   ├── metering_logatron_v010
+│   │   │   └── metering_logatron_v010.pde
+│   │   ├── metering_logatron_v011
+│   │   │   └── metering_logatron_v011.pde
+│   │   └── metering_logatron_v012
+│   │       └── metering_logatron_v012.pde
+│   ├── misc_testing
+│   │   ├── Adafruit_example_GPSlogger
+│   │   │   └── Adafruit_example_GPSlogger.pde
+│   │   ├── ADXL345_dump
+│   │   │   └── ADXL345_dump.pde
+│   │   ├── ADXL345Run_bryan1
+│   │   │   └── ADXL345Run_bryan1.pde
+│   │   ├── analog_self_voltage
+│   │   │   └── analog_self_voltage.pde
+│   │   ├── analog_self_voltage_for_meter
+│   │   │   └── analog_self_voltage_for_meter.pde
+│   │   ├── bitMath_shiftOut_tests
+│   │   │   └── bitMath_shiftOut_tests.pde
+│   │   ├── bitMath_shiftOut_tests_v002
+│   │   │   └── bitMath_shiftOut_tests_v002.pde
+│   │   ├── cdrom_rotary_encoder_w_rgb
+│   │   │   └── cdrom_rotary_encoder_w_rgb.pde
+│   │   ├── cmmr6_test1
+│   │   │   └── cmmr6_test1.pde
+│   │   ├── crypRecv_bryan
+│   │   │   └── crypRecv_bryan.pde
+│   │   ├── crypSend_bryan
+│   │   │   └── crypSend_bryan.pde
+│   │   ├── ds2423_test_anemometer
+│   │   │   └── ds2423_test_anemometer.pde
+│   │   ├── ds2423_test_anemometer_v002
+│   │   │   └── ds2423_test_anemometer_v002.pde
+│   │   ├── ds2450_anemometer_compass
+│   │   │   └── ds2450_anemometer_compass.pde
+│   │   ├── EEPROM_serialization
+│   │   │   ├── EEPROM_serialization.pde
+│   │   │   └── foobar.h
+│   │   ├── LCD3wire_test1
+│   │   │   └── LCD3wire_test1.pde
+│   │   ├── LiquidCrystal_shifted_HelloWorld
+│   │   │   └── LiquidCrystal_shifted_HelloWorld.pde
+│   │   ├── LiquidCrystal_shifted_HelloWorld_v002
+│   │   │   └── LiquidCrystal_shifted_HelloWorld_v002.pde
+│   │   ├── max7221_spi_v001
+│   │   │   └── max7221_spi_v001.pde
+│   │   ├── Mcp23s17Example001
+│   │   │   └── Mcp23s17Example001.pde
+│   │   ├── Mcp23s17_with_cd4052
+│   │   │   └── Mcp23s17_with_cd4052.pde
+│   │   ├── mcp3208_ADC_example001
+│   │   │   └── mcp3208_ADC_example001.pde
+│   │   ├── onewire_anemometer_v001
+│   │   │   └── onewire_anemometer_v001.pde
+│   │   ├── randblink
+│   │   │   └── randblink.pde
+│   │   ├── randblink_with_serial
+│   │   │   └── randblink_with_serial.pde
+│   │   ├── RF12demo_bryan
+│   │   │   └── RF12demo_bryan.pde
+│   │   ├── RF12demo_withDallasTemp
+│   │   │   └── RF12demo_withDallasTemp.pde
+│   │   ├── RF_LED_tester
+│   │   │   └── RF_LED_tester.pde
+│   │   ├── rfRangeRX_regular_LCD
+│   │   │   └── rfRangeRX_regular_LCD.pde
+│   │   ├── rfRangeTX_for_433MHz
+│   │   │   └── rfRangeTX_for_433MHz.pde
+│   │   ├── rotary_lib
+│   │   │   └── rotary_lib.pde
+│   │   ├── RTTL_demo
+│   │   │   └── RTTL_demo.pde
+│   │   ├── self_voltage
+│   │   │   └── self_voltage.pde
+│   │   ├── shifted_pins_timing_portDirect
+│   │   │   └── shifted_pins_timing_portDirect.pde
+│   │   ├── shifted_pins_timing_test
+│   │   │   └── shifted_pins_timing_test.pde
+│   │   ├── shiftOut_helloWorld
+│   │   │   └── shiftOut_helloWorld.pde
+│   │   ├── shiftOut_serialInput
+│   │   │   └── shiftOut_serialInput.pde
+│   │   ├── test_pstring
+│   │   │   └── test_pstring.pde
+│   │   ├── threeDigitDVM_max7221_tester
+│   │   │   ├── a_7segMaps.pde
+│   │   │   ├── clockBits.pde
+│   │   │   ├── flowerClockFunctions.pde
+│   │   │   ├── serialization.h
+│   │   │   ├── threeDigitDVM_max7221_tester.pde
+│   │   │   └── voltMeterFunctions.pde
+│   │   ├── TinyGPS_test_with_gps_device
+│   │   │   └── TinyGPS_test_with_gps_device.pde
+│   │   └── Tone_demo_mario_RTTTL
+│   │       └── Tone_demo_mario_RTTTL.pde
+│   ├── MotorKnob_w_rgb
+│   │   └── MotorKnob_w_rgb.pde
+│   ├── multiplex_7seg
+│   │   ├── multiplex_7seg_try1
+│   │   │   └── multiplex_7seg_try1.pde
+│   │   ├── multiplex_7seg_try2
+│   │   │   └── multiplex_7seg_try2.pde
+│   │   ├── multiplex_7seg_try3
+│   │   │   └── multiplex_7seg_try3.pde
+│   │   ├── multiplex_7seg_v004
+│   │   │   └── multiplex_7seg_v004.pde
+│   │   ├── multiplex_7seg_v005
+│   │   │   └── multiplex_7seg_v005.pde
+│   │   ├── multiplex_7seg_v006
+│   │   │   └── multiplex_7seg_v006.pde
+│   │   ├── multiplex_7seg_v007
+│   │   │   └── multiplex_7seg_v007.pde
+│   │   ├── multiplex_7seg_v008
+│   │   │   └── multiplex_7seg_v008.pde
+│   │   ├── multiplex_7seg_v009
+│   │   │   └── multiplex_7seg_v009.pde
+│   │   └── multiplex_7seg_v010_w_interrupts
+│   │       └── multiplex_7seg_v010_w_interrupts.pde
+│   ├── RF_LED_tester
+│   │   └── RF_LED_tester.pde
+│   ├── RTC_config_bits_interrupts_v001
+│   │   └── RTC_config_bits_interrupts_v001.pde
+│   ├── RTC_config_bits_playtime
+│   │   └── RTC_config_bits_playtime.pde
+│   ├── RTC_setter_prog
+│   │   └── RTC_setter_prog.pde
+│   ├── SD_logger
+│   │   ├── SD_logger_v001
+│   │   │   └── SD_logger_v001.pde
+│   │   ├── SD_logger_v002
+│   │   │   └── SD_logger_v002.pde
+│   │   ├── SD_logger_v003
+│   │   │   └── SD_logger_v003.pde
+│   │   ├── SD_logger_v004
+│   │   │   └── SD_logger_v004.pde
+│   │   ├── SD_logger_v005
+│   │   │   └── SD_logger_v005.pde
+│   │   ├── SD_logger_v006
+│   │   │   └── SD_logger_v006.pde
+│   │   ├── SD_logger_v007
+│   │   │   └── SD_logger_v007.pde
+│   │   └── SD_logger_v008
+│   │       └── SD_logger_v008.pde
+│   ├── threeDigitDVM
+│   │   └── threeDigitDVM.pde
+│   ├── trackuino
+│   │   ├── aprs.cpp
+│   │   ├── aprs.h
+│   │   ├── ax25.cpp
+│   │   ├── ax25.h
+│   │   ├── config.h
+│   │   ├── debug.cpp
+│   │   ├── debug.h
+│   │   ├── gps.cpp
+│   │   ├── gps.h
+│   │   ├── modem.cpp
+│   │   ├── modem.h
+│   │   ├── radio.cpp
+│   │   ├── radio.h
+│   │   ├── radio_hx1.cpp
+│   │   ├── radio_hx1.h
+│   │   ├── radio_mx146.cpp
+│   │   ├── radio_mx146.h
+│   │   ├── sensors.cpp
+│   │   ├── sensors.h
+│   │   ├── trackuino.h
+│   │   └── trackuino.pde
+│   ├── venus_GPS_serialdump
+│   │   └── venus_GPS_serialdump.pde
+│   ├── watchdog_emergency_disable
+│   │   └── watchdog_emergency_disable.pde
+│   └── watchdog_sleeping_demo
+│       └── watchdog_sleeping_demo.pde
+├── CRASH-launcher
+│   ├── CRASH-launcher-docs_20120716-2314.zip
+│   ├── CRASH-launcher-docs_20120716-2315.zip
+│   ├── docs
+│   │   ├── controller-pins.txt
+│   │   ├── crash_launcher_export-20120525.zip
+│   │   ├── crash_launcher_PDFs_ONLY_export-20120525.zip
+│   │   ├── design_choices_and_philosophy.html
+│   │   ├── fritzing
+│   │   │   ├── launcher_prototype_a.fzz
+│   │   │   ├── launcher_prototype_c_10x10.fzz
+│   │   │   └── launcher_prototype_module_th_fet_5x5.fzz
+│   │   ├── gEDA
+│   │   │   ├── 4-chan.project
+│   │   │   ├── craptest.pcb
+│   │   │   ├── CRASH_4-chan_launcher_controllerCore.sch
+│   │   │   ├── CRASH_4-chan_launcher_controllerCore.sch~
+│   │   │   ├── CRASH_4-chan_launcher_onechannel.pdf
+│   │   │   ├── CRASH_4-chan_launcher_onechannel.ps
+│   │   │   ├── CRASH_4-chan_launcher_onechannel.sch
+│   │   │   ├── CRASH_4-chan_launcher_onechannel.sch~
+│   │   │   ├── CRASH_4-chan_launcher_rackunitCore.cmd
+│   │   │   ├── CRASH_4-chan_launcher_rackunitCore.net
+│   │   │   ├── CRASH_4-chan_launcher_rackunitCore.pcb-
+│   │   │   ├── CRASH_4-chan_launcher_rackunitCore.sch
+│   │   │   ├── CRASH_4-chan_launcher_rackunitCore.sch~
+│   │   │   ├── gafrc
+│   │   │   ├── launcher_project_symbols
+│   │   │   │   ├── ATmega328_DIP-1.sym
+│   │   │   │   ├── ATmega328_DIP-1.sym~
+│   │   │   │   ├── ICSP_header-1.sym
+│   │   │   │   ├── ICSP_header-1.sym~
+│   │   │   │   ├── LP2950-1.sym
+│   │   │   │   ├── LP2950-1.sym~
+│   │   │   │   ├── #RFM12B-1.sym#
+│   │   │   │   ├── RFM12B-1.sym
+│   │   │   │   ├── #SPST_relay-2.sym#
+│   │   │   │   ├── SPST_relay-2.sym
+│   │   │   │   ├── TSC888-1.sym
+│   │   │   │   └── TSC888-1.sym~
+│   │   │   ├── packages
+│   │   │   │   ├── 2x3PIN.fp
+│   │   │   │   └── SOT23_5.fp
+│   │   │   ├── PCB.00020378.backup
+│   │   │   ├── PCB.00021256.backup
+│   │   │   ├── PCB.00021584.backup
+│   │   │   ├── pootest
+│   │   │   └── unknown.png
+│   │   ├── ideas.txt
+│   │   ├── ignition-modules.txt
+│   │   ├── kicad
+│   │   │   ├── analog.sch
+│   │   │   ├── bryan_4chan.brd
+│   │   │   ├── bryan_4chan.cmp
+│   │   │   ├── bryan_4chan.net
+│   │   │   ├── bryan_4chan.pro
+│   │   │   ├── bryan_4chan.sch
+│   │   │   ├── core.sch
+│   │   │   ├── CRASH_4-channel.000
+│   │   │   ├── CRASH_4-channel-20111028.zip
+│   │   │   ├── CRASH_4-channel.bak
+│   │   │   ├── CRASH_4-channel.brd
+│   │   │   ├── CRASH_4-channel-cache.bak
+│   │   │   ├── CRASH_4-channel-cache.lib
+│   │   │   ├── CRASH_4-channel.cmp
+│   │   │   ├── CRASH_4-channel_controller.000
+│   │   │   ├── CRASH_4-channel_controller.bak
+│   │   │   ├── CRASH_4-channel_controller.brd
+│   │   │   ├── CRASH_4-channel_controller-cache.lib
+│   │   │   ├── CRASH_4-channel_controller.cmp
+│   │   │   ├── CRASH_4-channel_controller.net
+│   │   │   ├── CRASH_4-channel_controller.pro
+│   │   │   ├── CRASH_4-channel-Controller.ps
+│   │   │   ├── CRASH_4-channel_controller.sch
+│   │   │   ├── CRASH_4-channel_controller.stf
+│   │   │   ├── CRASH_4-channel_craptastic_try1.brd
+│   │   │   ├── CRASH_4-channel_craptastic_try1.pro
+│   │   │   ├── CRASH_4-channel.dsn
+│   │   │   ├── CRASH_4-channel.erc
+│   │   │   ├── CRASH_4-channel-Lead acid charging.ps
+│   │   │   ├── CRASH_4-channel.net
+│   │   │   ├── CRASH_4-channel.pro
+│   │   │   ├── CRASH_4-channel.ps
+│   │   │   ├── CRASH_4-channel_rackUnit.bak
+│   │   │   ├── CRASH_4-channel_rackUnit.pro
+│   │   │   ├── CRASH_4-channel-RackUnit.ps
+│   │   │   ├── CRASH_4-channel_rackUnit.sch
+│   │   │   ├── CRASH_4-channel-Relay Single Channel.ps
+│   │   │   ├── CRASH_4-channel.sch
+│   │   │   ├── CRASH_4-channel.stf
+│   │   │   ├── CRASH_lead_acid_charging.bak
+│   │   │   ├── CRASH_lead_acid_charging.sch
+│   │   │   ├── CRASH_relay_single_channel.bak
+│   │   │   ├── CRASH_relay_single_channel-cache.bak
+│   │   │   ├── CRASH_relay_single_channel-cache.lib
+│   │   │   ├── CRASH_relay_single_channel.pro
+│   │   │   ├── CRASH_relay_single_channel.sch
+│   │   │   ├── gpios.sch
+│   │   │   ├── libraries
+│   │   │   │   ├── atmel.dcm
+│   │   │   │   ├── atmel.lib
+│   │   │   │   ├── bryan_custom.bak
+│   │   │   │   ├── bryan_custom.bck
+│   │   │   │   ├── bryan_custom.dcm
+│   │   │   │   ├── bryan_custom.lib
+│   │   │   │   ├── Gajda_ttlieee.lib
+│   │   │   │   ├── LED_RGB.lib
+│   │   │   │   ├── rfm12.lib
+│   │   │   │   └── ULN280xA.lib
+│   │   │   ├── modules
+│   │   │   │   ├── LED5_RGB.mod
+│   │   │   │   └── packages3d
+│   │   │   │       ├── led5_RGB_vertical-short.wings
+│   │   │   │       ├── led5_RGB_vertical-short.wrl
+│   │   │   │       ├── led5_RGB_vertical-wide.wings
+│   │   │   │       ├── led5_RGB_vertical-wide.wrl
+│   │   │   │       ├── led5_RGB_vertical.wings
+│   │   │   │       ├── led5_RGB_vertical.wrl
+│   │   │   │       └── smd
+│   │   │   │           ├── rfm12.wings
+│   │   │   │           └── rfm12.wrl
+│   │   │   ├── power.sch
+│   │   │   ├── $savepcb.000
+│   │   │   ├── $savepcb.brd
+│   │   │   └── svn-commit.tmp
+│   │   ├── kicad-bryan_4chan
+│   │   │   ├── 2ch_ignition_module.png
+│   │   │   ├── analog.bak
+│   │   │   ├── analog.sch
+│   │   │   ├── bryan_4chan.000
+│   │   │   ├── bryan_4chan_20120609-0147.zip
+│   │   │   ├── bryan_4chan_20120610-2352.zip
+│   │   │   ├── bryan_4chan_20120716-2310.zip
+│   │   │   ├── bryan_4chan_201209-1630.zip
+│   │   │   ├── bryan_4chan-analog.pdf
+│   │   │   ├── bryan_4chan-append.000
+│   │   │   ├── bryan_4chan-append.brd
+│   │   │   ├── bryan_4chan_backup.cmp
+│   │   │   ├── bryan_4chan_backup.net
+│   │   │   ├── bryan_4chan.bak
+│   │   │   ├── bryan_4chan_before_routing.000
+│   │   │   ├── bryan_4chan_before_routing.brd
+│   │   │   ├── bryan_4chan.brd
+│   │   │   ├── bryan_4chan-brd.svg
+│   │   │   ├── bryan_4chan-cache.bak
+│   │   │   ├── bryan_4chan-cache.lib
+│   │   │   ├── bryan_4chan.cmp
+│   │   │   ├── bryan_4chan-connectors.pdf
+│   │   │   ├── bryan_4chan-core.pdf
+│   │   │   ├── bryan_4chan.drl
+│   │   │   ├── bryan_4chan-drl.rpt
+│   │   │   ├── bryan_4chan.dsn
+│   │   │   ├── bryan_4chan_first_try_wonky.brd
+│   │   │   ├── bryan_4chan-gpios.pdf
+│   │   │   ├── bryan_4chan.net
+│   │   │   ├── bryan_4chan_OLD.brd
+│   │   │   ├── bryan_4chan.pdf
+│   │   │   ├── bryan_4chan.png
+│   │   │   ├── bryan_4chan-power.pdf
+│   │   │   ├── bryan_4chan.pro
+│   │   │   ├── bryan_4chan_rounded.png
+│   │   │   ├── bryan_4chan.sch
+│   │   │   ├── bryan_4chan.ses
+│   │   │   ├── bryan_4chan_SMD_radio.brd
+│   │   │   ├── connectors.bak
+│   │   │   ├── connectors.sch
+│   │   │   ├── core.bak
+│   │   │   ├── core.sch
+│   │   │   ├── fabrication
+│   │   │   │   ├── v0.1
+│   │   │   │   │   ├── bryan_4chan-Back.gbl
+│   │   │   │   │   ├── bryan_4chan.drl
+│   │   │   │   │   ├── bryan_4chan-drl.pho
+│   │   │   │   │   ├── bryan_4chan-Front.gtl
+│   │   │   │   │   ├── bryan_4chan-Mask_Back.gbs
+│   │   │   │   │   ├── bryan_4chan-Mask_Front.gts
+│   │   │   │   │   ├── bryan_4chan-PCB_Edges.gbr
+│   │   │   │   │   ├── bryan_4chan-SilkS_Back.gbo
+│   │   │   │   │   ├── bryan_4chan-SilkS_Front.gto
+│   │   │   │   │   └── v0_1.zip
+│   │   │   │   ├── v0.2
+│   │   │   │   │   ├── bigboard_v02.pdf
+│   │   │   │   │   ├── bigboard_v02.ps
+│   │   │   │   │   ├── bryan_4chan-Back.gbl
+│   │   │   │   │   ├── bryan_4chan.drl
+│   │   │   │   │   ├── bryan_4chan-drl.pho
+│   │   │   │   │   ├── bryan_4chan-Front.gtl
+│   │   │   │   │   ├── bryan_4chan-Mask_Back.gbs
+│   │   │   │   │   ├── bryan_4chan-Mask_Front.gts
+│   │   │   │   │   ├── bryan_4chan-PCB_Edges.gbr
+│   │   │   │   │   ├── bryan_4chan-SilkS_Back.gbo
+│   │   │   │   │   └── bryan_4chan-SilkS_Front.gto
+│   │   │   │   ├── v0.3
+│   │   │   │   │   ├── bryan_4chan-Back.gbl
+│   │   │   │   │   ├── bryan_4chan.drl
+│   │   │   │   │   ├── bryan_4chan-drl.pho
+│   │   │   │   │   ├── bryan_4chan-Front.gtl
+│   │   │   │   │   ├── bryan_4chan-Mask_Back.gbs
+│   │   │   │   │   ├── bryan_4chan-Mask_Front.gts
+│   │   │   │   │   ├── bryan_4chan-PCB_Edges.gbr
+│   │   │   │   │   ├── bryan_4chan-SilkS_Back.gbo
+│   │   │   │   │   ├── bryan_4chan-SilkS_Front.gto
+│   │   │   │   │   └── bryan_4chan_v03.zip
+│   │   │   │   ├── v0.4
+│   │   │   │   │   ├── bryan_4chan-append-Back.gbl
+│   │   │   │   │   ├── bryan_4chan-append.drl
+│   │   │   │   │   ├── bryan_4chan-append-Front.gtl
+│   │   │   │   │   ├── bryan_4chan-append-Mask_Back.gbs
+│   │   │   │   │   ├── bryan_4chan-append-Mask_Front.gts
+│   │   │   │   │   ├── bryan_4chan-append-PCB_Edges.gbr
+│   │   │   │   │   ├── bryan_4chan-append-SilkS_Back.gbo
+│   │   │   │   │   └── bryan_4chan-append-SilkS_Front.gto
+│   │   │   │   ├── v0.5
+│   │   │   │   │   ├── bryan_4chan-Back.gbl
+│   │   │   │   │   ├── bryan_4chan.drl
+│   │   │   │   │   ├── bryan_4chan-drl.pho
+│   │   │   │   │   ├── bryan_4chan-Front.gtl
+│   │   │   │   │   ├── bryan_4chan-Mask_Back.gbs
+│   │   │   │   │   ├── bryan_4chan-Mask_Front.gts
+│   │   │   │   │   ├── bryan_4chan-PCB_Edges.gbr
+│   │   │   │   │   ├── bryan_4chan-SilkS_Back.gbo
+│   │   │   │   │   └── bryan_4chan-SilkS_Front.gto
+│   │   │   │   ├── v06
+│   │   │   │   │   ├── bryan_4chan-Back.gbl
+│   │   │   │   │   ├── bryan_4chan.drl
+│   │   │   │   │   ├── bryan_4chan-Front.gtl
+│   │   │   │   │   ├── bryan_4chan-Mask_Back.gbs
+│   │   │   │   │   ├── bryan_4chan-Mask_Front.gts
+│   │   │   │   │   ├── bryan_4chan-PCB_Edges.gbr
+│   │   │   │   │   ├── bryan_4chan-SilkS_Back.gbo
+│   │   │   │   │   └── bryan_4chan-SilkS_Front.gto
+│   │   │   │   ├── v07
+│   │   │   │   │   ├── bryan_4chan-Back.gbl
+│   │   │   │   │   ├── bryan_4chan.drl
+│   │   │   │   │   ├── bryan_4chan-Front.gtl
+│   │   │   │   │   ├── bryan_4chan-Mask_Back.gbs
+│   │   │   │   │   ├── bryan_4chan-Mask_Front.gts
+│   │   │   │   │   ├── bryan_4chan-PCB_Edges.gbr
+│   │   │   │   │   ├── bryan_4chan-SilkS_Back.gbo
+│   │   │   │   │   └── bryan_4chan-SilkS_Front.gto
+│   │   │   │   └── v08
+│   │   │   │       ├── bryan_4chan-Back.gbl
+│   │   │   │       ├── bryan_4chan.drl
+│   │   │   │       ├── bryan_4chan-Front.gtl
+│   │   │   │       ├── bryan_4chan-Mask_Back.gbs
+│   │   │   │       ├── bryan_4chan-Mask_Front.gts
+│   │   │   │       ├── bryan_4chan-PCB_Edges.gbr
+│   │   │   │       ├── bryan_4chan-SilkS_Back.gbo
+│   │   │   │       └── bryan_4chan-SilkS_Front.gto
+│   │   │   ├── gpios.bak
+│   │   │   ├── gpios.sch
+│   │   │   ├── libraries
+│   │   │   │   ├── atmel.dcm
+│   │   │   │   ├── atmel.lib
+│   │   │   │   ├── bryan_custom.bak
+│   │   │   │   ├── bryan_custom.bck
+│   │   │   │   ├── bryan_custom.dcm
+│   │   │   │   ├── bryan_custom.lib
+│   │   │   │   ├── Gajda_ttlieee.lib
+│   │   │   │   ├── LED_RGB.lib
+│   │   │   │   ├── rfm12.lib
+│   │   │   │   ├── ULN280xA.dcm
+│   │   │   │   └── ULN280xA.lib
+│   │   │   ├── modules
+│   │   │   │   ├── inductances.mdc
+│   │   │   │   ├── inductances.mod
+│   │   │   │   ├── LED5_RGB.mod
+│   │   │   │   ├── mounting bits.mod
+│   │   │   │   ├── OPENHARDWARE.mdc
+│   │   │   │   ├── OPENHARDWARE.mod
+│   │   │   │   ├── OPENLAUNCHER.mod
+│   │   │   │   ├── packages3d
+│   │   │   │   │   ├── led5_RGB_vertical-short.wings
+│   │   │   │   │   ├── led5_RGB_vertical-short.wrl
+│   │   │   │   │   ├── led5_RGB_vertical-wide.wings
+│   │   │   │   │   ├── led5_RGB_vertical-wide.wrl
+│   │   │   │   │   ├── led5_RGB_vertical.wings
+│   │   │   │   │   ├── led5_RGB_vertical.wrl
+│   │   │   │   │   └── smd
+│   │   │   │   │       ├── chip_cms.wings
+│   │   │   │   │       ├── chip_cms.wrl
+│   │   │   │   │       ├── cms_self.wings
+│   │   │   │   │       ├── cms_self.wrl
+│   │   │   │   │       ├── HF_BOB10_1.wings
+│   │   │   │   │       ├── HF_BOB10_1.wrl
+│   │   │   │   │       ├── HF_BOB7_1.wings
+│   │   │   │   │       ├── HF_BOB7_1.wrl
+│   │   │   │   │       ├── HFSA_X.wings
+│   │   │   │   │       ├── HFSA_x.wrl
+│   │   │   │   │       ├── HFSRA_cy.wings
+│   │   │   │   │       ├── HFSRA_cy.wrl
+│   │   │   │   │       ├── HFSRA_pa.wings
+│   │   │   │   │       ├── HFSRA_pa.wrl
+│   │   │   │   │       ├── HFSRA_sp.wings
+│   │   │   │   │       ├── inductances.mdc
+│   │   │   │   │       ├── inductances.mod
+│   │   │   │   │       ├── inductorV1.wings
+│   │   │   │   │       ├── inductorV1.wrl
+│   │   │   │   │       ├── inductorV2.wings
+│   │   │   │   │       ├── inductorV2.wrl
+│   │   │   │   │       ├── inductorV.wings
+│   │   │   │   │       ├── L_HF_12_3.wings
+│   │   │   │   │       ├── L_HF_12_3.wrl
+│   │   │   │   │       ├── L_HF_3_1.wings
+│   │   │   │   │       ├── L_HF_3_1.wrl
+│   │   │   │   │       ├── L_HF_3_2.wings
+│   │   │   │   │       ├── L_HF_3_2.wrl
+│   │   │   │   │       ├── L_HF_3_3.wings
+│   │   │   │   │       ├── L_HF_3_3.wrl
+│   │   │   │   │       ├── L_HF_3_4.wings
+│   │   │   │   │       ├── L_HF_3_4.wrl
+│   │   │   │   │       ├── L_HF_3_5.wings
+│   │   │   │   │       ├── L_HF_3_5.wrl
+│   │   │   │   │       ├── L_HF_3_6.wings
+│   │   │   │   │       ├── L_HF_3_6.wrl
+│   │   │   │   │       ├── mounting bits.mod
+│   │   │   │   │       ├── pot_ferrite1.wings
+│   │   │   │   │       ├── pot_ferrite1.wrl
+│   │   │   │   │       ├── pot_ferrite2m.wings
+│   │   │   │   │       ├── pot_ferrite2.wings
+│   │   │   │   │       ├── pot_ferrite2.wrl
+│   │   │   │   │       ├── pot_ferrite-P.wings
+│   │   │   │   │       ├── pot_ferrite-P.wrl
+│   │   │   │   │       ├── pot_ferrite-RM.wings
+│   │   │   │   │       ├── pot_ferrite-RM.wrl
+│   │   │   │   │       ├── rfm12.wings
+│   │   │   │   │       ├── rfm12.wrl
+│   │   │   │   │       ├── self_choc.wings
+│   │   │   │   │       ├── self_choc.wrl
+│   │   │   │   │       ├── slef_torique2.wings
+│   │   │   │   │       ├── slef_torique2.wrl
+│   │   │   │   │       ├── slef_torique.wings
+│   │   │   │   │       ├── slef_torique.wrl
+│   │   │   │   │       ├── trans_CP.wings
+│   │   │   │   │       ├── trans_CP.wrl
+│   │   │   │   │       ├── trans_thy.wings
+│   │   │   │   │       ├── trans_thy.wrl
+│   │   │   │   │       ├── VK200.wings
+│   │   │   │   │       └── VK200.wrl
+│   │   │   │   ├── README
+│   │   │   │   ├── rfm12.mod
+│   │   │   │   └── TO220-5-pentawatt.mod
+│   │   │   ├── power.bak
+│   │   │   ├── power.sch
+│   │   │   ├── $savepcb.000
+│   │   │   └── $savepcb.brd
+│   │   ├── kicad-FET_ignition_modules
+│   │   │   ├── FET_ignition_modules.000
+│   │   │   ├── FET_ignition_modules-append.000
+│   │   │   ├── FET_ignition_modules-append.brd
+│   │   │   ├── FET_ignition_modules.bak
+│   │   │   ├── FET_ignition_modules.brd
+│   │   │   ├── FET_ignition_modules-cache.bak
+│   │   │   ├── FET_ignition_modules-cache.lib
+│   │   │   ├── FET_ignition_modules.cmp
+│   │   │   ├── FET_ignition_modules.net
+│   │   │   ├── FET_ignition_modules.pro
+│   │   │   ├── FET_ignition_modules.sch
+│   │   │   ├── libraries
+│   │   │   │   ├── atmel.dcm
+│   │   │   │   ├── atmel.lib
+│   │   │   │   ├── bryan_custom.bck
+│   │   │   │   ├── bryan_custom.dcm
+│   │   │   │   ├── bryan_custom.lib
+│   │   │   │   ├── Gajda_ttlieee.lib
+│   │   │   │   ├── LED_RGB.lib
+│   │   │   │   ├── rfm12.lib
+│   │   │   │   ├── ULN280xA.dcm
+│   │   │   │   └── ULN280xA.lib
+│   │   │   ├── modules
+│   │   │   │   ├── inductances.mdc
+│   │   │   │   ├── inductances.mod
+│   │   │   │   ├── LED5_RGB.mod
+│   │   │   │   ├── mounting bits.mod
+│   │   │   │   ├── OPENHARDWARE.mdc
+│   │   │   │   ├── OPENHARDWARE.mod
+│   │   │   │   ├── packages3d
+│   │   │   │   │   ├── led5_RGB_vertical-short.wings
+│   │   │   │   │   ├── led5_RGB_vertical-short.wrl
+│   │   │   │   │   ├── led5_RGB_vertical-wide.wings
+│   │   │   │   │   ├── led5_RGB_vertical-wide.wrl
+│   │   │   │   │   ├── led5_RGB_vertical.wings
+│   │   │   │   │   ├── led5_RGB_vertical.wrl
+│   │   │   │   │   └── smd
+│   │   │   │   │       ├── chip_cms.wings
+│   │   │   │   │       ├── chip_cms.wrl
+│   │   │   │   │       ├── cms_self.wings
+│   │   │   │   │       ├── cms_self.wrl
+│   │   │   │   │       ├── HF_BOB10_1.wings
+│   │   │   │   │       ├── HF_BOB10_1.wrl
+│   │   │   │   │       ├── HF_BOB7_1.wings
+│   │   │   │   │       ├── HF_BOB7_1.wrl
+│   │   │   │   │       ├── HFSA_X.wings
+│   │   │   │   │       ├── HFSA_x.wrl
+│   │   │   │   │       ├── HFSRA_cy.wings
+│   │   │   │   │       ├── HFSRA_cy.wrl
+│   │   │   │   │       ├── HFSRA_pa.wings
+│   │   │   │   │       ├── HFSRA_pa.wrl
+│   │   │   │   │       ├── HFSRA_sp.wings
+│   │   │   │   │       ├── inductances.mdc
+│   │   │   │   │       ├── inductances.mod
+│   │   │   │   │       ├── inductorV1.wings
+│   │   │   │   │       ├── inductorV1.wrl
+│   │   │   │   │       ├── inductorV2.wings
+│   │   │   │   │       ├── inductorV2.wrl
+│   │   │   │   │       ├── inductorV.wings
+│   │   │   │   │       ├── L_HF_12_3.wings
+│   │   │   │   │       ├── L_HF_12_3.wrl
+│   │   │   │   │       ├── L_HF_3_1.wings
+│   │   │   │   │       ├── L_HF_3_1.wrl
+│   │   │   │   │       ├── L_HF_3_2.wings
+│   │   │   │   │       ├── L_HF_3_2.wrl
+│   │   │   │   │       ├── L_HF_3_3.wings
+│   │   │   │   │       ├── L_HF_3_3.wrl
+│   │   │   │   │       ├── L_HF_3_4.wings
+│   │   │   │   │       ├── L_HF_3_4.wrl
+│   │   │   │   │       ├── L_HF_3_5.wings
+│   │   │   │   │       ├── L_HF_3_5.wrl
+│   │   │   │   │       ├── L_HF_3_6.wings
+│   │   │   │   │       ├── L_HF_3_6.wrl
+│   │   │   │   │       ├── mounting bits.mod
+│   │   │   │   │       ├── pot_ferrite1.wings
+│   │   │   │   │       ├── pot_ferrite1.wrl
+│   │   │   │   │       ├── pot_ferrite2m.wings
+│   │   │   │   │       ├── pot_ferrite2.wings
+│   │   │   │   │       ├── pot_ferrite2.wrl
+│   │   │   │   │       ├── pot_ferrite-P.wings
+│   │   │   │   │       ├── pot_ferrite-P.wrl
+│   │   │   │   │       ├── pot_ferrite-RM.wings
+│   │   │   │   │       ├── pot_ferrite-RM.wrl
+│   │   │   │   │       ├── rfm12.wings
+│   │   │   │   │       ├── rfm12.wrl
+│   │   │   │   │       ├── self_choc.wings
+│   │   │   │   │       ├── self_choc.wrl
+│   │   │   │   │       ├── slef_torique2.wings
+│   │   │   │   │       ├── slef_torique2.wrl
+│   │   │   │   │       ├── slef_torique.wings
+│   │   │   │   │       ├── slef_torique.wrl
+│   │   │   │   │       ├── trans_CP.wings
+│   │   │   │   │       ├── trans_CP.wrl
+│   │   │   │   │       ├── trans_thy.wings
+│   │   │   │   │       ├── trans_thy.wrl
+│   │   │   │   │       ├── VK200.wings
+│   │   │   │   │       └── VK200.wrl
+│   │   │   │   ├── README
+│   │   │   │   ├── rfm12.mod
+│   │   │   │   └── TO220-5-pentawatt.mod
+│   │   │   ├── $savepcb.000
+│   │   │   └── $savepcb.brd
+│   │   ├── kicad-FET_ignition_modules.zi__
+│   │   ├── launcher_protocol.txt
+│   │   ├── questions_for_club.txt
+│   │   ├── rackunit-pins.txt
+│   │   ├── shoppinglist
+│   │   ├── software_flow_description.html
+│   │   └── universal-unit.txt
+│   ├── launchController
+│   │   └── console_control
+│   │       ├── console_control.ino
+│   │       ├── launch_functions.h
+│   │       └── launch_functions.ino
+│   ├── launchRackUnit
+│   │   └── rack_control
+│   │       ├── rack_control.ino
+│   │       ├── rack_functions.h
+│   │       └── rack_functions.ino
+│   ├── miscTestingPrograms
+│   │   ├── control_leds
+│   │   │   └── control_leds.pde
+│   │   ├── control_leds_lotta_SPI
+│   │   │   └── control_leds_lotta_SPI.pde
+│   │   ├── control_leds_recv
+│   │   │   └── control_leds_recv.pde
+│   │   ├── RF_LED_tester
+│   │   │   └── RF_LED_tester.pde
+│   │   ├── rfRangeRX_regular_LCD
+│   │   │   └── rfRangeRX_regular_LCD.pde
+│   │   └── rfRangeTX_for_433MHz
+│   │       └── rfRangeTX_for_433MHz.pde
+│   ├── svn-commit.2.tmp
+│   └── svn-commit.tmp
+├── dirtree.txt
+├── hardware-designs
+│   ├── rfm12b_breakout
+│   │   ├── fab
+│   │   │   └── v01
+│   │   │       ├── rfm12b-to-breadboard-Back.ps
+│   │   │       ├── rfm12b-to-breadboard-Front.ps
+│   │   │       ├── rfm12b-to-breadboard-SilkS_Back.ps
+│   │   │       └── rfm12b-to-breadboard-SilkS_Front.ps
+│   │   ├── libraries
+│   │   │   ├── atmel.dcm
+│   │   │   ├── atmel.lib
+│   │   │   ├── bryan_custom_backup.dcm
+│   │   │   ├── bryan_custom_backup.lib
+│   │   │   ├── bryan_custom.bak
+│   │   │   ├── bryan_custom.bck
+│   │   │   ├── bryan_custom.dcm
+│   │   │   ├── bryan_custom.lib
+│   │   │   └── rfm12.lib
+│   │   ├── modules
+│   │   │   ├── packages3d
+│   │   │   │   └── smd
+│   │   │   │       ├── rfm12.wings
+│   │   │   │       └── rfm12.wrl
+│   │   │   └── rfm12.mod
+│   │   ├── rfm12b-to-breadboard.000
+│   │   ├── rfm12b-to-breadboard.bak
+│   │   ├── rfm12b-to-breadboard.brd
+│   │   ├── rfm12b-to-breadboard-brd.svg
+│   │   ├── rfm12b-to-breadboard-cache.bak
+│   │   ├── rfm12b-to-breadboard-cache.lib
+│   │   ├── rfm12b-to-breadboard.cmp
+│   │   ├── rfm12b-to-breadboard_dense-append.brd
+│   │   ├── rfm12b-to-breadboard_dense.brd
+│   │   ├── rfm12b-to-breadboard.net
+│   │   ├── rfm12b-to-breadboard_notAsDense.000
+│   │   ├── rfm12b-to-breadboard_not_as_dense_bad_antenna.brd
+│   │   ├── rfm12b-to-breadboard.pro
+│   │   ├── rfm12b-to-breadboard.sch
+│   │   ├── rfm12b-to-breadboard.zip
+│   │   ├── $savepcb.000
+│   │   └── $savepcb.brd
+│   └── swingsetWeather
+│       ├── CRASH_4-channel-cache.lib
+│       ├── CRASH_4-channel.cmp
+│       ├── CRASH_4-channel_controller.sch
+│       ├── CRASH_4-channel.dsn
+│       ├── CRASH_4-channel_rackUnit.sch
+│       ├── libraries
+│       │   ├── 1wire.lib
+│       │   ├── atmel.dcm
+│       │   ├── atmel.lib
+│       │   ├── bryan_custom.bak
+│       │   ├── bryan_custom.bck
+│       │   ├── bryan_custom.dcm
+│       │   ├── bryan_custom.lib
+│       │   └── rfm12.lib
+│       ├── modules
+│       │   ├── 1wire.mod
+│       │   ├── packages3d
+│       │   │   └── smd
+│       │   │       ├── rfm12.wings
+│       │   │       └── rfm12.wrl
+│       │   └── rfm12.mod
+│       ├── swingsetWeather.bak
+│       ├── swingsetWeather-cache.bak
+│       ├── swingsetWeather-cache.lib
+│       ├── swingsetWeather.pro
+│       └── swingsetWeather.sch
+├── svn-commit.10.tmp
+├── svn-commit.11.tmp
+├── svn-commit.12.tmp
+├── svn-commit.13.tmp
+├── svn-commit.14.tmp
+├── svn-commit.2.tmp
+├── svn-commit.3.tmp
+├── svn-commit.4.tmp
+├── svn-commit.5.tmp
+├── svn-commit.6.tmp
+├── svn-commit.7.tmp
+├── svn-commit.8.tmp
+├── svn-commit.9.tmp
+├── svn-commit.tmp
+└── tempstuff
+    ├── clockbits-20110430.zip
+    └── libraries-20110430.zip
+
+218 directories, 732 files

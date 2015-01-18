@@ -1,0 +1,19 @@
+Hi all, Found it a bit tricky getting info on how to upload .bin files to the STM32 Nucleo in Linux.
+
+Anyway I found that this for Linux version of ST-Link https://github.com/texane/stlink works well.
+
+(N.B I didnt find any need to upgrade the st-link firmware in the Nucleo addon board. It works ok as is, so you can do this exclusively within Linux)
+
+To install texane/st-link,download the zip from github, follow the instructions to build it , then use sudo make install to install it in default location. ( for Ubuntu anyway)
+
+If it doesnt work, you may also need to copy (with sudo) the .rules files in the top level dir of the distro to ( usuaully) /etc/udev/rules.d/, else it wont be able to access the usb link. (For STM32 nucleo only 49-stlinkv2-1.rules is needed). Then, once installed, to upload a file named "main.bin" do :
+
+st-flash write main.bin 0x8000000
+
+I am pretty sure the texane/stlink debug (using gdb) will work fine too though not tested that yet. Just chuffed to have this working. RTM in the distro on how to use gdb with texane/stlink
+
+Much thanks to the texane/stlink authors for their great work!
+
+Much thanks to mbed too. Looks like a great IDE a and libs. Looking forward to getting stuck in!
+
+regards Andy

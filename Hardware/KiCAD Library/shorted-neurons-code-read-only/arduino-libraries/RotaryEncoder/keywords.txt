@@ -1,0 +1,23 @@
+#######################################
+# Syntax Coloring Map for PString
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+RotaryEncoder	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+checkRotaryEncoder	KEYWORD2
+#capacity	KEYWORD2
+#length	KEYWORD2
+#format	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+

@@ -1,0 +1,129 @@
+Cmp-Mod V01 Created by CvPcb (2013-11-11 BZR 4454)-product date = Tue 07 Oct 2014 05:57:01 PM MDT
+
+BeginCmp
+TimeStamp = /53606228;
+Reference = C1;
+ValeurCmp = 47;
+IdModule  = discret:C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /536061E3;
+Reference = C2;
+ValeurCmp = 0.1;
+IdModule  = discret:C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53606417;
+Reference = C3;
+ValeurCmp = 47;
+IdModule  = discret:C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53606411;
+Reference = C4;
+ValeurCmp = 0.1;
+IdModule  = discret:C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5350C399;
+Reference = D1;
+ValeurCmp = BRIDGE;
+IdModule  = pin_array:PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5360638C;
+Reference = D2;
+ValeurCmp = DIODE;
+IdModule  = discret:D5;
+EndCmp
+
+BeginCmp
+TimeStamp = /54347C1A;
+Reference = D3;
+ValeurCmp = 1n4148;
+IdModule  = discret:D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5350C1D5;
+Reference = IC1;
+ValeurCmp = ATTINY85-P;
+IdModule  = dip_sockets:DIP-8__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5350C32F;
+Reference = L1;
+ValeurCmp = LAMP;
+IdModule  = connect:AK300-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5350C20D;
+Reference = R1;
+ValeurCmp = 100;
+IdModule  = discret:R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53588C7B;
+Reference = R2;
+ValeurCmp = 330;
+IdModule  = discret:R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /54347C06;
+Reference = R3;
+ValeurCmp = 1k;
+IdModule  = discret:R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /54347BF2;
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = discret:R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53588D1F;
+Reference = RV1;
+ValeurCmp = 20k;
+IdModule  = Potentiometer_RevB_02Aug2010:Potentiometer_Trimmer-Piher_PT15-V15_horizontal_RevA_02Aug2010;
+EndCmp
+
+BeginCmp
+TimeStamp = /53588D01;
+Reference = RV2;
+ValeurCmp = 20k;
+IdModule  = Potentiometer_RevB_02Aug2010:Potentiometer_Trimmer-Piher_PT15-V15_horizontal_RevA_02Aug2010;
+EndCmp
+
+BeginCmp
+TimeStamp = /5350C1A2;
+Reference = U1;
+ValeurCmp = OPTO-TRIAC;
+IdModule  = Opto-Devices_RevC_03Oct2012:Optocoupler_6pin_wide_Stile-II_RevA_31Mar2011;
+EndCmp
+
+BeginCmp
+TimeStamp = /5350C1F3;
+Reference = U2;
+ValeurCmp = TRIAC;
+IdModule  = Transistor_TO-220_RevB_03Sep2012:TO-220_Neutral123_Horizontal_LargePads;
+EndCmp
+
+BeginCmp
+TimeStamp = /53588AD3;
+Reference = U3;
+ValeurCmp = LP2950;
+IdModule  = TO-92_Housings_06Jun2013:TO-92-Free-inline-wide;
+EndCmp
+
+EndListe

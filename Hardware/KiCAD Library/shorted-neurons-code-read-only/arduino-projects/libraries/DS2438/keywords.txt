@@ -1,0 +1,26 @@
+#######################################
+# Syntax Coloring Map For DS2433
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+ds2438	KEYWORD1
+OneWire	KEYWORD1
+DeviceAddress KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+readTempF	KEYWORD2
+readTempC	KEYWORD2
+readVolt	KEYWORD2
+readSetup	KEYWORD2
+writeSetup	KEYWORD2
+redHum	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+

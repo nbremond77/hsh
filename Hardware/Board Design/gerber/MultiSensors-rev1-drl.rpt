@@ -1,0 +1,19 @@
+Drill report for /home/nbremond/myCluster/documents/Electronique/Energy Monitor/Hardware/Board Design/MultiSensors-rev1.kicad_pcb
+Created on mar. 23 déc. 2014 09:04:53 CET
+Drill report for plated through holes :
+T1  0,64mm  0,025"  (56 holes)
+T2  0,80mm  0,032"  (10 holes)
+T3  0,81mm  0,032"  (15 holes)
+T4  1,00mm  0,039"  (5 holes)
+T5  1,02mm  0,040"  (112 holes)
+T6  1,10mm  0,043"  (10 holes)
+
+Total plated holes count 208
+
+
+Drill report for unplated through holes :
+T1  3,17mm  0,125"  (4 holes)
+
+Total unplated holes count 4
+
+

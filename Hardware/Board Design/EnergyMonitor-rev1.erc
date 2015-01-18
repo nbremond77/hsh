@@ -1,0 +1,21 @@
+Rapport d'erreur (sam. 13 déc. 2014 09:57:55 CET)
+
+***** Feuille /
+ErrType(3): Pin connectée à d'autres pins, mais aucune pin pour la piloter
+    @ (193,04 mm,173,99 mm): Pin 1 (power_in) du composant #PWR061 non pilotée (Net 20).
+ErrType(3): Pin connectée à d'autres pins, mais aucune pin pour la piloter
+    @ (128,27 mm,128,27 mm): Pin 1 (power_in) du composant #PWR42 non pilotée (Net 71).
+ErrType(3): Pin connectée à d'autres pins, mais aucune pin pour la piloter
+    @ (58,42 mm,110,49 mm): Pin 1 (power_in) du composant #PWR026 non pilotée (Net 73).
+ErrType(3): Pin connectée à d'autres pins, mais aucune pin pour la piloter
+    @ (167,64 mm,243,84 mm): Pin 2 (power_in) du composant U1 non pilotée (Net 74).
+ErrType(3): Pin connectée à d'autres pins, mais aucune pin pour la piloter
+    @ (74,93 mm,170,18 mm): Pin 1 (power_in) du composant #PWR21 non pilotée (Net 78).
+ErrType(3): Pin connectée à d'autres pins, mais aucune pin pour la piloter
+    @ (243,84 mm,269,24 mm): Pin 1 (power_in) du composant #PWR023 non pilotée (Net 80).
+ErrType(3): Pin connectée à d'autres pins, mais aucune pin pour la piloter
+    @ (222,25 mm,53,34 mm): Pin 1 (power_in) du composant #PWR017 non pilotée (Net 160).
+ErrType(3): Pin connectée à d'autres pins, mais aucune pin pour la piloter
+    @ (383,54 mm,25,40 mm): Pin 8 (passive) du composant IC4 non pilotée (Net 164).
+
+ >> Erreurs ERC: 0

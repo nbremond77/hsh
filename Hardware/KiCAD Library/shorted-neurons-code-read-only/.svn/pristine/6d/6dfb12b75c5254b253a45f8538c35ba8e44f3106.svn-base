@@ -1,0 +1,25 @@
+#######################################
+# Syntax Coloring Map for PString
+#######################################
+
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+EEPROM_struct	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+EEPROM_writeAnything	KEYWORD2
+EEPROM_readAnything	KEYWORD2
+#capacity	KEYWORD2
+#length	KEYWORD2
+#format	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+

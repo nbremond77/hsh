@@ -1,0 +1,64 @@
+KiCAD Libraries
+Copyright (c) 2012/2013 Oliver Kirsch <oli@unprofessional.info>
+
+Version  (development) - 0.0.x
+
+
+This library includes a bunch of symbols and footprints ("modules")
+for the EDA software KiCAD. You are free to use, copy, change,
+distribute, do-whatever-with it; see LICENSE for some more details.
+
+Basically I designed things that I used, I'm currently using, I'm
+planning to use one of these days, I could think of perhaps using 
+someday in the far future or that I just thought of fitting well
+into the collection. Therefore the library definitely is not 
+exhaustive. Besides, frankly there is a high probabiliy of bugs
+in the library as unfortunately I am not perfect and, even sadder, 
+I neither have the time nor the money to check any component by
+building a circuit on a PCB out of it. So I kindly ask you for 
+your help by sending me any comments, corrections, improvements 
+and suggestions you have.
+
+The complete library was built "from scratch" for several reasons:
+* It's always a good idea to manage your own library as you
+  will be independent from software updates that might under
+  certain circumstances screw your former work (I made this 
+  experience with some opamps ...)
+* The original libraries contain a lot of stuff. Some I use
+  regulary, but a lot I'll never need. On the other hand, some
+  parts that are important to me are not included. So I had
+  to do some work anyway.
+* Frankly, I am uncertain about the license of the original 
+  libraries. They might be distributed under the terms of the
+  GPL; at least some of the libraries I used before are. While
+  I personally think, that the GPL is a great thing when 
+  publishing software, I feel uncomfortable with GPL-licensed
+  libraries. (Fortunately ;-)) I am not a lawyer, but in my 
+  opinion the copyleft terms of the GPL might aswell affect
+  any schematics/pcb design that uses GPL libraries, as the
+  library's code becomes part at least of the .brd-files. 
+  I do not suppose any module editor will sue me, when I 
+  publish only an image/pdf/postscript of a PCB board I have
+  done using their library, but from a strictly legal point
+  of view it might be neccessary to include the "source code"
+  of your work with any distribution (and license it under the
+  terms of the GPL). This might be a show-stopper for any
+  commercial hardware production and is most probably not 
+  what library/module editors have in mind.
+* To avoid any similar legal issues I decided to license my
+  library in a way to maximize the user's freedom. So you may
+  do anything you want with my library. 
+  It is not neccessary, but kind of a nice gesture, that you
+  add a notice about the original author to your derivated work.
+  Furthermore I'd be happy to hear your comments, corrections,
+  ideas, "bug-reports" etc.
+
+The library will be kept on github to provide a well-usuable 
+versioning. I will try to keep backward-compatibility as good as
+this is possible. However, as this early version has to be seen as
+"alpha" status, I really can't promise anything right now as there
+might be too many bugs included right now.
+
+
+May 2012
+Oliver Kirsch <oli@unprofessional.info>

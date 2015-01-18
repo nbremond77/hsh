@@ -1,0 +1,757 @@
+%!PS-Adobe-3.0
+%%Creator: PCBNEW-PS
+%%CreationDate: Sat Aug 11 23:45:30 2012
+%%Title: /home/bts/playtime/shorted-neurons-code/hardware-designs/rfm12b_breakout/fab/v02/rfm12b-to-breadboard-SilkS_Front.ps
+%%Pages: 1
+%%PageOrder: Ascend
+%%BoundingBox: 0 0 596 843
+%%DocumentMedia: A4 595 842 0 () ()
+%%Orientation: Landscape
+%%EndComments
+%%Page: 1 1
+/line {
+    newpath
+    moveto
+    lineto
+    stroke
+} bind def
+/cir0 { newpath 0 360 arc stroke } bind def
+/cir1 { newpath 0 360 arc gsave fill grestore stroke } bind def
+/cir2 { newpath 0 360 arc gsave fill grestore stroke } bind def
+/arc0 { newpath arc stroke } bind def
+/arc1 { newpath 4 index 4 index moveto arc closepath gsave fill grestore stroke } bind def
+/arc2 { newpath 4 index 4 index moveto arc closepath gsave fill grestore stroke } bind def
+/poly0 { stroke } bind def
+/poly1 { closepath gsave fill grestore stroke } bind def
+/poly2 { closepath gsave fill grestore stroke } bind def
+/rect0 { rectstroke } bind def
+/rect1 { rectfill } bind def
+/rect2 { rectfill } bind def
+/linemode0 { 0 setlinecap 0 setlinejoin 0 setlinewidth } bind def
+/linemode1 { 1 setlinecap 1 setlinejoin } bind def
+/dashedline { [50 50] 0 setdash } bind def
+/solidline { [] 0 setdash } bind def
+gsave
+0.0072 0.0072 scale
+linemode1
+82670 0 translate 90 rotate
+60 setlinewidth
+150 setlinewidth
+newpath
+22900 63870 moveto
+22900 63970 lineto
+stroke
+newpath
+22700 63870 moveto
+22900 63870 lineto
+stroke
+newpath
+22900 73670 moveto
+22900 73570 lineto
+stroke
+newpath
+22800 73670 moveto
+22900 73670 lineto
+stroke
+newpath
+5700 73670 moveto
+5700 73470 lineto
+stroke
+newpath
+22900 73570 moveto
+22900 63970 lineto
+stroke
+newpath
+5700 73670 moveto
+22800 73670 lineto
+stroke
+newpath
+5700 63870 moveto
+5700 73470 lineto
+stroke
+newpath
+22700 63870 moveto
+5700 63870 lineto
+stroke
+50 setlinewidth
+6800 70570 316 cir0
+21700 71630 316 cir0
+6800 71630 316 cir0
+newpath
+19600 69780 moveto
+19600 69080 lineto
+stroke
+newpath
+19600 69080 moveto
+18400 69080 lineto
+stroke
+newpath
+18400 69080 moveto
+18400 69780 lineto
+stroke
+newpath
+18400 69780 moveto
+19600 69780 lineto
+stroke
+newpath
+18700 71180 moveto
+18700 70280 lineto
+stroke
+newpath
+18700 70280 moveto
+19350 70280 lineto
+stroke
+newpath
+20050 71180 moveto
+20700 71180 lineto
+stroke
+newpath
+20700 71180 moveto
+20700 70280 lineto
+stroke
+newpath
+20700 70280 moveto
+20050 70280 lineto
+stroke
+newpath
+19350 71180 moveto
+18700 71180 lineto
+stroke
+newpath
+19950 68130 moveto
+19050 68130 lineto
+stroke
+newpath
+19050 68130 moveto
+19050 67480 lineto
+stroke
+newpath
+19950 66780 moveto
+19950 66130 lineto
+stroke
+newpath
+19950 66130 moveto
+19050 66130 lineto
+stroke
+newpath
+19050 66130 moveto
+19050 66780 lineto
+stroke
+newpath
+19950 67480 moveto
+19950 68130 lineto
+stroke
+18200 68580 50 cir0
+newpath
+18200 68130 moveto
+18200 68530 lineto
+stroke
+newpath
+18200 68530 moveto
+18800 68530 lineto
+stroke
+newpath
+18800 68530 moveto
+18800 68130 lineto
+stroke
+newpath
+18800 67730 moveto
+18800 67330 lineto
+stroke
+newpath
+18800 67330 moveto
+18200 67330 lineto
+stroke
+newpath
+18200 67330 moveto
+18200 67730 lineto
+stroke
+19850 69430 50 cir0
+newpath
+20300 69430 moveto
+19900 69430 lineto
+stroke
+newpath
+19900 69430 moveto
+19900 70030 lineto
+stroke
+newpath
+19900 70030 moveto
+20300 70030 lineto
+stroke
+newpath
+20700 70030 moveto
+21100 70030 lineto
+stroke
+newpath
+21100 70030 moveto
+21100 69430 lineto
+stroke
+newpath
+21100 69430 moveto
+20700 69430 lineto
+stroke
+20800 67880 50 cir0
+newpath
+20800 68330 moveto
+20800 67930 lineto
+stroke
+newpath
+20800 67930 moveto
+20200 67930 lineto
+stroke
+newpath
+20200 67930 moveto
+20200 68330 lineto
+stroke
+newpath
+20200 68730 moveto
+20200 69130 lineto
+stroke
+newpath
+20200 69130 moveto
+20800 69130 lineto
+stroke
+newpath
+20800 69130 moveto
+20800 68730 lineto
+stroke
+15050 66630 50 cir0
+newpath
+15500 66630 moveto
+15100 66630 lineto
+stroke
+newpath
+15100 66630 moveto
+15100 67230 lineto
+stroke
+newpath
+15100 67230 moveto
+15500 67230 lineto
+stroke
+newpath
+15900 67230 moveto
+16300 67230 lineto
+stroke
+newpath
+16300 67230 moveto
+16300 66630 lineto
+stroke
+newpath
+16300 66630 moveto
+15900 66630 lineto
+stroke
+120 setlinewidth
+newpath
+20800 64270 moveto
+20800 64270 lineto
+stroke
+newpath
+20800 64270 moveto
+13800 64270 lineto
+stroke
+newpath
+13800 64270 moveto
+13800 65270 lineto
+stroke
+newpath
+13800 65270 moveto
+20800 65270 lineto
+stroke
+newpath
+20800 65270 moveto
+20800 64270 lineto
+stroke
+newpath
+19800 65270 moveto
+19800 65270 lineto
+stroke
+newpath
+19800 65270 moveto
+19800 64270 lineto
+stroke
+newpath
+13800 73270 moveto
+13800 73270 lineto
+stroke
+newpath
+13800 73270 moveto
+20800 73270 lineto
+stroke
+newpath
+20800 73270 moveto
+20800 72270 lineto
+stroke
+newpath
+20800 72270 moveto
+13800 72270 lineto
+stroke
+newpath
+13800 72270 moveto
+13800 73270 lineto
+stroke
+newpath
+14800 72270 moveto
+14800 72270 lineto
+stroke
+newpath
+14800 72270 moveto
+14800 73270 lineto
+stroke
+50 setlinewidth
+0 0 0 setrgbcolor
+newpath
+6349 70988 moveto
+6349 71188 lineto
+6425 71188 lineto
+6444 71179 lineto
+6453 71169 lineto
+6463 71150 lineto
+6463 71121 lineto
+6453 71102 lineto
+6444 71093 lineto
+6425 71083 lineto
+6349 71083 lineto
+stroke
+newpath
+6549 70988 moveto
+6549 71188 lineto
+stroke
+newpath
+6644 70988 moveto
+6644 71188 lineto
+6758 70988 lineto
+6758 71188 lineto
+stroke
+newpath
+6825 71188 moveto
+6939 71188 lineto
+stroke
+newpath
+6882 70988 moveto
+6882 71188 lineto
+stroke
+newpath
+6996 70998 moveto
+7025 70988 lineto
+7072 70988 lineto
+7091 70998 lineto
+7101 71007 lineto
+7110 71026 lineto
+7110 71045 lineto
+7101 71064 lineto
+7091 71074 lineto
+7072 71083 lineto
+7034 71093 lineto
+7015 71102 lineto
+7006 71112 lineto
+6996 71131 lineto
+6996 71150 lineto
+7006 71169 lineto
+7015 71179 lineto
+7034 71188 lineto
+7082 71188 lineto
+7110 71179 lineto
+stroke
+newpath
+7167 71188 moveto
+7281 71188 lineto
+stroke
+newpath
+7224 70988 moveto
+7224 71188 lineto
+stroke
+0 0 0 setrgbcolor
+newpath
+21282 71179 moveto
+21082 71179 lineto
+21082 71255 lineto
+21091 71274 lineto
+21101 71283 lineto
+21120 71293 lineto
+21149 71293 lineto
+21168 71283 lineto
+21177 71274 lineto
+21187 71255 lineto
+21187 71179 lineto
+stroke
+newpath
+21282 71379 moveto
+21082 71379 lineto
+stroke
+newpath
+21282 71474 moveto
+21082 71474 lineto
+21282 71588 lineto
+21082 71588 lineto
+stroke
+newpath
+21082 71655 moveto
+21082 71769 lineto
+stroke
+newpath
+21282 71712 moveto
+21082 71712 lineto
+stroke
+newpath
+21272 71826 moveto
+21282 71855 lineto
+21282 71902 lineto
+21272 71921 lineto
+21263 71931 lineto
+21244 71940 lineto
+21225 71940 lineto
+21206 71931 lineto
+21196 71921 lineto
+21187 71902 lineto
+21177 71864 lineto
+21168 71845 lineto
+21158 71836 lineto
+21139 71826 lineto
+21120 71826 lineto
+21101 71836 lineto
+21091 71845 lineto
+21082 71864 lineto
+21082 71912 lineto
+21091 71940 lineto
+stroke
+newpath
+21082 71997 moveto
+21082 72111 lineto
+stroke
+newpath
+21282 72054 moveto
+21082 72054 lineto
+stroke
+0 0 0 setrgbcolor
+newpath
+6382 71179 moveto
+6182 71179 lineto
+6182 71255 lineto
+6191 71274 lineto
+6201 71283 lineto
+6220 71293 lineto
+6249 71293 lineto
+6268 71283 lineto
+6277 71274 lineto
+6287 71255 lineto
+6287 71179 lineto
+stroke
+newpath
+6382 71379 moveto
+6182 71379 lineto
+stroke
+newpath
+6382 71474 moveto
+6182 71474 lineto
+6382 71588 lineto
+6182 71588 lineto
+stroke
+newpath
+6182 71655 moveto
+6182 71769 lineto
+stroke
+newpath
+6382 71712 moveto
+6182 71712 lineto
+stroke
+newpath
+6372 71826 moveto
+6382 71855 lineto
+6382 71902 lineto
+6372 71921 lineto
+6363 71931 lineto
+6344 71940 lineto
+6325 71940 lineto
+6306 71931 lineto
+6296 71921 lineto
+6287 71902 lineto
+6277 71864 lineto
+6268 71845 lineto
+6258 71836 lineto
+6239 71826 lineto
+6220 71826 lineto
+6201 71836 lineto
+6191 71845 lineto
+6182 71864 lineto
+6182 71912 lineto
+6191 71940 lineto
+stroke
+newpath
+6182 71997 moveto
+6182 72111 lineto
+stroke
+newpath
+6382 72054 moveto
+6182 72054 lineto
+stroke
+0 0 0 setrgbcolor
+newpath
+18010 69509 moveto
+18010 69266 lineto
+18021 69237 lineto
+18033 69223 lineto
+18057 69209 lineto
+18105 69209 lineto
+18129 69223 lineto
+18140 69237 lineto
+18152 69266 lineto
+18152 69509 lineto
+stroke
+newpath
+18248 69509 moveto
+18402 69509 lineto
+18319 69394 lineto
+18355 69394 lineto
+18379 69380 lineto
+18391 69366 lineto
+18402 69337 lineto
+18402 69266 lineto
+18391 69237 lineto
+18379 69223 lineto
+18355 69209 lineto
+18283 69209 lineto
+18260 69223 lineto
+18248 69237 lineto
+stroke
+0 0 0 setrgbcolor
+newpath
+19650 70637 moveto
+19636 70623 lineto
+19593 70609 lineto
+19564 70609 lineto
+19521 70623 lineto
+19493 70651 lineto
+19478 70680 lineto
+19464 70737 lineto
+19464 70780 lineto
+19478 70837 lineto
+19493 70866 lineto
+19521 70894 lineto
+19564 70909 lineto
+19593 70909 lineto
+19636 70894 lineto
+19650 70880 lineto
+stroke
+newpath
+19750 70909 moveto
+19936 70909 lineto
+19836 70794 lineto
+19878 70794 lineto
+19907 70780 lineto
+19921 70766 lineto
+19936 70737 lineto
+19936 70666 lineto
+19921 70637 lineto
+19907 70623 lineto
+19878 70609 lineto
+19793 70609 lineto
+19764 70623 lineto
+19750 70637 lineto
+stroke
+0 0 0 setrgbcolor
+newpath
+19593 67080 moveto
+19607 67066 lineto
+19621 67023 lineto
+19621 66994 lineto
+19607 66951 lineto
+19579 66923 lineto
+19550 66908 lineto
+19493 66894 lineto
+19450 66894 lineto
+19393 66908 lineto
+19364 66923 lineto
+19336 66951 lineto
+19321 66994 lineto
+19321 67023 lineto
+19336 67066 lineto
+19350 67080 lineto
+stroke
+newpath
+19350 67194 moveto
+19336 67208 lineto
+19321 67237 lineto
+19321 67308 lineto
+19336 67337 lineto
+19350 67351 lineto
+19379 67366 lineto
+19407 67366 lineto
+19450 67351 lineto
+19621 67180 lineto
+19621 67366 lineto
+stroke
+0 0 0 setrgbcolor
+newpath
+18577 67888 moveto
+18589 67876 lineto
+18601 67841 lineto
+18601 67817 lineto
+18589 67781 lineto
+18565 67757 lineto
+18542 67746 lineto
+18494 67734 lineto
+18458 67734 lineto
+18411 67746 lineto
+18387 67757 lineto
+18363 67781 lineto
+18351 67817 lineto
+18351 67841 lineto
+18363 67876 lineto
+18375 67888 lineto
+stroke
+newpath
+18601 68126 moveto
+18601 67984 lineto
+stroke
+newpath
+18601 68055 moveto
+18351 68055 lineto
+18387 68031 lineto
+18411 68007 lineto
+18423 67984 lineto
+stroke
+0 0 0 setrgbcolor
+newpath
+20458 69653 moveto
+20446 69641 lineto
+20411 69629 lineto
+20387 69629 lineto
+20351 69641 lineto
+20327 69665 lineto
+20316 69688 lineto
+20304 69736 lineto
+20304 69772 lineto
+20316 69819 lineto
+20327 69843 lineto
+20351 69867 lineto
+20387 69879 lineto
+20411 69879 lineto
+20446 69867 lineto
+20458 69855 lineto
+stroke
+newpath
+20673 69795 moveto
+20673 69629 lineto
+stroke
+newpath
+20613 69891 moveto
+20554 69712 lineto
+20708 69712 lineto
+stroke
+0 0 0 setrgbcolor
+newpath
+20601 68488 moveto
+20482 68405 lineto
+stroke
+newpath
+20601 68346 moveto
+20351 68346 lineto
+20351 68441 lineto
+20363 68465 lineto
+20375 68476 lineto
+20399 68488 lineto
+20435 68488 lineto
+20458 68476 lineto
+20470 68465 lineto
+20482 68441 lineto
+20482 68346 lineto
+stroke
+newpath
+20375 68584 moveto
+20363 68596 lineto
+20351 68619 lineto
+20351 68679 lineto
+20363 68703 lineto
+20375 68715 lineto
+20399 68726 lineto
+20423 68726 lineto
+20458 68715 lineto
+20601 68572 lineto
+20601 68726 lineto
+stroke
+0 0 0 setrgbcolor
+newpath
+15658 66329 moveto
+15575 66448 lineto
+stroke
+newpath
+15516 66329 moveto
+15516 66579 lineto
+15611 66579 lineto
+15635 66567 lineto
+15646 66555 lineto
+15658 66531 lineto
+15658 66495 lineto
+15646 66472 lineto
+15635 66460 lineto
+15611 66448 lineto
+15516 66448 lineto
+stroke
+newpath
+15896 66329 moveto
+15754 66329 lineto
+stroke
+newpath
+15825 66329 moveto
+15825 66579 lineto
+15801 66543 lineto
+15777 66519 lineto
+15754 66507 lineto
+stroke
+107 setlinewidth
+0 0 0 setrgbcolor
+newpath
+16984 63495 moveto
+16984 64176 lineto
+17147 64176 lineto
+17188 64143 lineto
+17208 64111 lineto
+17228 64046 lineto
+17228 63949 lineto
+17208 63884 lineto
+17188 63852 lineto
+17147 63819 lineto
+16984 63819 lineto
+stroke
+newpath
+17636 63495 moveto
+17392 63495 lineto
+stroke
+newpath
+17514 63495 moveto
+17514 64176 lineto
+17473 64079 lineto
+17432 64014 lineto
+17392 63981 lineto
+stroke
+0 0 0 setrgbcolor
+newpath
+16984 73495 moveto
+16984 74176 lineto
+17147 74176 lineto
+17188 74143 lineto
+17208 74111 lineto
+17228 74046 lineto
+17228 73949 lineto
+17208 73884 lineto
+17188 73852 lineto
+17147 73819 lineto
+16984 73819 lineto
+stroke
+newpath
+17392 74111 moveto
+17412 74143 lineto
+17453 74176 lineto
+17555 74176 lineto
+17595 74143 lineto
+17616 74111 lineto
+17636 74046 lineto
+17636 73981 lineto
+17616 73884 lineto
+17371 73495 lineto
+17636 73495 lineto
+stroke
+showpage
+grestore
+%%EOF

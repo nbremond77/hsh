@@ -1,0 +1,16 @@
+EESchema-DOCLIB  Version 2.0  Date: Tue 27 Sep 2011 11:03:26 AM MDT
+#
+$CMP R
+D R
+K resistor
+$ENDCMP
+#
+$CMP TPS7301
+D ADJ Ultra LDO Linear Regulator
+$ENDCMP
+#
+$CMP TSC888
+D current sense shunt amplifier
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,73 @@
+EESchema Schematic File Version 2  date Fri 24 Feb 2012 11:39:12 AM MST
+LIBS:bryan_custom
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:rfm12
+LIBS:CRASH_4-channel-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 5
+Title ""
+Date "14 feb 2012"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 1050 6400 1900 1000
+U 4E55BFAD
+F0 "Lead acid charging" 60
+F1 "CRASH_lead_acid_charging.sch" 60
+$EndSheet
+$Sheet
+S 8650 4550 2050 1600
+U 4E55BF85
+F0 "Relay Single Channel" 60
+F1 "CRASH_relay_single_channel.sch" 60
+$EndSheet
+$Sheet
+S 6100 1500 2850 1700
+U 4E55BF66
+F0 "RackUnit" 60
+F1 "CRASH_4-channel_rackUnit.sch" 60
+$EndSheet
+$Sheet
+S 1700 1450 2100 1400
+U 4E55BEBF
+F0 "Controller" 60
+F1 "CRASH_4-channel_controller.sch" 60
+$EndSheet
+$EndSCHEMATC

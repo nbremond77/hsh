@@ -1,0 +1,27 @@
+v0.0.5 -- 23/10/13
+* another merge from my local files. Brings some 
+  new symbols and footprints
+* fix issue #22 regarding MAX488/MAX490 
+  (thanks to jotaemesousa). Also add MAX489/MAX491
+
+v0.0.4 - 27/04/13
+* pushing whatever has been done in the last months
+* just to be sort of up-to-date again 
+
+v0.0.3 - 05/01/13
+* merge all the changes from my local version to the 
+  github repo, including e.g.
+* some avr microcontrollers
+* switching and linear regulators
+* optocouplers
+* some footprints
+* ... 
+
+v0.0.2 - 07/05/12
+* some polcaps changed
+* WIMA caps lib added
+* Added some SMD devices
+* THT resistors 0411, 0516 added (and misplaced MELF removed)
+
+v0.0.1 - 30/04/12
+* First release, yet unfinished

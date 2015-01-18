@@ -1,0 +1,17 @@
+WRT channel select interface:
+- select switches could be just buttons... push once to select, again
+        to deselect
+- then if you select another BEFORE fire, its drag race
+- otherwise, channel selected, press FIRE, still selected
+        for multiple attempts of that channel
+- once FIRE has been pressed one or more times, pressing any channel 
+	button will cause the previous selection to be deselected, and
+	 new channel enabled
+- if safety key is removed, all channels are deselected automatically.  
+	we currently have the problem of occasional channel left on, then
+	on next rack of rockets, operator does not notice and clear the
+	select switches, and we get unintentional launch of pad 8 maybe
+
+- could also use boots over 1/4" toggles, they are made for marine use
+
+

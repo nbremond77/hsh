@@ -1,0 +1,31 @@
+20120820 - received first prototype PCB run from advanced circuits 
+
+1. shunt spacing is a bit too small for one shunt that i can find.
+2. power diode holes a little small, esp D4, D6 way too small for 3A diode
+3. C6 footprint not big enough for most 3300uF (which was prolly overkill )
+4. C4 footprint too big
+5. back side masking error, mask over pad on LEDs D11 and D13
+6. maybe on all LEDs???
+7. R3 has odd value... perhaps trim pot for divider here would be better
+8. inductor footprints not quite right... 4x4mm instead of 5x4 maybe (used Murata shielded ones)
+9. D6 footprint too tight near caps (mounted on back)
+10. cannot find my LM2576-ADJs, borrowed from breadboard
+11. !! switching power supply started and outputting steady 3.7V on first try!
+12. D2 should be 1N4001 or similar <100mA required
+13. C1 and C2 is too big... 22uF or 47uF plenty @16V
+
+14. TVS diodes seem wrong... i certainly dont have correct parts here, how about 1N6373 or 1N5908?
+
+15. silkscreen for U1 (lp2950-30) is apparently backward... pin 1 is INPUT!
+
+16. 12 divider values are wrong.  used R1= 32750ohms (33k), R2=5090ohms (5.1k)
+17. next time, put fuse right on the board for 12V polarity mistakes
+18. R15 (safety pull down for 12V rail FET) could be higher value, like 5.1k
+
+19. !!! serial header to AVR rx/tx pins are backward (fixed with two cut traces and bridge wire)
+20. serial tx/rx LEDs do not work as expected... something wrong with my transistor setup (disconnected for now)
+21. Power out connector P3 does not have positive terminal connected.  very weird... copper generation error in kicad it seems
+22. RFm12B to breadboard adapter should use either shorted pads or 330ohm resistors for R1 and R2.... much stronger pullup required
+
+
+

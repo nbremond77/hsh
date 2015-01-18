@@ -1,0 +1,10 @@
+Heres what we figured out.  Bryan should remember to put big ground plane on bottom, route senses over it, and fires under, via up, then over and to GPIO.
+
+    1. chAsense - analog, must have output clamped from 0-VDD.
+    2. chAfire - this should be biased to ground on the module, and going up to VDD will fire that channel
+    3. +15V - lets call this VFF for "fire" I think that each module should have its +15V supplied by the main board.  Thats the best way to monitor current, as well as keep the master switching always under control.
+    4. +3-5V - i guess this is VDD.  Many methods of continuity sense (like tsc888) will require a low voltage supply too.  So +3-5V going in also.  In cases where you plan to get down to logic levels  on the main board, this could be tied to VFF.  The other advantage here is that we could turn on only VDD for continuity sense, then VFF when we are actually firing.  Thats what really put me onto thinking that we MUST have both supplies to the module.
+    5. +3-5V reference, this is VPP (har har).  must be equal or less than VDD.
+    6. Ground pin - conveniently in the center <shrug>
+    7. chBfire - analog, must have output clamped from 0-VDD.
+    8. chBsense - ditto

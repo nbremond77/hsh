@@ -1,0 +1,283 @@
+Cmp-Mod V01 Created by CvPCB (2010-00-09 BZR 23xx)-stable date = Sun 30 Oct 2011 10:41:37 AM MDT
+
+BeginCmp
+TimeStamp = /4EAB7ADA;
+Reference = BT1;
+ValeurCmp = BATTERY;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E488DCE;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E489546;
+Reference = C2;
+ValeurCmp = 100uF;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E489521;
+Reference = C3;
+ValeurCmp = 100uF;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E48955C;
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E4849A1;
+Reference = C5;
+ValeurCmp = 0.1uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EAB7AC9;
+Reference = C6;
+ValeurCmp = 22pF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E485530;
+Reference = C7;
+ValeurCmp = 22pF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EAB7AE3;
+Reference = C8;
+ValeurCmp = 0.1uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E55BB36;
+Reference = D1;
+ValeurCmp = 1N4004;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EAB7ADB;
+Reference = D2;
+ValeurCmp = 1N4004;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E87E11C;
+Reference = D3;
+ValeurCmp = TVS_Diode;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E4860F6;
+Reference = D4;
+ValeurCmp = link/act_LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E486088;
+Reference = D5;
+ValeurCmp = continuity-chan1_LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E4860DE;
+Reference = D6;
+ValeurCmp = continuity-chan2_LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E4860E4;
+Reference = D7;
+ValeurCmp = continuity-chan3_LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E4860EB;
+Reference = D8;
+ValeurCmp = continuity-chan4_LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E489E06;
+Reference = F1;
+ValeurCmp = POLYSWITCH;
+IdModule  = C1V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EAB7AE4;
+Reference = IC1;
+ValeurCmp = RFM12B;
+IdModule  = RFM12;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EAB7AC0;
+Reference = IC2;
+ValeurCmp = ATMEGA328P-PU;
+IdModule  = DIP-28__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E486262;
+Reference = L1;
+ValeurCmp = ANTENNA;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EAB7ACC;
+Reference = P1;
+ValeurCmp = CONN_3X2;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E4862E2;
+Reference = P2;
+ValeurCmp = TTL_Serial_/_Prog;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E48946C;
+Reference = R1;
+ValeurCmp = 39k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EAB7AE2;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E4852A7;
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E486144;
+Reference = R4;
+ValeurCmp = 47;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E489EF9;
+Reference = R5;
+ValeurCmp = 47;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E489EFC;
+Reference = R6;
+ValeurCmp = 47;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E489F00;
+Reference = R7;
+ValeurCmp = 47;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E489F02;
+Reference = R8;
+ValeurCmp = 47;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E485FB5;
+Reference = SP1;
+ValeurCmp = SPEAKER;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E485C51;
+Reference = SW1;
+ValeurCmp = SW_ARM;
+IdModule  = R4-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E485C16;
+Reference = SW2;
+ValeurCmp = SW_FIRE;
+IdModule  = R7;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E485D05;
+Reference = SW3;
+ValeurCmp = SELECT_1;
+IdModule  = INDUCTOR_V;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E485D94;
+Reference = SW4;
+ValeurCmp = SELECT_2;
+IdModule  = SW_PUSH-12mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E485D98;
+Reference = SW5;
+ValeurCmp = SELECT_3;
+IdModule  = PINHEAD1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E485D9B;
+Reference = SW6;
+ValeurCmp = SELECT_4;
+IdModule  = SW_PUSH;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E4893F3;
+Reference = U1;
+ValeurCmp = LP2950;
+IdModule  = TO220;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EAB7AC8;
+Reference = X1;
+ValeurCmp = 8MHz;
+IdModule  = R6;
+EndCmp
+
+EndListe

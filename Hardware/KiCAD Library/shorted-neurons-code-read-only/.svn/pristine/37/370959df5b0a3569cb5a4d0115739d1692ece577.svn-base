@@ -1,0 +1,162 @@
+diff -uNr RadioHead-1.12/RH_RF69.cpp RadioHead/RH_RF69.cpp
+--- RadioHead-1.12/RH_RF69.cpp	2014-05-18 01:10:02.000000000 -0600
++++ RadioHead/RH_RF69.cpp	2014-05-21 01:21:54.770778989 -0600
+@@ -59,16 +59,32 @@
+     // Also it does not interoperate with RF22 in similar mode.
+ //    { CONFIG_OOK,  0x68, 0x2b, 0x00, 0x00, 0x51, CONFIG_NOWHITE}, // OOK_Rb1_2Bw75
+ };
+-RH_RF69::RH_RF69(uint8_t slaveSelectPin, uint8_t interruptPin, RHGenericSPI& spi)
++/*RH_RF69::RH_RF69(uint8_t slaveSelectPin, uint8_t interruptPin, RHGenericSPI& spi)
+     :
+     RHSPIDriver(slaveSelectPin, spi)
+ {
+     _interruptPin = interruptPin;
++    _rfm69HW = false;
+     _idleMode = RH_RF69_OPMODE_MODE_STDBY;
+     _rxGood = 0;
+     _rxBad = 0;
+     _txGood = 0;
+ }
++*/
++
++// additional constructor to specify an RFM69HW to be used in boost mode
++RH_RF69::RH_RF69(uint8_t slaveSelectPin, uint8_t interruptPin, RHGenericSPI& spi, bool rfm69HW)
++    :
++    RHSPIDriver(slaveSelectPin, spi)
++{
++    _interruptPin = interruptPin;
++    _rfm69HW = rfm69HW;
++    _idleMode = RH_RF69_OPMODE_MODE_STDBY;
++    _rxGood = 0;
++    _rxBad = 0;
++    _txGood = 0;
++}
++
+ 
+ bool RH_RF69::init()
+ {
+@@ -131,6 +147,17 @@
+     // PACKETCONFIG 2 is default 
+     spiWrite(RH_RF69_REG_6F_TESTDAGC, RH_RF69_TESTDAGC_CONTINUOUSDAGC_IMPROVED_LOWBETAOFF);
+ 
++    // shorted.neuron@gmail.com - my HopeRF RFM69HWs (rev 2.0, 433MHz) do not
++    //      seem to function unless the power amp stages are turned on...
++    
++
++    if (_rfm69HW) { //HW model requires a bit of special treatment
++	spiWrite(RH_RF69_REG_11_PALEVEL, RH_RF69_PALEVEL_PA0ON); // default to only PA0 turned on
++	// also set these for appropriate default operation w/o PA1 or PA2
++	spiWrite(RH_RF69_REG_5A_TESTPA1, RH_RF69_REG_5A_TESTPA1_PANORM);	
++	spiWrite(RH_RF69_REG_5C_TESTPA2, RH_RF69_REG_5C_TESTPA2_PANORM);	    }
++
++
+     // The following can be changed later by the user if necessary.
+     // Set up default configuration
+     uint8_t syncwords[] = { 0x2d, 0xd4 };
+@@ -290,6 +317,18 @@
+     if (_mode != RHModeRx)
+     {
+ 	spiWrite(RH_RF69_REG_25_DIOMAPPING1, RH_RF69_DIOMAPPING1_DIO0MAPPING_01); // Set interrupt line 0 PayloadReady
++        if (_rfm69HW) {
++            // turn off P1 and P2 amp stages ... thanks Felix @ lowpowerlabs
++            // see the HW version of the datasheet, specifies to turn em off to receive
++            spiWrite(RH_RF69_REG_11_PALEVEL, 
++                (spiRead(RH_RF69_REG_11_PALEVEL) & 0x9F) \
++                | RH_RF69_PALEVEL_PA1OFF \
++                | RH_RF69_PALEVEL_PA2OFF );
++
++            // also set turn off boost settings during receive
++            spiWrite(RH_RF69_REG_5A_TESTPA1, RH_RF69_REG_5A_TESTPA1_PANORM);	
++            spiWrite(RH_RF69_REG_5C_TESTPA2, RH_RF69_REG_5C_TESTPA2_PANORM);	
++	}
+ 	setOpMode(RH_RF69_OPMODE_MODE_RX); // Clears FIFO
+ 	_mode = RHModeRx;
+     }
+@@ -300,6 +339,17 @@
+     if (_mode != RHModeTx)
+     {
+ 	spiWrite(RH_RF69_REG_25_DIOMAPPING1, RH_RF69_DIOMAPPING1_DIO0MAPPING_00); // Set interrupt line 0 PacketSent
++        if (_rfm69HW) {
++            // enable P1 and P2 amp stages ... thanks Felix @ lowpowerlabs
++            spiWrite(RH_RF69_REG_11_PALEVEL, 
++                (spiRead(RH_RF69_REG_11_PALEVEL) & 0x1F) \
++                | RH_RF69_PALEVEL_PA1ON \
++                | RH_RF69_PALEVEL_PA2ON );
++
++            // also set these for boost operation
++            spiWrite(RH_RF69_REG_5A_TESTPA1, RH_RF69_REG_5A_TESTPA1_PABOOST);	
++            spiWrite(RH_RF69_REG_5C_TESTPA2, RH_RF69_REG_5C_TESTPA2_PABOOST);	
++	}
+ 	setOpMode(RH_RF69_OPMODE_MODE_TX); // Clears FIFO
+ 	_mode = RHModeTx;
+     }
+@@ -317,10 +367,13 @@
+     {
+ 	// Need PA1+PA2
+ 	palevel = RH_RF69_PALEVEL_PA1ON | RH_RF69_PALEVEL_PA2ON | ((power + 14) & RH_RF69_PALEVEL_OUTPUTPOWER);
++
+ 	if (power >= 18)
+ 	{
+ 	    // For 20dBm need boost settings, not implemented yet, see section 3.3.7
+-	    palevel = RH_RF69_PALEVEL_PA1ON | RH_RF69_PALEVEL_PA2ON | ((power + 11) & RH_RF69_PALEVEL_OUTPUTPOWER);
++            // RFM69HW requires PA0 to be off if PA1 and PA2 are on
++            // see the HW version of the datasheet
++	    palevel = RH_RF69_PALEVEL_PA0OFF | RH_RF69_PALEVEL_PA1ON | RH_RF69_PALEVEL_PA2ON | ((power + 11) & RH_RF69_PALEVEL_OUTPUTPOWER);
+ 	}
+     }
+     else
+diff -uNr RadioHead-1.12/RH_RF69.h RadioHead/RH_RF69.h
+--- RadioHead-1.12/RH_RF69.h	2014-05-18 04:53:51.000000000 -0600
++++ RadioHead/RH_RF69.h	2014-05-21 01:23:54.113594923 -0600
+@@ -115,8 +115,17 @@
+ #define RH_RF69_REG_4E_TEMP1                                0x4e
+ #define RH_RF69_REG_4F_TEMP2                                0x4f
+ #define RH_RF69_REG_58_TESTLNA                              0x58
++
++// RH_RF69_REG_5A_TESTPA1
+ #define RH_RF69_REG_5A_TESTPA1                              0x5a
++#define RH_RF69_REG_5A_TESTPA1_PANORM                       0x55
++#define RH_RF69_REG_5A_TESTPA1_PABOOST                      0x5d
++
++// RH_RF69_REG_5A_TESTPA2
+ #define RH_RF69_REG_5C_TESTPA2                              0x5c
++#define RH_RF69_REG_5C_TESTPA2_PANORM                       0x70
++#define RH_RF69_REG_5C_TESTPA2_PABOOST                      0x7c
++
+ #define RH_RF69_REG_6F_TESTDAGC                             0x6f
+ #define RH_RF69_REG_71_TESTAFC                              0x71
+ 
+@@ -153,8 +162,11 @@
+ 
+ // RH_RF69_REG_11_PALEVEL
+ #define RH_RF69_PALEVEL_PA0ON                               0x80
++#define RH_RF69_PALEVEL_PA0OFF                              0x00
+ #define RH_RF69_PALEVEL_PA1ON                               0x40
++#define RH_RF69_PALEVEL_PA1OFF                              0x00
+ #define RH_RF69_PALEVEL_PA2ON                               0x20
++#define RH_RF69_PALEVEL_PA2OFF                              0x00
+ #define RH_RF69_PALEVEL_OUTPUTPOWER                         0x1f
+ 
+ // RH_RF69_REG_23_RSSICONFIG
+@@ -519,7 +531,10 @@
+     /// On other boards, any digital pin may be used.
+     /// \param[in] spi Pointer to the SPI interface object to use. 
+     ///                Defaults to the standard Arduino hardware SPI interface
+-    RH_RF69(uint8_t slaveSelectPin = SS, uint8_t interruptPin = 2, RHGenericSPI& spi = hardware_spi);
++    //RH_RF69(uint8_t slaveSelectPin = SS, uint8_t interruptPin = 2, RHGenericSPI& spi = hardware_spi);
++
++    // extra argument constructor to specify an RFM69HW to be used in boost mode
++    RH_RF69(uint8_t slaveSelectPin = SS, uint8_t interruptPin = 2, RHGenericSPI& spi = hardware_spi, bool rfm69HW = true);
+   
+     /// Initialises this instance and the radio module connected to it.
+     /// The following steps are taken:
+@@ -682,6 +697,9 @@
+     /// The reported device type
+     uint8_t             _deviceType;
+ 
++    /// is this an RFM69HW?
++    uint8_t             _rfm69HW;
++
+     /// The message length in _buf
+     volatile uint8_t    _bufLen;
+ 

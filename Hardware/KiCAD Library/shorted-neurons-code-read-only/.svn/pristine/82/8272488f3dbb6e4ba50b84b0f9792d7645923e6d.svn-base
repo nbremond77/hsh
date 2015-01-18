@@ -1,0 +1,919 @@
+# EESchema Netlist Version 1.1 created  Mon 06 Aug 2012 08:41:33 PM MDT
+(
+ ( /4F25C46A/4F87B8C5 CP14 Antenna1 CONN_1
+  ( 1 N-000030 )
+ )
+ ( /4F25D726/4F25D89E AK300-2 BT1 BATTERY
+  ( 1 N-000156 )
+  ( 2 GND )
+ )
+ ( /4F25D726/4EAB7ADF C1V8 C1 470uF
+  ( 1 N-000160 )
+  ( 2 N-000163 )
+ )
+ ( /4F25D726/4EAB7ADE C2V8 C2 100uF
+  ( 1 /analog/VREF )
+  ( 2 N-000163 )
+ )
+ ( /4F25D726/4F25D8B2 C2 C3 0.1uF
+  ( 1 N-000163 )
+  ( 2 /analog/VREF )
+ )
+ ( /4F25D726/4F87B04B C2V8 C4 100uF
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /4F25D726/4F879CCE C2 C5 0.1uF
+  ( 1 GND )
+  ( 2 N-000164 )
+ )
+ ( /4F25D726/4F879C5F C2V8 C6 3300uF
+  ( 1 N-000164 )
+  ( 2 GND )
+ )
+ ( /4F25D726/4F8796C4 C1V8 C7 470uF
+  ( 1 N-000158 )
+  ( 2 GND )
+ )
+ ( /4F25D726/4F879D1D C2 C8 0.1uF
+  ( 1 GND )
+  ( 2 N-000158 )
+ )
+ ( /4F25D726/4F25D8A6 C2 C9 0.1uF
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /4F25C46A/4EAB7AD5 C2 C10 0.1uF
+  ( 1 GND )
+  ( 2 VDD )
+ )
+ ( /4F25C46A/4EAB7AC3 C2 C11 0.1uF
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /4F25C46A/4E485523 C1 C12 22pF
+  ( 1 GND )
+  ( 2 N-000026 )
+ )
+ ( /4F25C46A/4F25D964 C2 C13 0.1uF
+  ( 1 GND )
+  ( 2 /analog/VREF )
+ )
+ ( /4F25C46A/4EAB7ACA C1 C14 22pF
+  ( 1 GND )
+  ( 2 N-000012 )
+ )
+ ( /4F25C46A/4E48A3EC C2 C15 0.1uF
+  ( 1 N-000042 )
+  ( 2 N-000025 )
+ )
+ ( /4F25C482/4FF7BD02 C1 C16 0.1uF
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /4F25C482/4FF7BD35 C1 C17 0.1uF
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /4F25C496/4FF7BD7A C1 C18 0.1uF
+  ( 1 GND )
+  ( 2 VDD )
+ )
+ ( /4F25C496/4FF7BD94 C1 C19 0.1uF
+  ( 1 /analog/VREF )
+  ( 2 GND )
+ )
+ ( /4F25D726/4E87E2B2 D5 D1 TVS_Diode
+  ( 1 N-000160 )
+  ( 2 GND )
+ )
+ ( /4F25D726/4F25D89F D4 D2 1N5402
+  ( 1 +12V )
+  ( 2 N-000160 )
+ )
+ ( /4F25D726/4F87A337 D4 D3 TVS_Diode
+  ( 1 N-000158 )
+  ( 2 GND )
+ )
+ ( /4F25D726/4F867610 D3 D4 1N5402
+  ( 1 +12V )
+  ( 2 N-000158 )
+ )
+ ( /4F25D726/4F87A311 D3 D5 1N5821
+  ( 1 GND )
+  ( 2 N-000156 )
+ )
+ ( /4F25D726/4F879BAC D3 D6 1N5820
+  ( 1 GND )
+  ( 2 N-000154 )
+ )
+ ( /4F25C46A/4E55C998 LED-5MM D7 LED
+  ( 1 N-000034 )
+  ( 2 N-000033 )
+ )
+ ( /4F25C46A/4E55CA16 LED-5MM D8 LED
+  ( 1 N-000033 )
+  ( 2 N-000035 )
+ )
+ ( /4F25C46A/4FD3D87D LED-3MM D9 LED
+  ( 1 N-000021 )
+  ( 2 N-000045 )
+ )
+ ( /4F25C46A/4FD3D858 LED-3MM D10 LED
+  ( 1 N-000023 )
+  ( 2 N-000046 )
+ )
+ ( /4F25D726/50207B20 LED-3MM D11 LED
+  ( 1 VDD )
+  ( 2 N-000157 )
+ )
+ ( /4F25D726/50207C00 LED-3MM D12 LED
+  ( 1 N-000161 )
+  ( 2 GNDPWR )
+ )
+ ( /4F25D726/50207C56 LED-3MM D13 LED
+  ( 1 /analog/VREF )
+  ( 2 N-000162 )
+ )
+ ( /4F25C46A/4E48B011 RFM12 IC1 RFM12B
+  ( 1 /gpios/MISO )
+  ( 2 N-000014 )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 GND )
+  ( 8 N-000030 )
+  ( 9 VDD )
+  ( 10 GND )
+  ( 11 ? )
+  ( 12 /gpios/MOSI )
+  ( 13 /gpios/SCK )
+  ( 14 N-000032 )
+ )
+ ( /4F25C46A/4E4842AA DIP-28__300_ELL IC2 ATMEGA328P-PU
+  ( 1 N-000042 )
+  ( 2 N-000013 )
+  ( 3 N-000024 )
+  ( 4 N-000014 )
+  ( 5 /core/GPIO_CS )
+  ( 6 /core/GPIO_RESET )
+  ( 7 VDD )
+  ( 8 GND )
+  ( 9 N-000026 )
+  ( 10 N-000012 )
+  ( 11 N-000033 )
+  ( 12 /core/HV_control )
+  ( 13 N-000016 )
+  ( 14 N-000022 )
+  ( 15 N-000019 )
+  ( 16 N-000032 )
+  ( 17 N-000020 )
+  ( 18 N-000029 )
+  ( 19 N-000018 )
+  ( 20 VDD )
+  ( 21 /analog/VREF )
+  ( 22 GND )
+  ( 23 /power/_BATT_SENSE )
+  ( 24 /power/CURRENT_SENSE )
+  ( 25 N-000028 )
+  ( 26 /core/ADC_CS )
+  ( 27 ? )
+  ( 28 ? )
+ )
+ ( /4F25C46A/4F1E3B9E PIN_ARRAY_3X1 K1 CONN_3
+  ( 1 /gpios/SCK )
+  ( 2 N-000018 )
+  ( 3 N-000011 )
+ )
+ ( /4F25C46A/4F1E3ACF PIN_ARRAY_3X1 K2 CONN_3
+  ( 1 /gpios/MISO )
+  ( 2 N-000029 )
+  ( 3 N-000031 )
+ )
+ ( /4F25C46A/4F1E3C3B PIN_ARRAY_3X1 K3 CONN_3
+  ( 1 /gpios/MOSI )
+  ( 2 N-000020 )
+  ( 3 N-000017 )
+ )
+ ( /4F25C482/4FD3D38D PIN_ARRAY_3X1 K4 CONN_3
+  ( 1 +12V )
+  ( 2 N-000101 )
+  ( 3 VDD )
+ )
+ ( /4F25C482/4FD3D34D PIN_ARRAY_3X1 K5 CONN_3
+  ( 1 +12V )
+  ( 2 N-000077 )
+  ( 3 VDD )
+ )
+ ( /4F25C482/4FD3D018 PIN_ARRAY_3X1 K6 CONN_3
+  ( 1 +12V )
+  ( 2 N-000117 )
+  ( 3 VDD )
+ )
+ ( /4F25C482/4FD3CFE6 PIN_ARRAY_3X1 K7 CONN_3
+  ( 1 +12V )
+  ( 2 N-000074 )
+  ( 3 VDD )
+ )
+ ( /4F865AA5/4FD3DB76 PIN_ARRAY_5x1 K8 CONN_5
+  ( 1 gpb.6 )
+  ( 2 gpb.7 )
+  ( 3 gpb.8 )
+  ( 4 ? )
+  ( 5 ? )
+ )
+ ( /4F865AA5/4FD3DBA5 PIN_ARRAY_5x1 K9 CONN_5
+  ( 1 gpb.12 )
+  ( 2 gpb.13 )
+  ( 3 gpb.14 )
+  ( 4 gpb.15 )
+  ( 5 gpb.16 )
+ )
+ ( /4F25C496/4FD3DBC5 PIN_ARRAY_3X1 K10 CONN_3
+  ( 1 adc.3 )
+  ( 2 adc.2 )
+  ( 3 adc.1 )
+ )
+ ( /4F865AA5/4FD3DC22 PIN_ARRAY_5x1 K11 CONN_5
+  ( 1 gpa.14 )
+  ( 2 gpa.15 )
+  ( 3 gpa.16 )
+  ( 4 ? )
+  ( 5 ? )
+ )
+ ( /4F25C46A/4FD54A61 PIN_ARRAY_3X1 K12 SAFETY_SW
+  ( 1 VDD )
+  ( 2 GND )
+  ( 3 N-000028 )
+ )
+ ( /4F25C46A/4FD54E7C PIN_ARRAY_3X1 K13 FIRE_SW
+  ( 1 GND )
+  ( 2 N-000016 )
+  ( 3 GND )
+ )
+ ( /4F25D726/4F87B03D ALTNC_S L1 20uH
+  ( 1 N-000164 )
+  ( 2 VDD )
+ )
+ ( /4F25D726/4F8798BE ALTNC_S L2 150uH
+  ( 1 N-000154 )
+  ( 2 N-000164 )
+ )
+ ( /4F865AA5/4F866423 PIN_ARRAY-6X1 P1 CONN_6
+  ( 1 adc.1 )
+  ( 2 gpa.1 )
+  ( 3 VDD )
+  ( 4 GND )
+  ( 5 gpa.2 )
+  ( 6 adc.2 )
+ )
+ ( /4F865AA5/4F8663A8 PIN_ARRAY-6X1 P2 CONN_6
+  ( 1 adc.3 )
+  ( 2 gpa.3 )
+  ( 3 ? )
+  ( 4 GND )
+  ( 5 gpa.4 )
+  ( 6 adc.4 )
+ )
+ ( /4F865AA5/4FCED753 AK300-2 P3 CONN_2
+  ( 1 ? )
+  ( 2 GNDPWR )
+ )
+ ( /4F865AA5/4FCED72A AK300-2 P4 CONN_2
+  ( 1 +12V )
+  ( 2 GNDPWR )
+ )
+ ( /4F865AA5/4F866412 PIN_ARRAY-6X1 P5 CONN_6
+  ( 1 adc.7 )
+  ( 2 gpa.7 )
+  ( 3 ? )
+  ( 4 GND )
+  ( 5 gpa.8 )
+  ( 6 adc.8 )
+ )
+ ( /4F865AA5/4F86641C PIN_ARRAY-6X1 P6 CONN_6
+  ( 1 adc.5 )
+  ( 2 gpa.5 )
+  ( 3 ? )
+  ( 4 GND )
+  ( 5 gpa.6 )
+  ( 6 adc.6 )
+ )
+ ( /4F865AA5/4FCED747 AK300-2 P7 CONN_2
+  ( 1 +12V )
+  ( 2 GNDPWR )
+ )
+ ( /4F865AA5/4FCED761 AK300-2 P8 CONN_2
+  ( 1 +12V )
+  ( 2 GNDPWR )
+ )
+ ( /4F865AA5/4FD3DB82 PIN_ARRAY_5x1 P9 CONN_5
+  ( 1 gpb.1 )
+  ( 2 gpb.2 )
+  ( 3 gpb.3 )
+  ( 4 gpb.4 )
+  ( 5 gpb.5 )
+ )
+ ( /4F865AA5/4FD3DBA4 PIN_ARRAY_5x1 P10 CONN_5
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 gpb.9 )
+  ( 4 gpb.10 )
+  ( 5 gpb.11 )
+ )
+ ( /4F25C496/4FD3DBBF PIN_ARRAY_5x1 P11 CONN_5
+  ( 1 adc.8 )
+  ( 2 adc.7 )
+  ( 3 adc.6 )
+  ( 4 adc.5 )
+  ( 5 adc.4 )
+ )
+ ( /4F865AA5/4FD3DC21 PIN_ARRAY_5x1 P12 CONN_5
+  ( 1 gpa.9 )
+  ( 2 gpa.10 )
+  ( 3 gpa.11 )
+  ( 4 gpa.12 )
+  ( 5 gpa.13 )
+ )
+ ( /4F25C482/4FCEADC9 DIP-16__300_ELL P13 CONN_2X8
+  ( 1 gpb.1 )
+  ( 2 gpb.2 )
+  ( 3 gpb.3 )
+  ( 4 gpb.4 )
+  ( 5 gpb.5 )
+  ( 6 gpb.6 )
+  ( 7 gpb.7 )
+  ( 8 gpb.8 )
+  ( 9 N-000083 )
+  ( 10 N-000120 )
+  ( 11 N-000084 )
+  ( 12 N-000119 )
+  ( 13 N-000085 )
+  ( 14 N-000116 )
+  ( 15 N-000060 )
+  ( 16 N-000118 )
+ )
+ ( /4F25C482/4FCEADC0 DIP-16__300_ELL P14 CONN_2X8
+  ( 1 N-000109 )
+  ( 2 N-000061 )
+  ( 3 N-000112 )
+  ( 4 N-000062 )
+  ( 5 N-000111 )
+  ( 6 N-000063 )
+  ( 7 N-000110 )
+  ( 8 N-000064 )
+  ( 9 gpb.9 )
+  ( 10 gpb.10 )
+  ( 11 gpb.11 )
+  ( 12 gpb.12 )
+  ( 13 gpb.13 )
+  ( 14 gpb.14 )
+  ( 15 gpb.15 )
+  ( 16 gpb.16 )
+ )
+ ( /4F25C46A/4E485706 pin_array_3x2 P15 CONN_3X2
+  ( 1 N-000031 )
+  ( 2 VDD )
+  ( 3 N-000011 )
+  ( 4 N-000017 )
+  ( 5 N-000042 )
+  ( 6 GND )
+ )
+ ( /4F25C46A/4EAB7AD2 PIN_ARRAY-6X1 P16 TTL_Serial_/_Prog
+  ( 1 GND )
+  ( 2 ? )
+  ( 3 VDD )
+  ( 4 N-000024 )
+  ( 5 N-000013 )
+  ( 6 N-000025 )
+ )
+ ( /4F865AA5/4FCEE808 1HOLE P17 TST
+  ( 1 GND )
+ )
+ ( /4F865AA5/4FCEE811 1HOLE P18 TST
+  ( 1 GND )
+ )
+ ( /4F865AA5/4FCEE817 1HOLE P19 TST
+  ( 1 GND )
+ )
+ ( /4F865AA5/4FCEE816 1HOLE P20 TST
+  ( 1 GND )
+ )
+ ( /4F25C46A/4FD40DE5 PIN_ARRAY_2X1 P21 SIREN_A
+  ( 1 GND )
+  ( 2 N-000022 )
+ )
+ ( /4F25C46A/4FD40DC6 PIN_ARRAY_2X1 P22 SIREN_B
+  ( 1 GND )
+  ( 2 N-000019 )
+ )
+ ( /4F25C482/4FD3D34F DIP-16__300_ELL P25 CONN_2X8
+  ( 1 N-000049 )
+  ( 2 N-000050 )
+  ( 3 N-000051 )
+  ( 4 N-000048 )
+  ( 5 N-000052 )
+  ( 6 N-000053 )
+  ( 7 N-000054 )
+  ( 8 N-000055 )
+  ( 9 gpa.9 )
+  ( 10 gpa.10 )
+  ( 11 gpa.11 )
+  ( 12 gpa.12 )
+  ( 13 gpa.13 )
+  ( 14 gpa.14 )
+  ( 15 gpa.15 )
+  ( 16 gpa.16 )
+ )
+ ( /4F25C46A/4FD3D86D TO92-123 Q1 NPN
+  ( 1 GND )
+  ( 2 N-000024 )
+  ( 3 N-000045 )
+ )
+ ( /4F25C46A/4FD3D80E TO92-123 Q2 NPN
+  ( 1 GND )
+  ( 2 N-000013 )
+  ( 3 N-000046 )
+ )
+ ( /4F25D726/4FD5598B DPAKGDS Q3 MOSFET_N
+  ( D GNDPWR )
+  ( G /core/HV_control )
+  ( S GND )
+ )
+ ( /4F25D726/4EAB7AD9 R3-LARGE_PADS R1 39k
+  ( 1 +12V )
+  ( 2 /power/_BATT_SENSE )
+ )
+ ( /4F25D726/4E48A0F3 R3-LARGE_PADS R2 10k
+  ( 1 /power/_BATT_SENSE )
+  ( 2 GND )
+ )
+ ( /4F25D726/4F879684 R3-LARGE_PADS R3 5.3k
+  ( 1 GND )
+  ( 2 N-000155 )
+ )
+ ( /4F25D726/4F87981B R3-LARGE_PADS R4 10k
+  ( 1 N-000155 )
+  ( 2 N-000164 )
+ )
+ ( /4F25C482/4F25D48F R3-LARGE_PADS R5 10k
+  ( 1 N-000139 )
+  ( 2 GND )
+ )
+ ( /4F25C482/4F25D349 R3-LARGE_PADS R6 10k
+  ( 1 N-000107 )
+  ( 2 VDD )
+ )
+ ( /4F25C46A/4EAB7AC6 R3-LARGE_PADS R7 10k
+  ( 1 VDD )
+  ( 2 N-000042 )
+ )
+ ( /4F25C46A/4F25D9BE R3-LARGE_PADS R8 47
+  ( 1 N-000034 )
+  ( 2 VDD )
+ )
+ ( /4F25C46A/4E55C9FC R3-LARGE_PADS R9 47
+  ( 1 N-000035 )
+  ( 2 GND )
+ )
+ ( /4F25C482/4FD3D1FD R3-LARGE_PADS R10 10k
+  ( 1 /core/GPIO_RESET )
+  ( 2 GND )
+ )
+ ( /4F25C482/4FD3D22B R3-LARGE_PADS R11 10k
+  ( 1 /core/GPIO_RESET )
+  ( 2 GND )
+ )
+ ( /4F25C46A/4FD3D90E R3-LARGE_PADS R12 47
+  ( 1 N-000021 )
+  ( 2 VDD )
+ )
+ ( /4F25C46A/4FD3D916 R3-LARGE_PADS R13 47
+  ( 1 VDD )
+  ( 2 N-000023 )
+ )
+ ( /4F25C46A/4FD54FDD R3-LARGE_PADS R14 1k
+  ( 1 N-000016 )
+  ( 2 VDD )
+ )
+ ( /4F25D726/501F0898 R3-LARGE_PADS R15 1k
+  ( 1 GND )
+  ( 2 /core/HV_control )
+ )
+ ( /4F25D726/50207F67 R3-LARGE_PADS R16 1k
+  ( 1 GND )
+  ( 2 N-000162 )
+ )
+ ( /4F25D726/50207EEC R3-LARGE_PADS R17 1k
+  ( 1 GND )
+  ( 2 N-000157 )
+ )
+ ( /4F25D726/50207EAF R3-LARGE_PADS R18 1.8k
+  ( 1 +12V )
+  ( 2 N-000161 )
+ )
+ ( /4F25C496/4FD3D4A2 r_pack8 RR1 RR8
+  ( 1 adc.1 )
+  ( 2 adc.2 )
+  ( 3 adc.3 )
+  ( 4 adc.4 )
+  ( 5 adc.5 )
+  ( 6 adc.6 )
+  ( 7 adc.7 )
+  ( 8 adc.8 )
+  ( 9 VDD )
+ )
+ ( /4F25D726/4E55D04D R7 RSHUNT1 0.005
+  ( 1 +12V )
+  ( 2 N-000156 )
+ )
+ ( /4F25C46A/4FCD4151 SW_PUSH_SMALL SW1 SW_PUSH
+  ( 1 N-000042 )
+  ( 2 GND )
+ )
+ ( /4F25D726/50200166 PINTST TST-VDD1 TST-VDD
+  ( 1 VDD )
+ )
+ ( /4F25D726/502001AD PINTST TST-VREF1 TST-VREF
+  ( 1 /analog/VREF )
+ )
+ ( /4F25D726/4EAB7AD8 TO92-INVERT U1 LP2950-30
+  ( 1 N-000160 )
+  ( 2 GND )
+  ( 3 /analog/VREF )
+ )
+ ( /4F25D726/4F867603 Pentawatt_Neutral_Staggered_Verical_TO220-5-T05D U2 LM2576
+  ( 1 N-000158 )
+  ( 2 N-000154 )
+  ( 3 GND )
+  ( 4 N-000155 )
+  ( 5 GND )
+ )
+ ( /4F25D726/4E55D6D7 SOT23-5 U3 TSC888
+  ( 1 /power/CURRENT_SENSE )
+  ( 2 GND )
+  ( 3 N-000156 )
+  ( 4 +12V )
+  ( 5 VDD )
+ )
+ ( /4F25C496/4F25EA8B DIP-18__300_ELL U4 MCP3208
+  ( 1 adc.1 )
+  ( 2 adc.2 )
+  ( 3 adc.3 )
+  ( 4 adc.4 )
+  ( 5 adc.5 )
+  ( 6 adc.6 )
+  ( 7 adc.7 )
+  ( 8 adc.8 )
+  ( 9 GND )
+  ( 10 /core/ADC_CS )
+  ( 11 /gpios/MOSI )
+  ( 12 /gpios/MISO )
+  ( 13 /gpios/SCK )
+  ( 14 GND )
+  ( 15 /analog/VREF )
+  ( 16 VDD )
+ )
+ ( /4F25C482/4FCD3AFC DIP-18__300_ELL U5 ULN2803A
+  ( 1 N-000136 )
+  ( 2 N-000113 )
+  ( 3 N-000114 )
+  ( 4 N-000143 )
+  ( 5 N-000144 )
+  ( 6 N-000142 )
+  ( 7 N-000115 )
+  ( 8 N-000141 )
+  ( 9 GND )
+  ( 10 N-000101 )
+  ( 11 gpa.1 )
+  ( 12 gpa.2 )
+  ( 13 gpa.3 )
+  ( 14 gpa.4 )
+  ( 15 gpa.5 )
+  ( 16 gpa.6 )
+  ( 17 gpa.7 )
+  ( 18 gpa.8 )
+ )
+ ( /4F25C482/4FD3D350 DIP-18__300_ELL U6 ULN2803A
+  ( 1 N-000102 )
+  ( 2 N-000145 )
+  ( 3 N-000138 )
+  ( 4 N-000103 )
+  ( 5 N-000140 )
+  ( 6 N-000104 )
+  ( 7 N-000137 )
+  ( 8 N-000105 )
+  ( 9 GND )
+  ( 10 N-000077 )
+  ( 11 N-000055 )
+  ( 12 N-000054 )
+  ( 13 N-000053 )
+  ( 14 N-000052 )
+  ( 15 N-000048 )
+  ( 16 N-000051 )
+  ( 17 N-000050 )
+  ( 18 N-000049 )
+ )
+ ( /4F25C482/4F25D14A DIP-28__300_ELL U7 MCP23S17
+  ( 1 N-000141 )
+  ( 2 N-000115 )
+  ( 3 N-000142 )
+  ( 4 N-000144 )
+  ( 5 N-000143 )
+  ( 6 N-000114 )
+  ( 7 N-000113 )
+  ( 8 N-000136 )
+  ( 9 VDD )
+  ( 10 GND )
+  ( 11 /core/GPIO_CS )
+  ( 12 /gpios/SCK )
+  ( 13 /gpios/MOSI )
+  ( 14 /gpios/MISO )
+  ( 15 N-000139 )
+  ( 16 N-000139 )
+  ( 17 N-000139 )
+  ( 18 /core/GPIO_RESET )
+  ( 19 ? )
+  ( 20 ? )
+  ( 21 N-000105 )
+  ( 22 N-000137 )
+  ( 23 N-000104 )
+  ( 24 N-000140 )
+  ( 25 N-000103 )
+  ( 26 N-000138 )
+  ( 27 N-000145 )
+  ( 28 N-000102 )
+ )
+ ( /4F25C482/4FCD3CCB DIP-18__300_ELL U8 ULN2803A
+  ( 1 N-000086 )
+  ( 2 N-000090 )
+  ( 3 N-000087 )
+  ( 4 N-000089 )
+  ( 5 N-000088 )
+  ( 6 N-000100 )
+  ( 7 N-000091 )
+  ( 8 N-000099 )
+  ( 9 GND )
+  ( 10 N-000117 )
+  ( 11 N-000118 )
+  ( 12 N-000060 )
+  ( 13 N-000116 )
+  ( 14 N-000085 )
+  ( 15 N-000119 )
+  ( 16 N-000084 )
+  ( 17 N-000120 )
+  ( 18 N-000083 )
+ )
+ ( /4F25C482/4FCD3C80 DIP-18__300_ELL U9 ULN2803A
+  ( 1 N-000098 )
+  ( 2 N-000121 )
+  ( 3 N-000097 )
+  ( 4 N-000094 )
+  ( 5 N-000093 )
+  ( 6 N-000095 )
+  ( 7 N-000092 )
+  ( 8 N-000096 )
+  ( 9 GND )
+  ( 10 N-000074 )
+  ( 11 N-000064 )
+  ( 12 N-000110 )
+  ( 13 N-000063 )
+  ( 14 N-000111 )
+  ( 15 N-000062 )
+  ( 16 N-000112 )
+  ( 17 N-000061 )
+  ( 18 N-000109 )
+ )
+ ( /4F25C482/4F25D2EE DIP-28__300_ELL U10 MCP23S17
+  ( 1 N-000099 )
+  ( 2 N-000091 )
+  ( 3 N-000100 )
+  ( 4 N-000088 )
+  ( 5 N-000089 )
+  ( 6 N-000087 )
+  ( 7 N-000090 )
+  ( 8 N-000086 )
+  ( 9 VDD )
+  ( 10 GND )
+  ( 11 /core/GPIO_CS )
+  ( 12 /gpios/SCK )
+  ( 13 /gpios/MOSI )
+  ( 14 /gpios/MISO )
+  ( 15 N-000107 )
+  ( 16 N-000107 )
+  ( 17 N-000107 )
+  ( 18 /core/GPIO_RESET )
+  ( 19 ? )
+  ( 20 ? )
+  ( 21 N-000098 )
+  ( 22 N-000121 )
+  ( 23 N-000097 )
+  ( 24 N-000094 )
+  ( 25 N-000093 )
+  ( 26 N-000095 )
+  ( 27 N-000092 )
+  ( 28 N-000096 )
+ )
+ ( /4F25C46A/4E48548A HC-18UV X1 8MHz
+  ( 1 N-000012 )
+  ( 2 N-000026 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ CP*
+ SM*
+$endlist
+$component C2
+ CP*
+ SM*
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ CP*
+ SM*
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ CP*
+ SM*
+$endlist
+$component C7
+ CP*
+ SM*
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component C15
+ SM*
+ C?
+ C1-1
+$endlist
+$component C16
+ SM*
+ C?
+ C1-1
+$endlist
+$component C17
+ SM*
+ C?
+ C1-1
+$endlist
+$component C18
+ SM*
+ C?
+ C1-1
+$endlist
+$component C19
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ SO*
+ SM*
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component D3
+ D?
+ SO*
+ SM*
+$endlist
+$component D4
+ D?
+ S*
+$endlist
+$component D5
+ D?
+ S*
+$endlist
+$component D6
+ D?
+ S*
+$endlist
+$component D7
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D8
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D9
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D10
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D11
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D12
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D13
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component IC2
+ DIP-28__300
+ DIP28
+ DIP-28
+$endlist
+$component P13
+ DIP-16
+$endlist
+$component P14
+ DIP-16
+$endlist
+$component P25
+ DIP-16
+$endlist
+$endfootprintlist
+}

@@ -1,0 +1,61 @@
+Research
+    -Receiver control command (bandwidth+modulation)
+    -Current measurement
+    -Remote/Self restart
+
+
+Inititialize
+    -Control broadcasts
+
+Start in safe mode
+Must send status at least once
+Enter Arm mode
+Then fire
+
+To pad:
+
+Rack number - 1 Byte
+Rack UUID - 1 Byte
+Command - 1 Byte
+    -Initialize
+    -Status
+    -Arm
+    -Fire
+    -Safe
+Command params (2 bytes below depending on command in previous byte)
+    -Initialize - 2 bytes ACK
+    -Status - 2 Bytes @ 0
+         -No params
+    -Arm - 1 Byte selected + 1 Byte always 0x00
+         -Channels selected
+    -Fire - 1 Byte selected + 1 Byte trigger
+         -Channels selected
+         -Channels to trigger
+    -Safe - 2 Bytes always 0xFF
+         -No params
+Padding - 3 bytes
+Total:8 bytes
+
+
+
+From rack:
+
+Rack ID - 1 Byte
+Rack UUID - 1 Byte
+Command last seen - 1 Byte
+Channel state
+    -Continuity - 1 Byte
+    -Selected - 1 Byte
+    -Firing - 1 Byte
+Stats
+    -Voltage - 1 Byte
+    -Current - 1 Byte
+Total: 8 bytes
+
+
+Conditions
+    -When any channel is Armed, If no good commands received in 250ms, then auto-safe rack
+    -If a rackUnit auto-safes himself, he must hear three SAFE SAFE SAFE
+broadcasts before he may receive an ARM command. 
+    -what do "idle" rackUnits do with themselves?
+

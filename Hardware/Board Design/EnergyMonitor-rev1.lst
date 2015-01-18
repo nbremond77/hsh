@@ -1,0 +1,478 @@
+eeschema (22-Jun-2014 BZR 4027)-stable  >> Creation date: dim. 07 déc. 2014 23:03:03 CET
+#Cmp ( order = Reference )
+| C1         1uF/6V      ; ~           
+| C2         1uF/6V      ; ~           
+| C3         1uF/6V      ; ~           
+| C4         1uF/6V      ; ~           
+| C5         1uF/6V      ; ~           
+| C6         1uF/6V      ; ~           
+| C7         10uF/50V    ; ~           
+| C8         10uF/50V    ; ~           
+| C9         10uF/50V    ; ~           
+| C10        10uF/50V    ; ~           
+| C11        10uF/50V    ; ~           
+| C12        10uF/50V    ; ~           
+| C13        1000uF/50V  ; ~           
+| C14        1uF/6V      ; ~           
+| C15        1uF/6V      ; ~           
+| C16        1uF/6V      ; ~           
+| C17        1uF/6V      ; ~           
+| C18        1uF/6V      ; ~           
+| C19        1uF/6V      ; ~           
+| C20        100n        ; ~           
+| C21        10uF/50V    ; ~           
+| C22        10uF/50V    ; ~           
+| C23        10uF/50V    ; ~           
+| C24        10uF/50V    ; ~           
+| C25        10uF/50V    ; ~           
+| C26        10uF/50V    ; ~           
+| C27        10n         ; ~           
+| C28        100n        ; ~           
+| C29        100n        ; ~           
+| C30        100n        ; ~           
+| C31        100n        ; ~           
+| C32        100n        ; ~           
+| C33        10uF/50V    ; ~           
+| D1         BRIDGE      ; ~           
+| D2         Schottky    ; ~           
+| D3         Schottky    ; ~           
+| D4         Schottky    ; ~           
+| D5         Schottky    ; ~           
+| D6         Schottky    ; ~           
+| D7         Schottky    ; ~           
+| D8         IR_LED      ;             
+| D9         Schottky    ; ~           
+| D10        Schottky    ; ~           
+| D11        Schottky    ; ~           
+| D12        Schottky    ; ~           
+| D13        Schottky    ; ~           
+| D14        Schottky    ; ~           
+| D15        LED         ; ~           
+| D16        LED         ; ~           
+| D17        24V Zener 1W;             
+| E1         ENCODER_SWITCH;             
+| F1         FUSE        ; ~           
+| IC1        DS18B20 T° Sensor; ~           
+| IC2        MAX487      ; ~           
+| IC3        MAX487      ; ~           
+| IC4        MAX487      ; ~           
+| IC5        MAX487      ; ~           
+| IC6        RFM12B      ;             
+| J1         JACK_3.5mm  ;             
+| J2         JACK_3.5mm  ;             
+| J3         JACK_3.5mm  ;             
+| J4         JACK_3.5mm  ;             
+| J5         JACK_3.5mm  ;             
+| J6         JACK_3.5mm  ;             
+| J7         JACK_3.5mm  ;             
+| J8         JACK_3.5mm  ;             
+| J9         JACK_3.5mm  ;             
+| J10        JACK_3.5mm  ;             
+| J11        JACK_3.5mm  ;             
+| J12        JACK_3.5mm  ;             
+| J13        I2C         ;             
+| J14        SPI         ;             
+| J15        Antenna     ; SMA         
+| J16        BMP180 Pressure;             
+| J17        Extension   ;             
+| JP1        JUMPER      ;             
+| JP2        Rterminal   ; ~           
+| JP3        Rterminal   ; ~           
+| JP4        Rterminal   ; ~           
+| JP5        Rterminal   ; ~           
+| K1         XLR3        ;             
+| K2         XLR3        ;             
+| K3         XLR3        ;             
+| K4         XLR3        ;             
+| P1         ACin        ;             
+| P2         ACin        ;             
+| P3         ACin        ;             
+| P4         ACin        ;             
+| P5         ACin        ;             
+| P6         ACin        ;             
+| P7         CONN_2      ;             
+| P8         ACin        ;             
+| P9         ACin        ;             
+| P10        ACin        ;             
+| P11        ACin        ;             
+| P12        ACin        ;             
+| P13        ACin        ;             
+| P14        Outputs     ;             
+| P15        SRF05 Ultrasonic Level Sensor;             
+| P16        DHT22       ;             
+| P17        1_Wire      ;             
+| P18        Inputs      ;             
+| Q1         NPN         ;             
+| R1         NC          ; ~           
+| R2         100k        ; ~           
+| R3         0R          ; ~           
+| R4         22R         ; ~           
+| R5         100k        ; ~           
+| R6         NC          ; ~           
+| R7         100k        ; ~           
+| R8         0R          ; ~           
+| R9         22R         ; ~           
+| R10        100k        ; ~           
+| R11        NC          ; ~           
+| R12        100k        ; ~           
+| R13        0R          ; ~           
+| R14        22R         ; ~           
+| R15        100k        ; ~           
+| R16        NC          ; ~           
+| R17        100k        ; ~           
+| R18        0R          ; ~           
+| R19        22R         ; ~           
+| R20        100k        ; ~           
+| R21        NC          ; ~           
+| R22        100k        ; ~           
+| R23        0R          ; ~           
+| R24        22R         ; ~           
+| R25        100k        ; ~           
+| R26        NC          ; ~           
+| R27        100k        ; ~           
+| R28        0R          ; ~           
+| R29        22R         ; ~           
+| R30        100k        ; ~           
+| R31        1k          ; ~           
+| R32        1k          ; ~           
+| R33        1k          ; ~           
+| R34        1k          ; ~           
+| R35        1k          ; ~           
+| R36        1k          ; ~           
+| R37        NC          ; ~           
+| R38        100k        ; ~           
+| R39        0R          ; ~           
+| R40        22R         ; ~           
+| R41        100k        ; ~           
+| R42        NC          ; ~           
+| R43        100k        ; ~           
+| R44        0R          ; ~           
+| R45        22R         ; ~           
+| R46        100k        ; ~           
+| R47        NC          ; ~           
+| R48        100k        ; ~           
+| R49        0R          ; ~           
+| R50        22R         ; ~           
+| R51        100k        ; ~           
+| R52        NC          ; ~           
+| R53        100k        ; ~           
+| R54        0R          ; ~           
+| R55        22R         ; ~           
+| R56        100k        ; ~           
+| R57        NC          ; ~           
+| R58        100k        ; ~           
+| R59        0R          ; ~           
+| R60        22R         ; ~           
+| R61        100k        ; ~           
+| R62        NC          ; ~           
+| R63        100k        ; ~           
+| R64        0R          ; ~           
+| R65        22R         ; ~           
+| R66        100k        ; ~           
+| R67        1k          ; ~           
+| R68        100         ; ~           
+| R69        1k          ; ~           
+| R70        1k          ; ~           
+| R71        1k          ; ~           
+| R72        1k          ; ~           
+| R73        1k          ; ~           
+| R74        1k          ; ~           
+| R75        470R        ; ~           
+| R76        470R        ; ~           
+| R77        10k         ; ~           
+| R78        10k         ; ~           
+| R79        10k         ; ~           
+| R80        10k         ; ~           
+| R81        LDR         ; ~           
+| R82        10k         ; ~           
+| R83        10k         ; ~           
+| R84        10k         ; ~           
+| R85        10k         ; ~           
+| R86        10k         ; ~           
+| R87        4K7         ; ~           
+| R88        10k         ; ~           
+| R89        10k         ; ~           
+| R90        10k         ; ~           
+| R91        10k         ; ~           
+| R92        10k         ; ~           
+| R93        10k         ; ~           
+| R94        10k         ; ~           
+| R95        10k         ; ~           
+| R96        10k         ; ~           
+| R97        NC          ; ~           
+| R98        0R          ; ~           
+| R99        10k         ; ~           
+| R100       10k         ; ~           
+| R101       10k         ; ~           
+| R102       10k         ; ~           
+| R103       10k         ; ~           
+| R104       10k         ; ~           
+| R105       10k         ; ~           
+| R106       10k         ; ~           
+| R107       10k         ; ~           
+| R108       680R        ; ~           
+| R109       680R        ; ~           
+| R110       680R        ; ~           
+| R111       680R        ; ~           
+| R112       680R        ; ~           
+| R113       680R        ; ~           
+| R114       680R        ; ~           
+| R115       680R        ; ~           
+| R116       120R        ; ~           
+| R117       120R        ; ~           
+| R118       120R        ; ~           
+| R119       120R        ; ~           
+| R120       47R         ; ~           
+| R121       47R         ; ~           
+| R122       47R         ; ~           
+| R123       47R         ; ~           
+| R124       10k         ; ~           
+| R125       100R        ; ~           
+| SHIELD1    ARDUINO_MEGA_SHIELD;             
+| SW1        Push1       ; ~           
+| SW2        Push2       ; ~           
+| SW3        4PST        ;             
+| U1         ULN2803     ;             
+| U2         78XX        ;             
+| U3         TSOP_2438   ;             
+#End Cmp
+
+#Cmp ( order = Value )
+| 10n          C27       ; ~           
+| 100n         C20       ; ~           
+| 100n         C28       ; ~           
+| 100n         C29       ; ~           
+| 100n         C30       ; ~           
+| 100n         C31       ; ~           
+| 100n         C32       ; ~           
+| 1uF/6V       C1        ; ~           
+| 1uF/6V       C2        ; ~           
+| 1uF/6V       C3        ; ~           
+| 1uF/6V       C4        ; ~           
+| 1uF/6V       C5        ; ~           
+| 1uF/6V       C6        ; ~           
+| 1uF/6V       C14       ; ~           
+| 1uF/6V       C15       ; ~           
+| 1uF/6V       C16       ; ~           
+| 1uF/6V       C17       ; ~           
+| 1uF/6V       C18       ; ~           
+| 1uF/6V       C19       ; ~           
+| 10uF/50V     C7        ; ~           
+| 10uF/50V     C8        ; ~           
+| 10uF/50V     C9        ; ~           
+| 10uF/50V     C10       ; ~           
+| 10uF/50V     C11       ; ~           
+| 10uF/50V     C12       ; ~           
+| 10uF/50V     C21       ; ~           
+| 10uF/50V     C22       ; ~           
+| 10uF/50V     C23       ; ~           
+| 10uF/50V     C24       ; ~           
+| 10uF/50V     C25       ; ~           
+| 10uF/50V     C26       ; ~           
+| 10uF/50V     C33       ; ~           
+| 1000uF/50V   C13       ; ~           
+| IR_LED       D8        ;             
+| 24V Zener 1W D17       ;             
+| BRIDGE       D1        ; ~           
+| Schottky     D2        ; ~           
+| Schottky     D3        ; ~           
+| Schottky     D4        ; ~           
+| Schottky     D5        ; ~           
+| Schottky     D6        ; ~           
+| Schottky     D7        ; ~           
+| Schottky     D9        ; ~           
+| Schottky     D10       ; ~           
+| Schottky     D11       ; ~           
+| Schottky     D12       ; ~           
+| Schottky     D13       ; ~           
+| Schottky     D14       ; ~           
+| LED          D15       ; ~           
+| LED          D16       ; ~           
+| ENCODER_SWITCH E1        ;             
+| FUSE         F1        ; ~           
+| RFM12B       IC6       ;             
+| DS18B20 T° Sensor IC1       ; ~           
+| MAX487       IC2       ; ~           
+| MAX487       IC3       ; ~           
+| MAX487       IC4       ; ~           
+| MAX487       IC5       ; ~           
+| JACK_3.5mm   J1        ;             
+| JACK_3.5mm   J2        ;             
+| JACK_3.5mm   J3        ;             
+| JACK_3.5mm   J4        ;             
+| JACK_3.5mm   J5        ;             
+| JACK_3.5mm   J6        ;             
+| JACK_3.5mm   J7        ;             
+| JACK_3.5mm   J8        ;             
+| JACK_3.5mm   J9        ;             
+| JACK_3.5mm   J10       ;             
+| JACK_3.5mm   J11       ;             
+| JACK_3.5mm   J12       ;             
+| I2C          J13       ;             
+| SPI          J14       ;             
+| BMP180 Pressure J16       ;             
+| Extension    J17       ;             
+| Antenna      J15       ; SMA         
+| JUMPER       JP1       ;             
+| Rterminal    JP2       ; ~           
+| Rterminal    JP3       ; ~           
+| Rterminal    JP4       ; ~           
+| Rterminal    JP5       ; ~           
+| XLR3         K1        ;             
+| XLR3         K2        ;             
+| XLR3         K3        ;             
+| XLR3         K4        ;             
+| ACin         P1        ;             
+| ACin         P2        ;             
+| ACin         P3        ;             
+| ACin         P4        ;             
+| ACin         P5        ;             
+| ACin         P6        ;             
+| CONN_2       P7        ;             
+| ACin         P8        ;             
+| ACin         P9        ;             
+| ACin         P10       ;             
+| ACin         P11       ;             
+| ACin         P12       ;             
+| ACin         P13       ;             
+| Outputs      P14       ;             
+| SRF05 Ultrasonic Level Sensor P15       ;             
+| DHT22        P16       ;             
+| 1_Wire       P17       ;             
+| Inputs       P18       ;             
+| NPN          Q1        ;             
+| 0R           R3        ; ~           
+| 0R           R8        ; ~           
+| 0R           R13       ; ~           
+| 0R           R18       ; ~           
+| 0R           R23       ; ~           
+| 0R           R28       ; ~           
+| 0R           R39       ; ~           
+| 0R           R44       ; ~           
+| 0R           R49       ; ~           
+| 0R           R54       ; ~           
+| 0R           R59       ; ~           
+| 0R           R64       ; ~           
+| 0R           R98       ; ~           
+| 22R          R4        ; ~           
+| 22R          R9        ; ~           
+| 22R          R14       ; ~           
+| 22R          R19       ; ~           
+| 22R          R24       ; ~           
+| 22R          R29       ; ~           
+| 22R          R40       ; ~           
+| 22R          R45       ; ~           
+| 22R          R50       ; ~           
+| 22R          R55       ; ~           
+| 22R          R60       ; ~           
+| 22R          R65       ; ~           
+| 47R          R120      ; ~           
+| 47R          R121      ; ~           
+| 47R          R122      ; ~           
+| 47R          R123      ; ~           
+| 100          R68       ; ~           
+| 100R         R125      ; ~           
+| 120R         R116      ; ~           
+| 120R         R117      ; ~           
+| 120R         R118      ; ~           
+| 120R         R119      ; ~           
+| 470R         R75       ; ~           
+| 470R         R76       ; ~           
+| 680R         R108      ; ~           
+| 680R         R109      ; ~           
+| 680R         R110      ; ~           
+| 680R         R111      ; ~           
+| 680R         R112      ; ~           
+| 680R         R113      ; ~           
+| 680R         R114      ; ~           
+| 680R         R115      ; ~           
+| 1k           R31       ; ~           
+| 1k           R32       ; ~           
+| 1k           R33       ; ~           
+| 1k           R34       ; ~           
+| 1k           R35       ; ~           
+| 1k           R36       ; ~           
+| 1k           R67       ; ~           
+| 1k           R69       ; ~           
+| 1k           R70       ; ~           
+| 1k           R71       ; ~           
+| 1k           R72       ; ~           
+| 1k           R73       ; ~           
+| 1k           R74       ; ~           
+| 4K7          R87       ; ~           
+| 10k          R77       ; ~           
+| 10k          R78       ; ~           
+| 10k          R79       ; ~           
+| 10k          R80       ; ~           
+| 10k          R82       ; ~           
+| 10k          R83       ; ~           
+| 10k          R84       ; ~           
+| 10k          R85       ; ~           
+| 10k          R86       ; ~           
+| 10k          R88       ; ~           
+| 10k          R89       ; ~           
+| 10k          R90       ; ~           
+| 10k          R91       ; ~           
+| 10k          R92       ; ~           
+| 10k          R93       ; ~           
+| 10k          R94       ; ~           
+| 10k          R95       ; ~           
+| 10k          R96       ; ~           
+| 10k          R99       ; ~           
+| 10k          R100      ; ~           
+| 10k          R101      ; ~           
+| 10k          R102      ; ~           
+| 10k          R103      ; ~           
+| 10k          R104      ; ~           
+| 10k          R105      ; ~           
+| 10k          R106      ; ~           
+| 10k          R107      ; ~           
+| 10k          R124      ; ~           
+| 100k         R2        ; ~           
+| 100k         R5        ; ~           
+| 100k         R7        ; ~           
+| 100k         R10       ; ~           
+| 100k         R12       ; ~           
+| 100k         R15       ; ~           
+| 100k         R17       ; ~           
+| 100k         R20       ; ~           
+| 100k         R22       ; ~           
+| 100k         R25       ; ~           
+| 100k         R27       ; ~           
+| 100k         R30       ; ~           
+| 100k         R38       ; ~           
+| 100k         R41       ; ~           
+| 100k         R43       ; ~           
+| 100k         R46       ; ~           
+| 100k         R48       ; ~           
+| 100k         R51       ; ~           
+| 100k         R53       ; ~           
+| 100k         R56       ; ~           
+| 100k         R58       ; ~           
+| 100k         R61       ; ~           
+| 100k         R63       ; ~           
+| 100k         R66       ; ~           
+| NC           R1        ; ~           
+| NC           R6        ; ~           
+| NC           R11       ; ~           
+| NC           R16       ; ~           
+| NC           R21       ; ~           
+| NC           R26       ; ~           
+| NC           R37       ; ~           
+| NC           R42       ; ~           
+| NC           R47       ; ~           
+| NC           R52       ; ~           
+| NC           R57       ; ~           
+| NC           R62       ; ~           
+| LDR          R81       ; ~           
+| NC           R97       ; ~           
+| ARDUINO_MEGA_SHIELD SHIELD1   ;             
+| 4PST         SW3       ;             
+| Push1        SW1       ; ~           
+| Push2        SW2       ; ~           
+| ULN2803      U1        ;             
+| 78XX         U2        ;             
+| TSOP_2438    U3        ;             
+#End Cmp
+
+#End List

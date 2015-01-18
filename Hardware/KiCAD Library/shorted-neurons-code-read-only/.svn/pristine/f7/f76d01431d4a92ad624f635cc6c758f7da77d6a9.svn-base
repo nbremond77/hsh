@@ -1,0 +1,13 @@
+RF69/Makefile
+RF69/MANIFEST
+RF69/project.cfg
+RF69/doc/*
+RF69/RF69.h
+RF69/keywords.txt
+RF69/LICENSE
+RF69/RF69.cpp
+RF69/GenericSPI.h 
+RF69/HardwareSPI.h
+RF69/HardwareSPI.cpp
+RF69/examples/rf69_client/rf69_client.pde
+RF69/examples/rf69_test/rf69_test.pde

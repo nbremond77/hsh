@@ -1,0 +1,31 @@
+ERC report (Fri 28 Oct 2011 10:10:05 PM MDT)
+
+***** Sheet / (Root) 
+
+***** Sheet /Lead acid charging/
+
+***** Sheet /Relay Single Channel/
+
+***** Sheet /RackUnit/
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (9.0000 ",2.0500 "): Cmp C9, Pin 1 (passive) Unconnected
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (6.1000 ",5.9000 "): Cmp R12, Pin 1 (passive) Unconnected
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (5.1500 ",7.2000 "): Cmp U4, Pin 11 (openCol) Unconnected
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (5.1500 ",7.3000 "): Cmp U4, Pin 10 (openCol) Unconnected
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (4.1500 ",7.6000 "): Cmp U4, Pin 8 (power_in) Unconnected
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (3.8500 ",7.3000 "): Cmp U4, Pin 7 (input) Unconnected
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (3.8500 ",7.2000 "): Cmp U4, Pin 6 (input) Unconnected
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (3.8500 ",7.5000 "): Cmp #PWR03, Pin ~ (passive) Unconnected
+
+***** Sheet /Controller/
+ErrType(3): Pin connected to some others pins but no pin to drive it
+    @ (4.1000 ",0.8500 "): Cmp #PWR040, Pin 1 (power_in) not driven (Net 26)
+
+ >> Errors ERC: 9

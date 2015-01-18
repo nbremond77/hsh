@@ -1,0 +1,3101 @@
+%!PS-Adobe-3.0
+%%Creator: PCBNEW-PS
+%%CreationDate: Sat Aug 11 23:45:30 2012
+%%Title: /home/bts/playtime/shorted-neurons-code/hardware-designs/rfm12b_breakout/fab/v02/rfm12b-to-breadboard-Back.ps
+%%Pages: 1
+%%PageOrder: Ascend
+%%BoundingBox: 0 0 596 843
+%%DocumentMedia: A4 595 842 0 () ()
+%%Orientation: Landscape
+%%EndComments
+%%Page: 1 1
+/line {
+    newpath
+    moveto
+    lineto
+    stroke
+} bind def
+/cir0 { newpath 0 360 arc stroke } bind def
+/cir1 { newpath 0 360 arc gsave fill grestore stroke } bind def
+/cir2 { newpath 0 360 arc gsave fill grestore stroke } bind def
+/arc0 { newpath arc stroke } bind def
+/arc1 { newpath 4 index 4 index moveto arc closepath gsave fill grestore stroke } bind def
+/arc2 { newpath 4 index 4 index moveto arc closepath gsave fill grestore stroke } bind def
+/poly0 { stroke } bind def
+/poly1 { closepath gsave fill grestore stroke } bind def
+/poly2 { closepath gsave fill grestore stroke } bind def
+/rect0 { rectstroke } bind def
+/rect1 { rectfill } bind def
+/rect2 { rectfill } bind def
+/linemode0 { 0 setlinecap 0 setlinejoin 0 setlinewidth } bind def
+/linemode1 { 1 setlinecap 1 setlinejoin } bind def
+/dashedline { [50 50] 0 setdash } bind def
+/solidline { [] 0 setdash } bind def
+gsave
+0.0072 0.0072 scale
+linemode1
+82670 0 translate 90 rotate
+60 setlinewidth
+150 setlinewidth
+newpath
+22900 63870 moveto
+22900 63970 lineto
+stroke
+newpath
+22700 63870 moveto
+22900 63870 lineto
+stroke
+newpath
+22900 73670 moveto
+22900 73570 lineto
+stroke
+newpath
+22800 73670 moveto
+22900 73670 lineto
+stroke
+newpath
+5700 73670 moveto
+5700 73470 lineto
+stroke
+newpath
+22900 73570 moveto
+22900 63970 lineto
+stroke
+newpath
+5700 73670 moveto
+22800 73670 lineto
+stroke
+newpath
+5700 63870 moveto
+5700 73470 lineto
+stroke
+newpath
+22700 63870 moveto
+5700 63870 lineto
+stroke
+60 setlinewidth
+6800 70570 195 cir1
+21700 71630 470 cir1
+6800 71630 470 cir1
+newpath
+14470 67730 moveto
+14030 67730 lineto
+14030 67830 lineto
+14470 67830 lineto
+14470 67730 lineto
+poly1
+newpath
+14470 67980 moveto
+14030 67980 lineto
+14030 68080 lineto
+14470 68080 lineto
+14470 67980 lineto
+poly1
+newpath
+14470 68240 moveto
+14030 68240 lineto
+14030 68340 lineto
+14470 68340 lineto
+14470 68240 lineto
+poly1
+newpath
+14470 68500 moveto
+14030 68500 lineto
+14030 68600 lineto
+14470 68600 lineto
+14470 68500 lineto
+poly1
+newpath
+14470 68750 moveto
+14030 68750 lineto
+14030 68850 lineto
+14470 68850 lineto
+14470 68750 lineto
+poly1
+newpath
+14470 69010 moveto
+14030 69010 lineto
+14030 69110 lineto
+14470 69110 lineto
+14470 69010 lineto
+poly1
+newpath
+14470 69270 moveto
+14030 69270 lineto
+14030 69370 lineto
+14470 69370 lineto
+14470 69270 lineto
+poly1
+newpath
+14470 69520 moveto
+14030 69520 lineto
+14030 69620 lineto
+14470 69620 lineto
+14470 69520 lineto
+poly1
+newpath
+14470 69780 moveto
+14030 69780 lineto
+14030 69880 lineto
+14470 69880 lineto
+14470 69780 lineto
+poly1
+newpath
+14470 70030 moveto
+14030 70030 lineto
+14030 70130 lineto
+14470 70130 lineto
+14470 70030 lineto
+poly1
+newpath
+16570 70030 moveto
+16130 70030 lineto
+16130 70130 lineto
+16570 70130 lineto
+16570 70030 lineto
+poly1
+newpath
+16570 69780 moveto
+16130 69780 lineto
+16130 69880 lineto
+16570 69880 lineto
+16570 69780 lineto
+poly1
+newpath
+16570 69520 moveto
+16130 69520 lineto
+16130 69620 lineto
+16570 69620 lineto
+16570 69520 lineto
+poly1
+newpath
+16570 69270 moveto
+16130 69270 lineto
+16130 69370 lineto
+16570 69370 lineto
+16570 69270 lineto
+poly1
+newpath
+16570 69010 moveto
+16130 69010 lineto
+16130 69110 lineto
+16570 69110 lineto
+16570 69010 lineto
+poly1
+newpath
+16570 68750 moveto
+16130 68750 lineto
+16130 68850 lineto
+16570 68850 lineto
+16570 68750 lineto
+poly1
+newpath
+16570 68500 moveto
+16130 68500 lineto
+16130 68600 lineto
+16570 68600 lineto
+16570 68500 lineto
+poly1
+newpath
+16570 68240 moveto
+16130 68240 lineto
+16130 68340 lineto
+16570 68340 lineto
+16570 68240 lineto
+poly1
+newpath
+16570 67980 moveto
+16130 67980 lineto
+16130 68080 lineto
+16570 68080 lineto
+16570 67980 lineto
+poly1
+newpath
+16570 67730 moveto
+16130 67730 lineto
+16130 67830 lineto
+16570 67830 lineto
+16570 67730 lineto
+poly1
+newpath
+20545 65015 moveto
+20545 64525 lineto
+20055 64525 lineto
+20055 65015 lineto
+20545 65015 lineto
+poly1
+19300 64770 245 cir1
+18300 64770 245 cir1
+17300 64770 245 cir1
+16300 64770 245 cir1
+15300 64770 245 cir1
+14300 64770 245 cir1
+newpath
+14055 72525 moveto
+14055 73015 lineto
+14545 73015 lineto
+14545 72525 lineto
+14055 72525 lineto
+poly1
+15300 72770 245 cir1
+16300 72770 245 cir1
+17300 72770 245 cir1
+18300 72770 245 cir1
+19300 72770 245 cir1
+20300 72770 245 cir1
+newpath
+12988 65037 moveto
+12498 65037 lineto
+12498 65763 lineto
+12988 65763 lineto
+12988 65037 lineto
+poly1
+newpath
+12200 65026 moveto
+11710 65026 lineto
+11710 65752 lineto
+12200 65752 lineto
+12200 65026 lineto
+poly1
+newpath
+11413 65026 moveto
+10923 65026 lineto
+10923 65752 lineto
+11413 65752 lineto
+11413 65026 lineto
+poly1
+newpath
+10645 65026 moveto
+10155 65026 lineto
+10155 65752 lineto
+10645 65752 lineto
+10645 65026 lineto
+poly1
+newpath
+9877 65026 moveto
+9387 65026 lineto
+9387 65752 lineto
+9877 65752 lineto
+9877 65026 lineto
+poly1
+newpath
+9090 65026 moveto
+8600 65026 lineto
+8600 65752 lineto
+9090 65752 lineto
+9090 65026 lineto
+poly1
+newpath
+8302 65026 moveto
+7812 65026 lineto
+7812 65752 lineto
+8302 65752 lineto
+8302 65026 lineto
+poly1
+newpath
+8302 71286 moveto
+7812 71286 lineto
+7812 72012 lineto
+8302 72012 lineto
+8302 71286 lineto
+poly1
+newpath
+9090 71286 moveto
+8600 71286 lineto
+8600 72012 lineto
+9090 72012 lineto
+9090 71286 lineto
+poly1
+newpath
+9877 71286 moveto
+9387 71286 lineto
+9387 72012 lineto
+9877 72012 lineto
+9877 71286 lineto
+poly1
+newpath
+10645 71286 moveto
+10155 71286 lineto
+10155 72012 lineto
+10645 72012 lineto
+10645 71286 lineto
+poly1
+newpath
+11413 71286 moveto
+10923 71286 lineto
+10923 72012 lineto
+11413 72012 lineto
+11413 71286 lineto
+poly1
+newpath
+12200 71286 moveto
+11710 71286 lineto
+11710 72012 lineto
+12200 72012 lineto
+12200 71286 lineto
+poly1
+newpath
+12988 71286 moveto
+12498 71286 lineto
+12498 72012 lineto
+12988 72012 lineto
+12988 71286 lineto
+poly1
+9000 72330 145 cir1
+14800 68030 145 cir1
+6800 69570 145 cir1
+19000 69430 145 cir1
+19700 70730 145 cir1
+19100 71530 145 cir1
+18300 71130 145 cir1
+17300 66330 145 cir1
+14400 66430 145 cir1
+13600 66430 145 cir1
+13500 67530 145 cir1
+12800 66830 145 cir1
+11300 66530 145 cir1
+12600 67930 145 cir1
+11600 68230 145 cir1
+10100 66730 145 cir1
+8000 66330 145 cir1
+8000 69630 145 cir1
+9600 70730 145 cir1
+15500 71130 145 cir1
+16700 70530 145 cir1
+21200 68530 145 cir1
+20200 66430 145 cir1
+18700 66430 145 cir1
+18500 67030 145 cir1
+10100 66130 145 cir1
+16900 68330 145 cir1
+15900 67530 145 cir1
+14400 70430 145 cir1
+17100 67130 145 cir1
+19900 68930 145 cir1
+15800 68030 145 cir1
+14700 70830 145 cir1
+17900 68230 145 cir1
+80 setlinewidth
+newpath
+8845 72175 moveto
+8845 71649 lineto
+stroke
+newpath
+8845 72175 moveto
+9000 72330 lineto
+stroke
+newpath
+14800 68030 moveto
+14250 68030 lineto
+stroke
+newpath
+6860 69630 moveto
+8000 69630 lineto
+stroke
+newpath
+6800 69570 moveto
+6860 69630 lineto
+stroke
+newpath
+19000 69430 moveto
+20300 70730 lineto
+stroke
+newpath
+16700 70530 moveto
+17700 70530 lineto
+stroke
+newpath
+17700 70530 moveto
+18300 71130 lineto
+stroke
+newpath
+9632 71649 moveto
+9632 70762 lineto
+stroke
+newpath
+13600 66430 moveto
+14400 66430 lineto
+stroke
+newpath
+12800 66830 moveto
+13500 67530 lineto
+stroke
+newpath
+11300 66630 moveto
+11300 66530 lineto
+stroke
+newpath
+12600 67930 moveto
+11300 66630 lineto
+stroke
+newpath
+10100 66730 moveto
+11600 68230 lineto
+stroke
+newpath
+8000 69630 moveto
+8000 66330 lineto
+stroke
+newpath
+9632 70762 moveto
+9600 70730 lineto
+stroke
+newpath
+16350 70080 moveto
+16700 70430 lineto
+stroke
+newpath
+16700 70430 moveto
+16700 70530 lineto
+stroke
+newpath
+14250 68290 moveto
+13760 68290 lineto
+stroke
+newpath
+13760 68290 moveto
+11168 65698 lineto
+stroke
+newpath
+11168 65698 moveto
+11168 65389 lineto
+stroke
+newpath
+14250 68550 moveto
+12520 68550 lineto
+stroke
+newpath
+10400 66430 moveto
+12520 68550 lineto
+stroke
+newpath
+10400 66430 moveto
+10400 65389 lineto
+stroke
+newpath
+9632 65662 moveto
+10100 66130 lineto
+stroke
+newpath
+9632 65662 moveto
+9632 65389 lineto
+stroke
+newpath
+8057 71649 moveto
+6819 71649 lineto
+stroke
+newpath
+6819 71649 moveto
+6800 71630 lineto
+stroke
+newpath
+17300 72770 moveto
+17200 72670 lineto
+stroke
+newpath
+17200 72130 moveto
+15500 70430 lineto
+stroke
+newpath
+15500 70430 moveto
+15500 69430 lineto
+stroke
+newpath
+15500 69430 moveto
+15870 69060 lineto
+stroke
+newpath
+15870 69060 moveto
+16350 69060 lineto
+stroke
+newpath
+17200 72670 moveto
+17200 72130 lineto
+stroke
+newpath
+17300 72770 moveto
+17250 72720 lineto
+stroke
+newpath
+18300 72770 moveto
+18200 72670 lineto
+stroke
+newpath
+16340 69330 moveto
+15900 69330 lineto
+stroke
+newpath
+15900 69330 moveto
+15700 69530 lineto
+stroke
+newpath
+15700 69530 moveto
+15700 70230 lineto
+stroke
+newpath
+15700 70230 moveto
+15700 70330 lineto
+stroke
+newpath
+15700 70330 moveto
+16400 71030 lineto
+stroke
+newpath
+16400 71030 moveto
+16600 71030 lineto
+stroke
+newpath
+17100 71030 moveto
+16600 71030 lineto
+stroke
+newpath
+18200 72130 moveto
+17100 71030 lineto
+stroke
+newpath
+16340 69330 moveto
+16350 69320 lineto
+stroke
+newpath
+18200 72670 moveto
+18200 72130 lineto
+stroke
+newpath
+20195 72125 moveto
+20300 72230 lineto
+stroke
+newpath
+20300 72230 moveto
+20300 72770 lineto
+stroke
+newpath
+17900 69830 moveto
+16350 69830 lineto
+stroke
+newpath
+20200 72130 moveto
+20195 72125 lineto
+stroke
+newpath
+20195 72125 moveto
+17900 69830 lineto
+stroke
+newpath
+19300 64770 moveto
+18900 64370 lineto
+stroke
+newpath
+11955 64875 moveto
+12460 64370 lineto
+stroke
+newpath
+12460 64370 moveto
+18740 64370 lineto
+stroke
+newpath
+11955 64875 moveto
+11955 65389 lineto
+stroke
+newpath
+18900 64370 moveto
+18740 64370 lineto
+stroke
+newpath
+14250 68800 moveto
+11470 68800 lineto
+stroke
+newpath
+8845 66175 moveto
+11470 68800 lineto
+stroke
+newpath
+8845 66175 moveto
+8845 65389 lineto
+stroke
+newpath
+14250 69060 moveto
+13070 69060 lineto
+stroke
+newpath
+10400 71130 moveto
+10400 71649 lineto
+stroke
+newpath
+10600 70930 moveto
+10400 71130 lineto
+stroke
+newpath
+11200 70930 moveto
+10600 70930 lineto
+stroke
+newpath
+13070 69060 moveto
+11200 70930 lineto
+stroke
+newpath
+14250 69320 moveto
+13210 69320 lineto
+stroke
+newpath
+11168 71362 moveto
+11168 71649 lineto
+stroke
+newpath
+13210 69320 moveto
+11168 71362 lineto
+stroke
+newpath
+14250 69570 moveto
+13460 69570 lineto
+stroke
+newpath
+11955 71075 moveto
+11955 71649 lineto
+stroke
+newpath
+13460 69570 moveto
+11955 71075 lineto
+stroke
+newpath
+14250 69830 moveto
+13500 69830 lineto
+stroke
+newpath
+12743 70587 moveto
+12743 71649 lineto
+stroke
+newpath
+13500 69830 moveto
+12743 70587 lineto
+stroke
+newpath
+18300 64770 moveto
+18020 65050 lineto
+stroke
+newpath
+17540 65530 moveto
+17200 65530 lineto
+stroke
+newpath
+17200 65530 moveto
+15900 66830 lineto
+stroke
+newpath
+15900 66830 moveto
+15900 67530 lineto
+stroke
+newpath
+16860 68290 moveto
+16350 68290 lineto
+stroke
+newpath
+16900 68330 moveto
+16860 68290 lineto
+stroke
+newpath
+18020 65050 moveto
+17540 65530 lineto
+stroke
+newpath
+19300 72770 moveto
+19200 72670 lineto
+stroke
+newpath
+19200 72130 moveto
+18600 71530 lineto
+stroke
+newpath
+18600 71530 moveto
+17900 71530 lineto
+stroke
+newpath
+17900 71530 moveto
+17200 70830 lineto
+stroke
+newpath
+17200 70830 moveto
+16500 70830 lineto
+stroke
+newpath
+15960 69570 moveto
+16350 69570 lineto
+stroke
+newpath
+15900 70230 moveto
+15900 69630 lineto
+stroke
+newpath
+16500 70830 moveto
+15900 70230 lineto
+stroke
+newpath
+15900 69630 moveto
+15960 69570 lineto
+stroke
+newpath
+19200 72670 moveto
+19200 72130 lineto
+stroke
+newpath
+17300 64770 moveto
+17200 64870 lineto
+stroke
+newpath
+17200 65130 moveto
+15400 66930 lineto
+stroke
+newpath
+15400 66930 moveto
+15400 67130 lineto
+stroke
+newpath
+15720 68550 moveto
+16350 68550 lineto
+stroke
+newpath
+15400 68230 moveto
+15720 68550 lineto
+stroke
+newpath
+15400 67130 moveto
+15400 68230 lineto
+stroke
+newpath
+17200 64870 moveto
+17200 65130 lineto
+stroke
+newpath
+14250 70380 moveto
+14250 70080 lineto
+stroke
+newpath
+14400 70430 moveto
+14250 70380 lineto
+stroke
+newpath
+17100 67130 moveto
+16450 67780 lineto
+stroke
+newpath
+16450 67780 moveto
+16350 67780 lineto
+stroke
+newpath
+15300 64770 moveto
+15100 64970 lineto
+stroke
+newpath
+15270 68800 moveto
+15100 68630 lineto
+stroke
+newpath
+15100 68630 moveto
+15100 65870 lineto
+stroke
+newpath
+15270 68800 moveto
+16350 68800 lineto
+stroke
+newpath
+15100 64970 moveto
+15100 65870 lineto
+stroke
+newpath
+16350 68800 moveto
+17030 68800 lineto
+stroke
+newpath
+19500 68530 moveto
+19900 68930 lineto
+stroke
+newpath
+17300 68530 moveto
+19500 68530 lineto
+stroke
+newpath
+17030 68800 moveto
+17300 68530 lineto
+stroke
+newpath
+12743 65400 moveto
+12743 66273 lineto
+stroke
+newpath
+12743 66273 moveto
+14250 67780 lineto
+stroke
+newpath
+15300 72770 moveto
+14700 72170 lineto
+stroke
+newpath
+14700 71330 moveto
+14700 70830 lineto
+stroke
+newpath
+15800 68030 moveto
+16350 68030 lineto
+stroke
+newpath
+14700 72170 moveto
+14700 71330 lineto
+stroke
+newpath
+16350 68030 moveto
+17700 68030 lineto
+stroke
+newpath
+17700 68030 moveto
+17900 68230 lineto
+stroke
+60 setlinewidth
+newpath
+12070 68510 moveto
+10197 66637 lineto
+10195 66635 lineto
+10188 66628 lineto
+10161 66594 lineto
+10139 66555 lineto
+10061 66555 lineto
+9979 66540 lineto
+9902 66508 lineto
+9832 66463 lineto
+9773 66404 lineto
+9726 66335 lineto
+9693 66259 lineto
+9676 66177 lineto
+9674 66115 lineto
+9592 66032 lineto
+9333 66032 lineto
+9285 66023 lineto
+9240 66004 lineto
+9239 66004 lineto
+9195 66022 lineto
+9147 66032 lineto
+9135 66032 lineto
+9135 66055 lineto
+11590 68510 lineto
+12070 68510 lineto
+poly1
+100 setlinewidth
+newpath
+12070 68510 moveto
+10197 66637 lineto
+10195 66635 lineto
+10188 66628 lineto
+10161 66594 lineto
+10139 66555 lineto
+10061 66555 lineto
+9979 66540 lineto
+9902 66508 lineto
+9832 66463 lineto
+9773 66404 lineto
+9726 66335 lineto
+9693 66259 lineto
+9676 66177 lineto
+9674 66115 lineto
+9592 66032 lineto
+9333 66032 lineto
+9285 66023 lineto
+9240 66004 lineto
+9239 66004 lineto
+9195 66022 lineto
+9147 66032 lineto
+9135 66032 lineto
+9135 66055 lineto
+11590 68510 lineto
+12070 68510 lineto
+poly0
+60 setlinewidth
+newpath
+13319 68260 moveto
+11091 66032 lineto
+10869 66032 lineto
+10821 66023 lineto
+10784 66008 lineto
+10750 66022 lineto
+10702 66032 lineto
+10690 66032 lineto
+10690 66310 lineto
+12640 68260 lineto
+13319 68260 lineto
+poly1
+100 setlinewidth
+newpath
+13319 68260 moveto
+11091 66032 lineto
+10869 66032 lineto
+10821 66023 lineto
+10784 66008 lineto
+10750 66022 lineto
+10702 66032 lineto
+10690 66032 lineto
+10690 66310 lineto
+12640 68260 lineto
+13319 68260 lineto
+poly0
+60 setlinewidth
+newpath
+13750 67690 moveto
+12540 66480 lineto
+12538 66478 lineto
+12531 66471 lineto
+12504 66437 lineto
+12476 66387 lineto
+12475 66385 lineto
+12475 66384 lineto
+12473 66380 lineto
+12459 66333 lineto
+12453 66277 lineto
+12453 66274 lineto
+12453 66273 lineto
+12453 66043 lineto
+12444 66043 lineto
+12396 66034 lineto
+12351 66015 lineto
+12339 66008 lineto
+12305 66022 lineto
+12257 66032 lineto
+12208 66032 lineto
+11912 66032 lineto
+13750 67870 lineto
+13750 67838 lineto
+13750 67690 lineto
+poly1
+100 setlinewidth
+newpath
+13750 67690 moveto
+12540 66480 lineto
+12538 66478 lineto
+12531 66471 lineto
+12504 66437 lineto
+12476 66387 lineto
+12475 66385 lineto
+12475 66384 lineto
+12473 66380 lineto
+12459 66333 lineto
+12453 66277 lineto
+12453 66274 lineto
+12453 66273 lineto
+12453 66043 lineto
+12444 66043 lineto
+12396 66034 lineto
+12351 66015 lineto
+12339 66008 lineto
+12305 66022 lineto
+12257 66032 lineto
+12208 66032 lineto
+11912 66032 lineto
+13750 67870 lineto
+13750 67838 lineto
+13750 67690 lineto
+poly0
+60 setlinewidth
+newpath
+14811 64960 moveto
+14798 64931 lineto
+14774 64996 lineto
+14752 65037 lineto
+14661 65060 lineto
+14590 64989 lineto
+14590 65131 lineto
+14567 65222 lineto
+14474 65265 lineto
+14374 65290 lineto
+14272 65295 lineto
+14170 65279 lineto
+14074 65244 lineto
+14033 65222 lineto
+14010 65131 lineto
+14300 64841 lineto
+14590 65131 lineto
+14590 64989 lineto
+14406 64805 lineto
+14371 64770 lineto
+14300 64699 lineto
+14229 64770 lineto
+14194 64805 lineto
+13939 65060 lineto
+13848 65037 lineto
+13805 64944 lineto
+13780 64844 lineto
+13775 64742 lineto
+13787 64660 lineto
+12580 64660 lineto
+12483 64757 lineto
+12490 64757 lineto
+13042 64757 lineto
+13090 64766 lineto
+13135 64785 lineto
+13176 64812 lineto
+13211 64847 lineto
+13239 64887 lineto
+13258 64932 lineto
+13268 64980 lineto
+13268 65029 lineto
+13268 65817 lineto
+13259 65865 lineto
+13240 65910 lineto
+13213 65951 lineto
+13178 65986 lineto
+13138 66014 lineto
+13093 66033 lineto
+13045 66043 lineto
+13033 66043 lineto
+13033 66153 lineto
+14330 67450 lineto
+14524 67450 lineto
+14572 67459 lineto
+14617 67478 lineto
+14658 67505 lineto
+14693 67540 lineto
+14721 67580 lineto
+14733 67610 lineto
+14750 67606 lineto
+14810 67605 lineto
+14810 65874 lineto
+14810 65870 lineto
+14810 64973 lineto
+14810 64970 lineto
+14811 64961 lineto
+14811 64960 lineto
+poly1
+100 setlinewidth
+newpath
+14811 64960 moveto
+14798 64931 lineto
+14774 64996 lineto
+14752 65037 lineto
+14661 65060 lineto
+14590 64989 lineto
+14590 65131 lineto
+14567 65222 lineto
+14474 65265 lineto
+14374 65290 lineto
+14272 65295 lineto
+14170 65279 lineto
+14074 65244 lineto
+14033 65222 lineto
+14010 65131 lineto
+14300 64841 lineto
+14590 65131 lineto
+14590 64989 lineto
+14406 64805 lineto
+14371 64770 lineto
+14300 64699 lineto
+14229 64770 lineto
+14194 64805 lineto
+13939 65060 lineto
+13848 65037 lineto
+13805 64944 lineto
+13780 64844 lineto
+13775 64742 lineto
+13787 64660 lineto
+12580 64660 lineto
+12483 64757 lineto
+12490 64757 lineto
+13042 64757 lineto
+13090 64766 lineto
+13135 64785 lineto
+13176 64812 lineto
+13211 64847 lineto
+13239 64887 lineto
+13258 64932 lineto
+13268 64980 lineto
+13268 65029 lineto
+13268 65817 lineto
+13259 65865 lineto
+13240 65910 lineto
+13213 65951 lineto
+13178 65986 lineto
+13138 66014 lineto
+13093 66033 lineto
+13045 66043 lineto
+13033 66043 lineto
+13033 66153 lineto
+14330 67450 lineto
+14524 67450 lineto
+14572 67459 lineto
+14617 67478 lineto
+14658 67505 lineto
+14693 67540 lineto
+14721 67580 lineto
+14733 67610 lineto
+14750 67606 lineto
+14810 67605 lineto
+14810 65874 lineto
+14810 65870 lineto
+14810 64973 lineto
+14810 64970 lineto
+14811 64961 lineto
+14811 64960 lineto
+poly0
+60 setlinewidth
+newpath
+20000 72340 moveto
+19998 72338 lineto
+19995 72335 lineto
+19992 72332 lineto
+19990 72330 lineto
+17780 70120 lineto
+16850 70120 lineto
+16850 70180 lineto
+16848 70180 lineto
+16850 70182 lineto
+16850 70184 lineto
+16841 70232 lineto
+16822 70277 lineto
+16795 70318 lineto
+16760 70353 lineto
+16720 70381 lineto
+16675 70400 lineto
+16627 70410 lineto
+16578 70410 lineto
+16490 70410 lineto
+16620 70540 lineto
+17197 70540 lineto
+17200 70540 lineto
+17215 70542 lineto
+17253 70545 lineto
+17256 70546 lineto
+17308 70561 lineto
+17308 70562 lineto
+17311 70562 lineto
+17358 70587 lineto
+17360 70588 lineto
+17386 70610 lineto
+17402 70622 lineto
+17404 70624 lineto
+17405 70625 lineto
+18020 71240 lineto
+18597 71240 lineto
+18600 71240 lineto
+18615 71242 lineto
+18653 71245 lineto
+18656 71246 lineto
+18708 71261 lineto
+18708 71262 lineto
+18711 71262 lineto
+18758 71287 lineto
+18760 71288 lineto
+18786 71310 lineto
+18802 71322 lineto
+18804 71324 lineto
+18805 71325 lineto
+19403 71923 lineto
+19405 71925 lineto
+19416 71939 lineto
+19439 71966 lineto
+19440 71968 lineto
+19467 72016 lineto
+19467 72019 lineto
+19468 72019 lineto
+19469 72024 lineto
+19484 72070 lineto
+19484 72072 lineto
+19490 72126 lineto
+19490 72128 lineto
+19490 72130 lineto
+19490 72282 lineto
+19537 72300 lineto
+19624 72355 lineto
+19698 72426 lineto
+19758 72510 lineto
+19799 72603 lineto
+19800 72610 lineto
+19832 72530 lineto
+19887 72443 lineto
+19958 72369 lineto
+20000 72341 lineto
+20000 72340 lineto
+poly1
+100 setlinewidth
+newpath
+20000 72340 moveto
+19998 72338 lineto
+19995 72335 lineto
+19992 72332 lineto
+19990 72330 lineto
+17780 70120 lineto
+16850 70120 lineto
+16850 70180 lineto
+16848 70180 lineto
+16850 70182 lineto
+16850 70184 lineto
+16841 70232 lineto
+16822 70277 lineto
+16795 70318 lineto
+16760 70353 lineto
+16720 70381 lineto
+16675 70400 lineto
+16627 70410 lineto
+16578 70410 lineto
+16490 70410 lineto
+16620 70540 lineto
+17197 70540 lineto
+17200 70540 lineto
+17215 70542 lineto
+17253 70545 lineto
+17256 70546 lineto
+17308 70561 lineto
+17308 70562 lineto
+17311 70562 lineto
+17358 70587 lineto
+17360 70588 lineto
+17386 70610 lineto
+17402 70622 lineto
+17404 70624 lineto
+17405 70625 lineto
+18020 71240 lineto
+18597 71240 lineto
+18600 71240 lineto
+18615 71242 lineto
+18653 71245 lineto
+18656 71246 lineto
+18708 71261 lineto
+18708 71262 lineto
+18711 71262 lineto
+18758 71287 lineto
+18760 71288 lineto
+18786 71310 lineto
+18802 71322 lineto
+18804 71324 lineto
+18805 71325 lineto
+19403 71923 lineto
+19405 71925 lineto
+19416 71939 lineto
+19439 71966 lineto
+19440 71968 lineto
+19467 72016 lineto
+19467 72019 lineto
+19468 72019 lineto
+19469 72024 lineto
+19484 72070 lineto
+19484 72072 lineto
+19490 72126 lineto
+19490 72128 lineto
+19490 72130 lineto
+19490 72282 lineto
+19537 72300 lineto
+19624 72355 lineto
+19698 72426 lineto
+19758 72510 lineto
+19799 72603 lineto
+19800 72610 lineto
+19832 72530 lineto
+19887 72443 lineto
+19958 72369 lineto
+20000 72341 lineto
+20000 72340 lineto
+poly0
+60 setlinewidth
+newpath
+22550 64433 moveto
+22546 64391 lineto
+22535 64353 lineto
+22516 64319 lineto
+22491 64289 lineto
+22461 64264 lineto
+22449 64258 lineto
+22449 71703 lineto
+22421 71847 lineto
+22365 71983 lineto
+22283 72105 lineto
+22180 72210 lineto
+22058 72292 lineto
+21923 72349 lineto
+21779 72378 lineto
+21632 72379 lineto
+21488 72352 lineto
+21352 72297 lineto
+21229 72217 lineto
+21124 72114 lineto
+21041 71993 lineto
+20983 71858 lineto
+20952 71714 lineto
+20950 71567 lineto
+20976 71423 lineto
+21030 71286 lineto
+21110 71163 lineto
+21212 71057 lineto
+21332 70973 lineto
+21467 70914 lineto
+21610 70883 lineto
+21757 70880 lineto
+21902 70905 lineto
+22039 70958 lineto
+22163 71037 lineto
+22269 71138 lineto
+22354 71258 lineto
+22414 71392 lineto
+22447 71535 lineto
+22449 71703 lineto
+22449 64258 lineto
+22427 64245 lineto
+22389 64234 lineto
+22347 64230 lineto
+19170 64230 lineto
+19196 64256 lineto
+19237 64247 lineto
+19340 64245 lineto
+19441 64263 lineto
+19537 64300 lineto
+19624 64355 lineto
+19698 64426 lineto
+19758 64510 lineto
+19775 64549 lineto
+19775 64471 lineto
+19784 64423 lineto
+19803 64378 lineto
+19830 64337 lineto
+19865 64302 lineto
+19905 64274 lineto
+19950 64255 lineto
+19998 64245 lineto
+20047 64245 lineto
+20599 64245 lineto
+20647 64254 lineto
+20692 64273 lineto
+20733 64300 lineto
+20768 64335 lineto
+20796 64375 lineto
+20815 64420 lineto
+20825 64468 lineto
+20825 64517 lineto
+20825 65069 lineto
+20816 65117 lineto
+20797 65162 lineto
+20770 65203 lineto
+20735 65238 lineto
+20695 65266 lineto
+20650 65285 lineto
+20602 65295 lineto
+20553 65295 lineto
+20001 65295 lineto
+19953 65286 lineto
+19908 65267 lineto
+19867 65240 lineto
+19832 65205 lineto
+19804 65165 lineto
+19785 65120 lineto
+19775 65072 lineto
+19775 65023 lineto
+19775 64993 lineto
+19765 65017 lineto
+19708 65102 lineto
+19636 65175 lineto
+19551 65233 lineto
+19456 65273 lineto
+19355 65294 lineto
+19253 65294 lineto
+19152 65275 lineto
+19056 65237 lineto
+18970 65181 lineto
+18897 65109 lineto
+18839 65024 lineto
+18799 64934 lineto
+18765 65017 lineto
+18708 65102 lineto
+18636 65175 lineto
+18551 65233 lineto
+18456 65273 lineto
+18355 65294 lineto
+18253 65294 lineto
+18196 65284 lineto
+17747 65733 lineto
+17745 65735 lineto
+17737 65742 lineto
+17704 65769 lineto
+17654 65797 lineto
+17651 65798 lineto
+17646 65800 lineto
+17600 65814 lineto
+17544 65820 lineto
+17541 65820 lineto
+17540 65820 lineto
+17320 65820 lineto
+16190 66950 lineto
+16190 67220 lineto
+16224 67251 lineto
+16271 67319 lineto
+16305 67396 lineto
+16317 67450 lineto
+16370 67450 lineto
+16675 67145 lineto
+16674 67094 lineto
+16690 67012 lineto
+16720 66934 lineto
+16766 66864 lineto
+16823 66805 lineto
+16892 66757 lineto
+16968 66724 lineto
+17050 66706 lineto
+17133 66704 lineto
+17215 66719 lineto
+17293 66749 lineto
+17363 66794 lineto
+17424 66851 lineto
+17471 66919 lineto
+17505 66996 lineto
+17524 67077 lineto
+17525 67172 lineto
+17509 67254 lineto
+17477 67331 lineto
+17431 67400 lineto
+17372 67459 lineto
+17303 67506 lineto
+17226 67538 lineto
+17144 67555 lineto
+17085 67555 lineto
+16900 67740 lineto
+17697 67740 lineto
+17700 67740 lineto
+17715 67742 lineto
+17753 67745 lineto
+17756 67746 lineto
+17808 67761 lineto
+17808 67762 lineto
+17811 67762 lineto
+17858 67787 lineto
+17860 67788 lineto
+17880 67806 lineto
+17881 67806 lineto
+17933 67804 lineto
+18015 67819 lineto
+18093 67849 lineto
+18163 67894 lineto
+18224 67951 lineto
+18271 68019 lineto
+18305 68096 lineto
+18324 68177 lineto
+18324 68240 lineto
+19497 68240 lineto
+19500 68240 lineto
+19515 68242 lineto
+19553 68245 lineto
+19556 68246 lineto
+19608 68261 lineto
+19608 68262 lineto
+19611 68262 lineto
+19658 68287 lineto
+19660 68288 lineto
+19686 68310 lineto
+19702 68322 lineto
+19704 68324 lineto
+19705 68325 lineto
+19885 68506 lineto
+19933 68504 lineto
+20015 68519 lineto
+20093 68549 lineto
+20163 68594 lineto
+20224 68651 lineto
+20271 68719 lineto
+20305 68796 lineto
+20324 68877 lineto
+20325 68972 lineto
+20309 69054 lineto
+20277 69131 lineto
+20231 69200 lineto
+20172 69259 lineto
+20103 69306 lineto
+20026 69338 lineto
+19944 69355 lineto
+19861 69355 lineto
+19779 69340 lineto
+19702 69308 lineto
+19632 69263 lineto
+19573 69204 lineto
+19526 69135 lineto
+19493 69059 lineto
+19476 68977 lineto
+19474 68915 lineto
+19379 68820 lineto
+17420 68820 lineto
+17237 69003 lineto
+17235 69005 lineto
+17227 69012 lineto
+17194 69039 lineto
+17144 69067 lineto
+17141 69068 lineto
+17136 69070 lineto
+17090 69084 lineto
+17034 69090 lineto
+17031 69090 lineto
+17030 69090 lineto
+16850 69090 lineto
+16850 69164 lineto
+16845 69190 lineto
+16850 69213 lineto
+16850 69262 lineto
+16850 69424 lineto
+16846 69445 lineto
+16850 69463 lineto
+16850 69512 lineto
+16850 69540 lineto
+17897 69540 lineto
+17900 69540 lineto
+17915 69542 lineto
+17953 69545 lineto
+17956 69546 lineto
+18008 69561 lineto
+18008 69562 lineto
+18011 69562 lineto
+18058 69587 lineto
+18060 69588 lineto
+18086 69610 lineto
+18102 69622 lineto
+18104 69624 lineto
+18105 69625 lineto
+20397 71917 lineto
+20400 71920 lineto
+20405 71925 lineto
+20503 72023 lineto
+20505 72025 lineto
+20516 72039 lineto
+20539 72066 lineto
+20540 72068 lineto
+20567 72116 lineto
+20567 72119 lineto
+20568 72119 lineto
+20569 72124 lineto
+20584 72170 lineto
+20584 72172 lineto
+20590 72226 lineto
+20590 72228 lineto
+20590 72230 lineto
+20590 72334 lineto
+20624 72355 lineto
+20698 72426 lineto
+20758 72510 lineto
+20799 72603 lineto
+20822 72704 lineto
+20824 72821 lineto
+20804 72922 lineto
+20765 73017 lineto
+20708 73102 lineto
+20636 73175 lineto
+20551 73233 lineto
+20456 73273 lineto
+20355 73294 lineto
+20253 73294 lineto
+20152 73275 lineto
+20056 73237 lineto
+19970 73181 lineto
+19897 73109 lineto
+19839 73024 lineto
+19799 72934 lineto
+19765 73017 lineto
+19708 73102 lineto
+19636 73175 lineto
+19551 73233 lineto
+19456 73273 lineto
+19355 73294 lineto
+19253 73294 lineto
+19152 73275 lineto
+19056 73237 lineto
+18970 73181 lineto
+18897 73109 lineto
+18839 73024 lineto
+18799 72934 lineto
+18765 73017 lineto
+18708 73102 lineto
+18636 73175 lineto
+18551 73233 lineto
+18456 73273 lineto
+18355 73294 lineto
+18253 73294 lineto
+18152 73275 lineto
+18056 73237 lineto
+17970 73181 lineto
+17897 73109 lineto
+17839 73024 lineto
+17799 72934 lineto
+17765 73017 lineto
+17708 73102 lineto
+17636 73175 lineto
+17551 73233 lineto
+17456 73273 lineto
+17355 73294 lineto
+17253 73294 lineto
+17152 73275 lineto
+17056 73237 lineto
+16970 73181 lineto
+16897 73109 lineto
+16839 73024 lineto
+16798 72931 lineto
+16774 72996 lineto
+16752 73037 lineto
+16661 73060 lineto
+16590 72989 lineto
+16590 73131 lineto
+16567 73222 lineto
+16474 73265 lineto
+16374 73290 lineto
+16272 73295 lineto
+16170 73279 lineto
+16074 73244 lineto
+16033 73222 lineto
+16010 73131 lineto
+16300 72841 lineto
+16590 73131 lineto
+16590 72989 lineto
+16371 72770 lineto
+16661 72480 lineto
+16752 72503 lineto
+16795 72596 lineto
+16799 72613 lineto
+16832 72530 lineto
+16887 72443 lineto
+16910 72420 lineto
+16910 72250 lineto
+16590 71930 lineto
+16590 72409 lineto
+16300 72699 lineto
+16010 72409 lineto
+16033 72318 lineto
+16126 72275 lineto
+16226 72250 lineto
+16328 72245 lineto
+16430 72261 lineto
+16526 72296 lineto
+16567 72318 lineto
+16590 72409 lineto
+16590 71930 lineto
+15297 70637 lineto
+15295 70635 lineto
+15288 70628 lineto
+15261 70594 lineto
+15233 70544 lineto
+15232 70542 lineto
+15232 70541 lineto
+15230 70537 lineto
+15216 70490 lineto
+15210 70434 lineto
+15210 70431 lineto
+15210 70430 lineto
+15210 69433 lineto
+15210 69430 lineto
+15211 69415 lineto
+15215 69377 lineto
+15216 69374 lineto
+15231 69322 lineto
+15232 69319 lineto
+15257 69272 lineto
+15258 69270 lineto
+15279 69244 lineto
+15292 69228 lineto
+15294 69226 lineto
+15295 69225 lineto
+15430 69090 lineto
+15273 69090 lineto
+15270 69090 lineto
+15255 69089 lineto
+15217 69085 lineto
+15162 69069 lineto
+15161 69069 lineto
+15159 69068 lineto
+15133 69055 lineto
+15111 69043 lineto
+15067 69008 lineto
+15065 69005 lineto
+14897 68837 lineto
+14895 68835 lineto
+14888 68828 lineto
+14861 68794 lineto
+14833 68744 lineto
+14832 68742 lineto
+14832 68741 lineto
+14830 68737 lineto
+14816 68690 lineto
+14810 68634 lineto
+14810 68631 lineto
+14810 68630 lineto
+14810 68455 lineto
+14761 68455 lineto
+14750 68453 lineto
+14750 68492 lineto
+14750 68654 lineto
+14746 68675 lineto
+14750 68693 lineto
+14750 68742 lineto
+14750 68904 lineto
+14745 68930 lineto
+14750 68953 lineto
+14750 69002 lineto
+14750 69164 lineto
+14745 69190 lineto
+14750 69213 lineto
+14750 69262 lineto
+14750 69424 lineto
+14746 69445 lineto
+14750 69463 lineto
+14750 69512 lineto
+14750 69674 lineto
+14745 69700 lineto
+14750 69723 lineto
+14750 69772 lineto
+14750 69934 lineto
+14746 69955 lineto
+14750 69973 lineto
+14750 70022 lineto
+14750 70184 lineto
+14749 70188 lineto
+14771 70219 lineto
+14805 70296 lineto
+14824 70377 lineto
+14824 70423 lineto
+14893 70449 lineto
+14963 70494 lineto
+15024 70551 lineto
+15071 70619 lineto
+15105 70696 lineto
+15124 70777 lineto
+15125 70872 lineto
+15109 70954 lineto
+15077 71031 lineto
+15031 71100 lineto
+14990 71141 lineto
+14990 71326 lineto
+14990 71330 lineto
+14990 72050 lineto
+15196 72257 lineto
+15237 72247 lineto
+15340 72245 lineto
+15441 72263 lineto
+15537 72300 lineto
+15624 72355 lineto
+15698 72426 lineto
+15758 72510 lineto
+15799 72603 lineto
+15801 72613 lineto
+15826 72544 lineto
+15848 72503 lineto
+15939 72480 lineto
+16229 72770 lineto
+15939 73060 lineto
+15848 73037 lineto
+15805 72944 lineto
+15801 72929 lineto
+15765 73017 lineto
+15708 73102 lineto
+15636 73175 lineto
+15551 73233 lineto
+15456 73273 lineto
+15355 73294 lineto
+15253 73294 lineto
+15152 73275 lineto
+15056 73237 lineto
+14970 73181 lineto
+14897 73109 lineto
+14839 73024 lineto
+14825 72992 lineto
+14825 73069 lineto
+14816 73117 lineto
+14797 73162 lineto
+14770 73203 lineto
+14735 73238 lineto
+14695 73266 lineto
+14650 73285 lineto
+14602 73295 lineto
+14553 73295 lineto
+14001 73295 lineto
+13953 73286 lineto
+13908 73267 lineto
+13867 73240 lineto
+13832 73205 lineto
+13804 73165 lineto
+13785 73120 lineto
+13775 73072 lineto
+13775 73023 lineto
+13775 72471 lineto
+13784 72423 lineto
+13803 72378 lineto
+13830 72337 lineto
+13865 72302 lineto
+13905 72274 lineto
+13950 72255 lineto
+13998 72245 lineto
+14047 72245 lineto
+14420 72245 lineto
+14416 72230 lineto
+14410 72174 lineto
+14410 72171 lineto
+14410 72170 lineto
+14410 71334 lineto
+14410 71330 lineto
+14410 71141 lineto
+14373 71104 lineto
+14326 71035 lineto
+14293 70959 lineto
+14276 70877 lineto
+14275 70839 lineto
+14202 70808 lineto
+14132 70763 lineto
+14073 70704 lineto
+14026 70635 lineto
+13993 70559 lineto
+13976 70477 lineto
+13975 70472 lineto
+13975 70471 lineto
+13975 70469 lineto
+13971 70458 lineto
+13970 70454 lineto
+13966 70440 lineto
+13963 70415 lineto
+13962 70408 lineto
+13961 70408 lineto
+13928 70401 lineto
+13883 70382 lineto
+13842 70355 lineto
+13807 70320 lineto
+13779 70280 lineto
+13760 70235 lineto
+13750 70187 lineto
+13750 70138 lineto
+13750 70120 lineto
+13620 70120 lineto
+13033 70707 lineto
+13033 71006 lineto
+13042 71006 lineto
+13090 71015 lineto
+13135 71034 lineto
+13176 71061 lineto
+13211 71096 lineto
+13239 71136 lineto
+13258 71181 lineto
+13268 71229 lineto
+13268 71278 lineto
+13268 72066 lineto
+13259 72114 lineto
+13240 72159 lineto
+13213 72200 lineto
+13178 72235 lineto
+13138 72263 lineto
+13093 72282 lineto
+13045 72292 lineto
+12996 72292 lineto
+12444 72292 lineto
+12396 72283 lineto
+12351 72264 lineto
+12349 72264 lineto
+12305 72282 lineto
+12257 72292 lineto
+12208 72292 lineto
+11656 72292 lineto
+11608 72283 lineto
+11563 72264 lineto
+11562 72264 lineto
+11518 72282 lineto
+11470 72292 lineto
+11421 72292 lineto
+10869 72292 lineto
+10821 72283 lineto
+10784 72268 lineto
+10750 72282 lineto
+10702 72292 lineto
+10653 72292 lineto
+10101 72292 lineto
+10053 72283 lineto
+10016 72268 lineto
+9982 72282 lineto
+9934 72292 lineto
+9885 72292 lineto
+9744 72292 lineto
+9682 72230 lineto
+9682 71749 lineto
+9682 71699 lineto
+9682 71599 lineto
+9682 71549 lineto
+9682 71068 lineto
+9744 71006 lineto
+9885 71006 lineto
+9934 71006 lineto
+9982 71016 lineto
+10016 71031 lineto
+10050 71016 lineto
+10098 71006 lineto
+10138 71006 lineto
+10139 71006 lineto
+10157 70972 lineto
+10158 70970 lineto
+10179 70944 lineto
+10192 70928 lineto
+10194 70926 lineto
+10195 70925 lineto
+10393 70727 lineto
+10394 70726 lineto
+10402 70719 lineto
+10436 70691 lineto
+10438 70690 lineto
+10486 70663 lineto
+10488 70663 lineto
+10540 70646 lineto
+10541 70646 lineto
+10596 70640 lineto
+10600 70640 lineto
+11080 70640 lineto
+12630 69090 lineto
+11473 69090 lineto
+11470 69090 lineto
+11455 69089 lineto
+11417 69085 lineto
+11362 69069 lineto
+11361 69069 lineto
+11359 69068 lineto
+11333 69055 lineto
+11311 69043 lineto
+11268 69008 lineto
+11266 69006 lineto
+11265 69005 lineto
+8642 66382 lineto
+8640 66380 lineto
+8633 66373 lineto
+8606 66339 lineto
+8578 66289 lineto
+8577 66287 lineto
+8577 66286 lineto
+8575 66282 lineto
+8561 66235 lineto
+8555 66179 lineto
+8555 66176 lineto
+8555 66175 lineto
+8555 66032 lineto
+8546 66032 lineto
+8498 66023 lineto
+8453 66004 lineto
+8451 66004 lineto
+8407 66022 lineto
+8359 66032 lineto
+8310 66032 lineto
+8169 66032 lineto
+8107 65970 lineto
+8107 65489 lineto
+8107 65439 lineto
+8107 65339 lineto
+8107 65289 lineto
+8107 64808 lineto
+8169 64746 lineto
+8310 64746 lineto
+8359 64746 lineto
+8407 64756 lineto
+8450 64775 lineto
+8451 64775 lineto
+8452 64775 lineto
+8495 64756 lineto
+8543 64746 lineto
+8592 64746 lineto
+9144 64746 lineto
+9192 64755 lineto
+9237 64774 lineto
+9237 64775 lineto
+9282 64756 lineto
+9330 64746 lineto
+9379 64746 lineto
+9931 64746 lineto
+9979 64755 lineto
+10015 64771 lineto
+10050 64756 lineto
+10098 64746 lineto
+10147 64746 lineto
+10699 64746 lineto
+10747 64755 lineto
+10783 64771 lineto
+10818 64756 lineto
+10866 64746 lineto
+10915 64746 lineto
+11467 64746 lineto
+11515 64755 lineto
+11560 64774 lineto
+11560 64775 lineto
+11605 64756 lineto
+11653 64746 lineto
+11696 64746 lineto
+11712 64717 lineto
+11713 64715 lineto
+11734 64689 lineto
+11747 64673 lineto
+11749 64671 lineto
+11750 64670 lineto
+12190 64230 lineto
+8007 64230 lineto
+8007 64808 lineto
+8007 65339 lineto
+8007 65439 lineto
+8007 65970 lineto
+7945 66032 lineto
+7804 66032 lineto
+7755 66032 lineto
+7707 66022 lineto
+7662 66003 lineto
+7622 65975 lineto
+7587 65940 lineto
+7560 65899 lineto
+7541 65854 lineto
+7532 65806 lineto
+7532 65501 lineto
+7594 65439 lineto
+8007 65439 lineto
+8007 65339 lineto
+7594 65339 lineto
+7532 65277 lineto
+7532 64972 lineto
+7541 64924 lineto
+7560 64879 lineto
+7587 64838 lineto
+7622 64803 lineto
+7662 64775 lineto
+7707 64756 lineto
+7755 64746 lineto
+7804 64746 lineto
+7945 64746 lineto
+8007 64808 lineto
+8007 64230 lineto
+7054 64230 lineto
+7054 70245 lineto
+6800 70499 lineto
+6546 70245 lineto
+6563 70159 lineto
+6648 70121 lineto
+6738 70100 lineto
+6831 70096 lineto
+6922 70111 lineto
+7009 70144 lineto
+7037 70159 lineto
+7054 70245 lineto
+7054 64230 lineto
+6253 64230 lineto
+6211 64234 lineto
+6173 64245 lineto
+6139 64264 lineto
+6109 64289 lineto
+6084 64319 lineto
+6065 64353 lineto
+6054 64391 lineto
+6050 64433 lineto
+6050 70317 lineto
+6054 70359 lineto
+6065 70397 lineto
+6084 70431 lineto
+6109 70461 lineto
+6139 70486 lineto
+6173 70505 lineto
+6211 70516 lineto
+6253 70520 lineto
+6329 70520 lineto
+6341 70448 lineto
+6374 70361 lineto
+6389 70333 lineto
+6475 70316 lineto
+6679 70520 lineto
+6921 70520 lineto
+7125 70316 lineto
+7211 70333 lineto
+7249 70418 lineto
+7270 70508 lineto
+7270 70520 lineto
+8153 70520 lineto
+8209 70526 lineto
+8265 70543 lineto
+8317 70570 lineto
+8363 70607 lineto
+8400 70653 lineto
+8427 70705 lineto
+8444 70761 lineto
+8450 70817 lineto
+8450 71035 lineto
+8495 71016 lineto
+8543 71006 lineto
+8592 71006 lineto
+9144 71006 lineto
+9192 71015 lineto
+9237 71034 lineto
+9237 71035 lineto
+9282 71016 lineto
+9330 71006 lineto
+9379 71006 lineto
+9520 71006 lineto
+9582 71068 lineto
+9582 71549 lineto
+9582 71599 lineto
+9582 71699 lineto
+9582 71749 lineto
+9582 72230 lineto
+9520 72292 lineto
+9424 72292 lineto
+9425 72372 lineto
+9409 72454 lineto
+9377 72531 lineto
+9331 72600 lineto
+9272 72659 lineto
+9203 72706 lineto
+9126 72738 lineto
+9044 72755 lineto
+8961 72755 lineto
+8879 72740 lineto
+8802 72708 lineto
+8732 72663 lineto
+8673 72604 lineto
+8626 72535 lineto
+8593 72459 lineto
+8576 72377 lineto
+8574 72294 lineto
+8574 72292 lineto
+8546 72292 lineto
+8498 72283 lineto
+8453 72264 lineto
+8451 72264 lineto
+8450 72264 lineto
+8450 73127 lineto
+8454 73169 lineto
+8465 73207 lineto
+8484 73241 lineto
+8509 73271 lineto
+8539 73296 lineto
+8573 73315 lineto
+8611 73326 lineto
+8653 73330 lineto
+22347 73330 lineto
+22389 73326 lineto
+22427 73315 lineto
+22461 73296 lineto
+22491 73271 lineto
+22516 73241 lineto
+22535 73207 lineto
+22546 73169 lineto
+22550 73127 lineto
+22550 64433 lineto
+poly1
+100 setlinewidth
+newpath
+22550 64433 moveto
+22546 64391 lineto
+22535 64353 lineto
+22516 64319 lineto
+22491 64289 lineto
+22461 64264 lineto
+22449 64258 lineto
+22449 71703 lineto
+22421 71847 lineto
+22365 71983 lineto
+22283 72105 lineto
+22180 72210 lineto
+22058 72292 lineto
+21923 72349 lineto
+21779 72378 lineto
+21632 72379 lineto
+21488 72352 lineto
+21352 72297 lineto
+21229 72217 lineto
+21124 72114 lineto
+21041 71993 lineto
+20983 71858 lineto
+20952 71714 lineto
+20950 71567 lineto
+20976 71423 lineto
+21030 71286 lineto
+21110 71163 lineto
+21212 71057 lineto
+21332 70973 lineto
+21467 70914 lineto
+21610 70883 lineto
+21757 70880 lineto
+21902 70905 lineto
+22039 70958 lineto
+22163 71037 lineto
+22269 71138 lineto
+22354 71258 lineto
+22414 71392 lineto
+22447 71535 lineto
+22449 71703 lineto
+22449 64258 lineto
+22427 64245 lineto
+22389 64234 lineto
+22347 64230 lineto
+19170 64230 lineto
+19196 64256 lineto
+19237 64247 lineto
+19340 64245 lineto
+19441 64263 lineto
+19537 64300 lineto
+19624 64355 lineto
+19698 64426 lineto
+19758 64510 lineto
+19775 64549 lineto
+19775 64471 lineto
+19784 64423 lineto
+19803 64378 lineto
+19830 64337 lineto
+19865 64302 lineto
+19905 64274 lineto
+19950 64255 lineto
+19998 64245 lineto
+20047 64245 lineto
+20599 64245 lineto
+20647 64254 lineto
+20692 64273 lineto
+20733 64300 lineto
+20768 64335 lineto
+20796 64375 lineto
+20815 64420 lineto
+20825 64468 lineto
+20825 64517 lineto
+20825 65069 lineto
+20816 65117 lineto
+20797 65162 lineto
+20770 65203 lineto
+20735 65238 lineto
+20695 65266 lineto
+20650 65285 lineto
+20602 65295 lineto
+20553 65295 lineto
+20001 65295 lineto
+19953 65286 lineto
+19908 65267 lineto
+19867 65240 lineto
+19832 65205 lineto
+19804 65165 lineto
+19785 65120 lineto
+19775 65072 lineto
+19775 65023 lineto
+19775 64993 lineto
+19765 65017 lineto
+19708 65102 lineto
+19636 65175 lineto
+19551 65233 lineto
+19456 65273 lineto
+19355 65294 lineto
+19253 65294 lineto
+19152 65275 lineto
+19056 65237 lineto
+18970 65181 lineto
+18897 65109 lineto
+18839 65024 lineto
+18799 64934 lineto
+18765 65017 lineto
+18708 65102 lineto
+18636 65175 lineto
+18551 65233 lineto
+18456 65273 lineto
+18355 65294 lineto
+18253 65294 lineto
+18196 65284 lineto
+17747 65733 lineto
+17745 65735 lineto
+17737 65742 lineto
+17704 65769 lineto
+17654 65797 lineto
+17651 65798 lineto
+17646 65800 lineto
+17600 65814 lineto
+17544 65820 lineto
+17541 65820 lineto
+17540 65820 lineto
+17320 65820 lineto
+16190 66950 lineto
+16190 67220 lineto
+16224 67251 lineto
+16271 67319 lineto
+16305 67396 lineto
+16317 67450 lineto
+16370 67450 lineto
+16675 67145 lineto
+16674 67094 lineto
+16690 67012 lineto
+16720 66934 lineto
+16766 66864 lineto
+16823 66805 lineto
+16892 66757 lineto
+16968 66724 lineto
+17050 66706 lineto
+17133 66704 lineto
+17215 66719 lineto
+17293 66749 lineto
+17363 66794 lineto
+17424 66851 lineto
+17471 66919 lineto
+17505 66996 lineto
+17524 67077 lineto
+17525 67172 lineto
+17509 67254 lineto
+17477 67331 lineto
+17431 67400 lineto
+17372 67459 lineto
+17303 67506 lineto
+17226 67538 lineto
+17144 67555 lineto
+17085 67555 lineto
+16900 67740 lineto
+17697 67740 lineto
+17700 67740 lineto
+17715 67742 lineto
+17753 67745 lineto
+17756 67746 lineto
+17808 67761 lineto
+17808 67762 lineto
+17811 67762 lineto
+17858 67787 lineto
+17860 67788 lineto
+17880 67806 lineto
+17881 67806 lineto
+17933 67804 lineto
+18015 67819 lineto
+18093 67849 lineto
+18163 67894 lineto
+18224 67951 lineto
+18271 68019 lineto
+18305 68096 lineto
+18324 68177 lineto
+18324 68240 lineto
+19497 68240 lineto
+19500 68240 lineto
+19515 68242 lineto
+19553 68245 lineto
+19556 68246 lineto
+19608 68261 lineto
+19608 68262 lineto
+19611 68262 lineto
+19658 68287 lineto
+19660 68288 lineto
+19686 68310 lineto
+19702 68322 lineto
+19704 68324 lineto
+19705 68325 lineto
+19885 68506 lineto
+19933 68504 lineto
+20015 68519 lineto
+20093 68549 lineto
+20163 68594 lineto
+20224 68651 lineto
+20271 68719 lineto
+20305 68796 lineto
+20324 68877 lineto
+20325 68972 lineto
+20309 69054 lineto
+20277 69131 lineto
+20231 69200 lineto
+20172 69259 lineto
+20103 69306 lineto
+20026 69338 lineto
+19944 69355 lineto
+19861 69355 lineto
+19779 69340 lineto
+19702 69308 lineto
+19632 69263 lineto
+19573 69204 lineto
+19526 69135 lineto
+19493 69059 lineto
+19476 68977 lineto
+19474 68915 lineto
+19379 68820 lineto
+17420 68820 lineto
+17237 69003 lineto
+17235 69005 lineto
+17227 69012 lineto
+17194 69039 lineto
+17144 69067 lineto
+17141 69068 lineto
+17136 69070 lineto
+17090 69084 lineto
+17034 69090 lineto
+17031 69090 lineto
+17030 69090 lineto
+16850 69090 lineto
+16850 69164 lineto
+16845 69190 lineto
+16850 69213 lineto
+16850 69262 lineto
+16850 69424 lineto
+16846 69445 lineto
+16850 69463 lineto
+16850 69512 lineto
+16850 69540 lineto
+17897 69540 lineto
+17900 69540 lineto
+17915 69542 lineto
+17953 69545 lineto
+17956 69546 lineto
+18008 69561 lineto
+18008 69562 lineto
+18011 69562 lineto
+18058 69587 lineto
+18060 69588 lineto
+18086 69610 lineto
+18102 69622 lineto
+18104 69624 lineto
+18105 69625 lineto
+20397 71917 lineto
+20400 71920 lineto
+20405 71925 lineto
+20503 72023 lineto
+20505 72025 lineto
+20516 72039 lineto
+20539 72066 lineto
+20540 72068 lineto
+20567 72116 lineto
+20567 72119 lineto
+20568 72119 lineto
+20569 72124 lineto
+20584 72170 lineto
+20584 72172 lineto
+20590 72226 lineto
+20590 72228 lineto
+20590 72230 lineto
+20590 72334 lineto
+20624 72355 lineto
+20698 72426 lineto
+20758 72510 lineto
+20799 72603 lineto
+20822 72704 lineto
+20824 72821 lineto
+20804 72922 lineto
+20765 73017 lineto
+20708 73102 lineto
+20636 73175 lineto
+20551 73233 lineto
+20456 73273 lineto
+20355 73294 lineto
+20253 73294 lineto
+20152 73275 lineto
+20056 73237 lineto
+19970 73181 lineto
+19897 73109 lineto
+19839 73024 lineto
+19799 72934 lineto
+19765 73017 lineto
+19708 73102 lineto
+19636 73175 lineto
+19551 73233 lineto
+19456 73273 lineto
+19355 73294 lineto
+19253 73294 lineto
+19152 73275 lineto
+19056 73237 lineto
+18970 73181 lineto
+18897 73109 lineto
+18839 73024 lineto
+18799 72934 lineto
+18765 73017 lineto
+18708 73102 lineto
+18636 73175 lineto
+18551 73233 lineto
+18456 73273 lineto
+18355 73294 lineto
+18253 73294 lineto
+18152 73275 lineto
+18056 73237 lineto
+17970 73181 lineto
+17897 73109 lineto
+17839 73024 lineto
+17799 72934 lineto
+17765 73017 lineto
+17708 73102 lineto
+17636 73175 lineto
+17551 73233 lineto
+17456 73273 lineto
+17355 73294 lineto
+17253 73294 lineto
+17152 73275 lineto
+17056 73237 lineto
+16970 73181 lineto
+16897 73109 lineto
+16839 73024 lineto
+16798 72931 lineto
+16774 72996 lineto
+16752 73037 lineto
+16661 73060 lineto
+16590 72989 lineto
+16590 73131 lineto
+16567 73222 lineto
+16474 73265 lineto
+16374 73290 lineto
+16272 73295 lineto
+16170 73279 lineto
+16074 73244 lineto
+16033 73222 lineto
+16010 73131 lineto
+16300 72841 lineto
+16590 73131 lineto
+16590 72989 lineto
+16371 72770 lineto
+16661 72480 lineto
+16752 72503 lineto
+16795 72596 lineto
+16799 72613 lineto
+16832 72530 lineto
+16887 72443 lineto
+16910 72420 lineto
+16910 72250 lineto
+16590 71930 lineto
+16590 72409 lineto
+16300 72699 lineto
+16010 72409 lineto
+16033 72318 lineto
+16126 72275 lineto
+16226 72250 lineto
+16328 72245 lineto
+16430 72261 lineto
+16526 72296 lineto
+16567 72318 lineto
+16590 72409 lineto
+16590 71930 lineto
+15297 70637 lineto
+15295 70635 lineto
+15288 70628 lineto
+15261 70594 lineto
+15233 70544 lineto
+15232 70542 lineto
+15232 70541 lineto
+15230 70537 lineto
+15216 70490 lineto
+15210 70434 lineto
+15210 70431 lineto
+15210 70430 lineto
+15210 69433 lineto
+15210 69430 lineto
+15211 69415 lineto
+15215 69377 lineto
+15216 69374 lineto
+15231 69322 lineto
+15232 69319 lineto
+15257 69272 lineto
+15258 69270 lineto
+15279 69244 lineto
+15292 69228 lineto
+15294 69226 lineto
+15295 69225 lineto
+15430 69090 lineto
+15273 69090 lineto
+15270 69090 lineto
+15255 69089 lineto
+15217 69085 lineto
+15162 69069 lineto
+15161 69069 lineto
+15159 69068 lineto
+15133 69055 lineto
+15111 69043 lineto
+15067 69008 lineto
+15065 69005 lineto
+14897 68837 lineto
+14895 68835 lineto
+14888 68828 lineto
+14861 68794 lineto
+14833 68744 lineto
+14832 68742 lineto
+14832 68741 lineto
+14830 68737 lineto
+14816 68690 lineto
+14810 68634 lineto
+14810 68631 lineto
+14810 68630 lineto
+14810 68455 lineto
+14761 68455 lineto
+14750 68453 lineto
+14750 68492 lineto
+14750 68654 lineto
+14746 68675 lineto
+14750 68693 lineto
+14750 68742 lineto
+14750 68904 lineto
+14745 68930 lineto
+14750 68953 lineto
+14750 69002 lineto
+14750 69164 lineto
+14745 69190 lineto
+14750 69213 lineto
+14750 69262 lineto
+14750 69424 lineto
+14746 69445 lineto
+14750 69463 lineto
+14750 69512 lineto
+14750 69674 lineto
+14745 69700 lineto
+14750 69723 lineto
+14750 69772 lineto
+14750 69934 lineto
+14746 69955 lineto
+14750 69973 lineto
+14750 70022 lineto
+14750 70184 lineto
+14749 70188 lineto
+14771 70219 lineto
+14805 70296 lineto
+14824 70377 lineto
+14824 70423 lineto
+14893 70449 lineto
+14963 70494 lineto
+15024 70551 lineto
+15071 70619 lineto
+15105 70696 lineto
+15124 70777 lineto
+15125 70872 lineto
+15109 70954 lineto
+15077 71031 lineto
+15031 71100 lineto
+14990 71141 lineto
+14990 71326 lineto
+14990 71330 lineto
+14990 72050 lineto
+15196 72257 lineto
+15237 72247 lineto
+15340 72245 lineto
+15441 72263 lineto
+15537 72300 lineto
+15624 72355 lineto
+15698 72426 lineto
+15758 72510 lineto
+15799 72603 lineto
+15801 72613 lineto
+15826 72544 lineto
+15848 72503 lineto
+15939 72480 lineto
+16229 72770 lineto
+15939 73060 lineto
+15848 73037 lineto
+15805 72944 lineto
+15801 72929 lineto
+15765 73017 lineto
+15708 73102 lineto
+15636 73175 lineto
+15551 73233 lineto
+15456 73273 lineto
+15355 73294 lineto
+15253 73294 lineto
+15152 73275 lineto
+15056 73237 lineto
+14970 73181 lineto
+14897 73109 lineto
+14839 73024 lineto
+14825 72992 lineto
+14825 73069 lineto
+14816 73117 lineto
+14797 73162 lineto
+14770 73203 lineto
+14735 73238 lineto
+14695 73266 lineto
+14650 73285 lineto
+14602 73295 lineto
+14553 73295 lineto
+14001 73295 lineto
+13953 73286 lineto
+13908 73267 lineto
+13867 73240 lineto
+13832 73205 lineto
+13804 73165 lineto
+13785 73120 lineto
+13775 73072 lineto
+13775 73023 lineto
+13775 72471 lineto
+13784 72423 lineto
+13803 72378 lineto
+13830 72337 lineto
+13865 72302 lineto
+13905 72274 lineto
+13950 72255 lineto
+13998 72245 lineto
+14047 72245 lineto
+14420 72245 lineto
+14416 72230 lineto
+14410 72174 lineto
+14410 72171 lineto
+14410 72170 lineto
+14410 71334 lineto
+14410 71330 lineto
+14410 71141 lineto
+14373 71104 lineto
+14326 71035 lineto
+14293 70959 lineto
+14276 70877 lineto
+14275 70839 lineto
+14202 70808 lineto
+14132 70763 lineto
+14073 70704 lineto
+14026 70635 lineto
+13993 70559 lineto
+13976 70477 lineto
+13975 70472 lineto
+13975 70471 lineto
+13975 70469 lineto
+13971 70458 lineto
+13970 70454 lineto
+13966 70440 lineto
+13963 70415 lineto
+13962 70408 lineto
+13961 70408 lineto
+13928 70401 lineto
+13883 70382 lineto
+13842 70355 lineto
+13807 70320 lineto
+13779 70280 lineto
+13760 70235 lineto
+13750 70187 lineto
+13750 70138 lineto
+13750 70120 lineto
+13620 70120 lineto
+13033 70707 lineto
+13033 71006 lineto
+13042 71006 lineto
+13090 71015 lineto
+13135 71034 lineto
+13176 71061 lineto
+13211 71096 lineto
+13239 71136 lineto
+13258 71181 lineto
+13268 71229 lineto
+13268 71278 lineto
+13268 72066 lineto
+13259 72114 lineto
+13240 72159 lineto
+13213 72200 lineto
+13178 72235 lineto
+13138 72263 lineto
+13093 72282 lineto
+13045 72292 lineto
+12996 72292 lineto
+12444 72292 lineto
+12396 72283 lineto
+12351 72264 lineto
+12349 72264 lineto
+12305 72282 lineto
+12257 72292 lineto
+12208 72292 lineto
+11656 72292 lineto
+11608 72283 lineto
+11563 72264 lineto
+11562 72264 lineto
+11518 72282 lineto
+11470 72292 lineto
+11421 72292 lineto
+10869 72292 lineto
+10821 72283 lineto
+10784 72268 lineto
+10750 72282 lineto
+10702 72292 lineto
+10653 72292 lineto
+10101 72292 lineto
+10053 72283 lineto
+10016 72268 lineto
+9982 72282 lineto
+9934 72292 lineto
+9885 72292 lineto
+9744 72292 lineto
+9682 72230 lineto
+9682 71749 lineto
+9682 71699 lineto
+9682 71599 lineto
+9682 71549 lineto
+9682 71068 lineto
+9744 71006 lineto
+9885 71006 lineto
+9934 71006 lineto
+9982 71016 lineto
+10016 71031 lineto
+10050 71016 lineto
+10098 71006 lineto
+10138 71006 lineto
+10139 71006 lineto
+10157 70972 lineto
+10158 70970 lineto
+10179 70944 lineto
+10192 70928 lineto
+10194 70926 lineto
+10195 70925 lineto
+10393 70727 lineto
+10394 70726 lineto
+10402 70719 lineto
+10436 70691 lineto
+10438 70690 lineto
+10486 70663 lineto
+10488 70663 lineto
+10540 70646 lineto
+10541 70646 lineto
+10596 70640 lineto
+10600 70640 lineto
+11080 70640 lineto
+12630 69090 lineto
+11473 69090 lineto
+11470 69090 lineto
+11455 69089 lineto
+11417 69085 lineto
+11362 69069 lineto
+11361 69069 lineto
+11359 69068 lineto
+11333 69055 lineto
+11311 69043 lineto
+11268 69008 lineto
+11266 69006 lineto
+11265 69005 lineto
+8642 66382 lineto
+8640 66380 lineto
+8633 66373 lineto
+8606 66339 lineto
+8578 66289 lineto
+8577 66287 lineto
+8577 66286 lineto
+8575 66282 lineto
+8561 66235 lineto
+8555 66179 lineto
+8555 66176 lineto
+8555 66175 lineto
+8555 66032 lineto
+8546 66032 lineto
+8498 66023 lineto
+8453 66004 lineto
+8451 66004 lineto
+8407 66022 lineto
+8359 66032 lineto
+8310 66032 lineto
+8169 66032 lineto
+8107 65970 lineto
+8107 65489 lineto
+8107 65439 lineto
+8107 65339 lineto
+8107 65289 lineto
+8107 64808 lineto
+8169 64746 lineto
+8310 64746 lineto
+8359 64746 lineto
+8407 64756 lineto
+8450 64775 lineto
+8451 64775 lineto
+8452 64775 lineto
+8495 64756 lineto
+8543 64746 lineto
+8592 64746 lineto
+9144 64746 lineto
+9192 64755 lineto
+9237 64774 lineto
+9237 64775 lineto
+9282 64756 lineto
+9330 64746 lineto
+9379 64746 lineto
+9931 64746 lineto
+9979 64755 lineto
+10015 64771 lineto
+10050 64756 lineto
+10098 64746 lineto
+10147 64746 lineto
+10699 64746 lineto
+10747 64755 lineto
+10783 64771 lineto
+10818 64756 lineto
+10866 64746 lineto
+10915 64746 lineto
+11467 64746 lineto
+11515 64755 lineto
+11560 64774 lineto
+11560 64775 lineto
+11605 64756 lineto
+11653 64746 lineto
+11696 64746 lineto
+11712 64717 lineto
+11713 64715 lineto
+11734 64689 lineto
+11747 64673 lineto
+11749 64671 lineto
+11750 64670 lineto
+12190 64230 lineto
+8007 64230 lineto
+8007 64808 lineto
+8007 65339 lineto
+8007 65439 lineto
+8007 65970 lineto
+7945 66032 lineto
+7804 66032 lineto
+7755 66032 lineto
+7707 66022 lineto
+7662 66003 lineto
+7622 65975 lineto
+7587 65940 lineto
+7560 65899 lineto
+7541 65854 lineto
+7532 65806 lineto
+7532 65501 lineto
+7594 65439 lineto
+8007 65439 lineto
+8007 65339 lineto
+7594 65339 lineto
+7532 65277 lineto
+7532 64972 lineto
+7541 64924 lineto
+7560 64879 lineto
+7587 64838 lineto
+7622 64803 lineto
+7662 64775 lineto
+7707 64756 lineto
+7755 64746 lineto
+7804 64746 lineto
+7945 64746 lineto
+8007 64808 lineto
+8007 64230 lineto
+7054 64230 lineto
+7054 70245 lineto
+6800 70499 lineto
+6546 70245 lineto
+6563 70159 lineto
+6648 70121 lineto
+6738 70100 lineto
+6831 70096 lineto
+6922 70111 lineto
+7009 70144 lineto
+7037 70159 lineto
+7054 70245 lineto
+7054 64230 lineto
+6253 64230 lineto
+6211 64234 lineto
+6173 64245 lineto
+6139 64264 lineto
+6109 64289 lineto
+6084 64319 lineto
+6065 64353 lineto
+6054 64391 lineto
+6050 64433 lineto
+6050 70317 lineto
+6054 70359 lineto
+6065 70397 lineto
+6084 70431 lineto
+6109 70461 lineto
+6139 70486 lineto
+6173 70505 lineto
+6211 70516 lineto
+6253 70520 lineto
+6329 70520 lineto
+6341 70448 lineto
+6374 70361 lineto
+6389 70333 lineto
+6475 70316 lineto
+6679 70520 lineto
+6921 70520 lineto
+7125 70316 lineto
+7211 70333 lineto
+7249 70418 lineto
+7270 70508 lineto
+7270 70520 lineto
+8153 70520 lineto
+8209 70526 lineto
+8265 70543 lineto
+8317 70570 lineto
+8363 70607 lineto
+8400 70653 lineto
+8427 70705 lineto
+8444 70761 lineto
+8450 70817 lineto
+8450 71035 lineto
+8495 71016 lineto
+8543 71006 lineto
+8592 71006 lineto
+9144 71006 lineto
+9192 71015 lineto
+9237 71034 lineto
+9237 71035 lineto
+9282 71016 lineto
+9330 71006 lineto
+9379 71006 lineto
+9520 71006 lineto
+9582 71068 lineto
+9582 71549 lineto
+9582 71599 lineto
+9582 71699 lineto
+9582 71749 lineto
+9582 72230 lineto
+9520 72292 lineto
+9424 72292 lineto
+9425 72372 lineto
+9409 72454 lineto
+9377 72531 lineto
+9331 72600 lineto
+9272 72659 lineto
+9203 72706 lineto
+9126 72738 lineto
+9044 72755 lineto
+8961 72755 lineto
+8879 72740 lineto
+8802 72708 lineto
+8732 72663 lineto
+8673 72604 lineto
+8626 72535 lineto
+8593 72459 lineto
+8576 72377 lineto
+8574 72294 lineto
+8574 72292 lineto
+8546 72292 lineto
+8498 72283 lineto
+8453 72264 lineto
+8451 72264 lineto
+8450 72264 lineto
+8450 73127 lineto
+8454 73169 lineto
+8465 73207 lineto
+8484 73241 lineto
+8509 73271 lineto
+8539 73296 lineto
+8573 73315 lineto
+8611 73326 lineto
+8653 73330 lineto
+22347 73330 lineto
+22389 73326 lineto
+22427 73315 lineto
+22461 73296 lineto
+22491 73271 lineto
+22516 73241 lineto
+22535 73207 lineto
+22546 73169 lineto
+22550 73127 lineto
+22550 64433 lineto
+poly0
+1 1 1 setrgbcolor
+60 setlinewidth
+9000 72330 95 cir1
+14800 68030 95 cir1
+6800 69570 95 cir1
+19000 69430 95 cir1
+19700 70730 95 cir1
+19100 71530 95 cir1
+18300 71130 95 cir1
+17300 66330 95 cir1
+14400 66430 95 cir1
+13600 66430 95 cir1
+13500 67530 95 cir1
+12800 66830 95 cir1
+11300 66530 95 cir1
+12600 67930 95 cir1
+11600 68230 95 cir1
+10100 66730 95 cir1
+8000 66330 95 cir1
+8000 69630 95 cir1
+9600 70730 95 cir1
+15500 71130 95 cir1
+16700 70530 95 cir1
+21200 68530 95 cir1
+20200 66430 95 cir1
+18700 66430 95 cir1
+18500 67030 95 cir1
+10100 66130 95 cir1
+16900 68330 95 cir1
+15900 67530 95 cir1
+14400 70430 95 cir1
+17100 67130 95 cir1
+19900 68930 95 cir1
+15800 68030 95 cir1
+14700 70830 95 cir1
+17900 68230 95 cir1
+6800 70570 95 cir1
+21700 71630 270 cir1
+6800 71630 270 cir1
+20300 64770 130 cir1
+19300 64770 130 cir1
+18300 64770 130 cir1
+17300 64770 130 cir1
+16300 64770 130 cir1
+15300 64770 130 cir1
+14300 64770 130 cir1
+14300 72770 130 cir1
+15300 72770 130 cir1
+16300 72770 130 cir1
+17300 72770 130 cir1
+18300 72770 130 cir1
+19300 72770 130 cir1
+20300 72770 130 cir1
+0 0 0 setrgbcolor
+showpage
+grestore
+%%EOF

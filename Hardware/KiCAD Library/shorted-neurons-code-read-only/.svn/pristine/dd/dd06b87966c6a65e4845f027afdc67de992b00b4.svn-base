@@ -1,0 +1,35 @@
+atmega328P-PU 28 pin DIP
+
+AVR
+phys	Arduino		N-chan
+pin	pin	Desc	universal unit
+----    ------  ------  --------------
+1		*RST
+2	D0/RX	*RX                     
+3	D1/TX	*TX     		
+4	D2		RF-INT
+5	D3		GPIO_CS (both GPIOs use common select pin, addressable scheme)
+6	D4		GPIO_RESET
+7		*Vcc
+8		*GND
+9		*xtal1  8MHz
+10		*xtal2
+11	D5		Link/Recv LED pair
+12	D6		HV_control (turn on FET for high voltage (12V) ground rail)
+13	D7		FIRE_SW
+14	D8		SIREN_A
+15	D9		SIREN_B
+16	D10	SS	RF-SEL
+17	D11	MOSI	RF-DI, GPIO_MOSI, ADC_MOSI
+18	D12	MISO	RF-DO, GPIO_MISO, ADC_MISO
+19	D13	SCK	RF-CLK, GPIO_SCK, ADC_SCK
+20		*AVcc
+21		*AREF
+22		*GND
+23	A0/D14		BATT_SENSE
+24	A1/D15		CURRENT_SENSE
+25	A2/D16		SAFETY_SW
+26	A3/D17		ADC_CS
+27	A4/D18	SDA
+28	A5/D19	SCL
+

@@ -1,0 +1,575 @@
+%!PS-Adobe-3.0
+%%Creator: PCBNEW-PS
+%%CreationDate: Wed Aug  8 21:27:22 2012
+%%Title: /home/bts/playtime/shorted-neurons-code/breakouts/fab/v01/rfm12b-to-breadboard-SilkS_Back.ps
+%%Pages: 1
+%%PageOrder: Ascend
+%%BoundingBox: 0 0 596 843
+%%DocumentMedia: A4 595 842 0 () ()
+%%Orientation: Landscape
+%%EndComments
+%%Page: 1 1
+/line {
+    newpath
+    moveto
+    lineto
+    stroke
+} bind def
+/cir0 { newpath 0 360 arc stroke } bind def
+/cir1 { newpath 0 360 arc gsave fill grestore stroke } bind def
+/cir2 { newpath 0 360 arc gsave fill grestore stroke } bind def
+/arc0 { newpath arc stroke } bind def
+/arc1 { newpath 4 index 4 index moveto arc closepath gsave fill grestore stroke } bind def
+/arc2 { newpath 4 index 4 index moveto arc closepath gsave fill grestore stroke } bind def
+/poly0 { stroke } bind def
+/poly1 { closepath gsave fill grestore stroke } bind def
+/poly2 { closepath gsave fill grestore stroke } bind def
+/rect0 { rectstroke } bind def
+/rect1 { rectfill } bind def
+/rect2 { rectfill } bind def
+/linemode0 { 0 setlinecap 0 setlinejoin 0 setlinewidth } bind def
+/linemode1 { 1 setlinecap 1 setlinejoin } bind def
+/dashedline { [50 50] 0 setdash } bind def
+/solidline { [] 0 setdash } bind def
+gsave
+0.0072 0.0072 scale
+linemode1
+82670 0 translate 90 rotate
+60 setlinewidth
+150 setlinewidth
+newpath
+63400 41230 moveto
+77600 41230 lineto
+stroke
+newpath
+63300 41230 moveto
+63500 41230 lineto
+stroke
+newpath
+63300 31830 moveto
+63300 41230 lineto
+stroke
+newpath
+77700 31830 moveto
+63300 31830 lineto
+stroke
+newpath
+77700 41130 moveto
+77700 31830 lineto
+stroke
+newpath
+77600 41230 moveto
+77700 41130 lineto
+stroke
+65 setlinewidth
+newpath
+73100 36530 moveto
+73100 33530 lineto
+stroke
+newpath
+71700 33530 moveto
+71700 36530 lineto
+stroke
+newpath
+73100 36530 moveto
+71700 36530 lineto
+stroke
+60 setlinewidth
+newpath
+71700 33530 moveto
+73100 33530 lineto
+stroke
+50 setlinewidth
+71900 33730 141 cir0
+newpath
+72650 33530 moveto
+72650 33830 lineto
+stroke
+newpath
+72650 33830 moveto
+72150 33830 lineto
+stroke
+newpath
+72150 33830 moveto
+72150 33530 lineto
+stroke
+newpath
+74750 35730 moveto
+75450 35730 lineto
+stroke
+newpath
+75450 35730 moveto
+75450 36930 lineto
+stroke
+newpath
+75450 36930 moveto
+74750 36930 lineto
+stroke
+newpath
+74750 36930 moveto
+74750 35730 lineto
+stroke
+newpath
+74300 37380 moveto
+74300 38280 lineto
+stroke
+newpath
+74300 38280 moveto
+74950 38280 lineto
+stroke
+newpath
+75650 37380 moveto
+76300 37380 lineto
+stroke
+newpath
+76300 37380 moveto
+76300 38280 lineto
+stroke
+newpath
+76300 38280 moveto
+75650 38280 lineto
+stroke
+newpath
+74950 37380 moveto
+74300 37380 lineto
+stroke
+newpath
+76350 36030 moveto
+77250 36030 lineto
+stroke
+newpath
+77250 36030 moveto
+77250 35380 lineto
+stroke
+newpath
+76350 34680 moveto
+76350 34030 lineto
+stroke
+newpath
+76350 34030 moveto
+77250 34030 lineto
+stroke
+newpath
+77250 34030 moveto
+77250 34680 lineto
+stroke
+newpath
+76350 35380 moveto
+76350 36030 lineto
+stroke
+76600 36380 50 cir0
+newpath
+76600 36830 moveto
+76600 36430 lineto
+stroke
+newpath
+76600 36430 moveto
+77200 36430 lineto
+stroke
+newpath
+77200 36430 moveto
+77200 36830 lineto
+stroke
+newpath
+77200 37230 moveto
+77200 37630 lineto
+stroke
+newpath
+77200 37630 moveto
+76600 37630 lineto
+stroke
+newpath
+76600 37630 moveto
+76600 37230 lineto
+stroke
+75200 35680 50 cir0
+newpath
+75200 35230 moveto
+75200 35630 lineto
+stroke
+newpath
+75200 35630 moveto
+74600 35630 lineto
+stroke
+newpath
+74600 35630 moveto
+74600 35230 lineto
+stroke
+newpath
+74600 34830 moveto
+74600 34430 lineto
+stroke
+newpath
+74600 34430 moveto
+75200 34430 lineto
+stroke
+newpath
+75200 34430 moveto
+75200 34830 lineto
+stroke
+75400 34380 50 cir0
+newpath
+75400 34830 moveto
+75400 34430 lineto
+stroke
+newpath
+75400 34430 moveto
+76000 34430 lineto
+stroke
+newpath
+76000 34430 moveto
+76000 34830 lineto
+stroke
+newpath
+76000 35230 moveto
+76000 35630 lineto
+stroke
+newpath
+76000 35630 moveto
+75400 35630 lineto
+stroke
+newpath
+75400 35630 moveto
+75400 35230 lineto
+stroke
+0 0 0 setrgbcolor
+newpath
+72471 35259 moveto
+72714 35259 lineto
+72743 35244 lineto
+72757 35230 lineto
+72771 35201 lineto
+72771 35144 lineto
+72757 35116 lineto
+72743 35101 lineto
+72714 35087 lineto
+72471 35087 lineto
+stroke
+newpath
+72771 34787 moveto
+72771 34959 lineto
+stroke
+newpath
+72771 34873 moveto
+72471 34873 lineto
+72514 34902 lineto
+72543 34930 lineto
+72557 34959 lineto
+stroke
+0 0 0 setrgbcolor
+newpath
+71971 35980 moveto
+71971 35809 lineto
+stroke
+newpath
+72271 35895 moveto
+71971 35895 lineto
+stroke
+newpath
+71971 35737 moveto
+72271 35537 lineto
+stroke
+newpath
+71971 35537 moveto
+72271 35737 lineto
+stroke
+newpath
+72114 35323 moveto
+72129 35280 lineto
+72143 35265 lineto
+72171 35251 lineto
+72214 35251 lineto
+72243 35265 lineto
+72257 35280 lineto
+72271 35308 lineto
+72271 35423 lineto
+71971 35423 lineto
+71971 35323 lineto
+71986 35294 lineto
+72000 35280 lineto
+72029 35265 lineto
+72057 35265 lineto
+72086 35280 lineto
+72100 35294 lineto
+72114 35323 lineto
+72114 35423 lineto
+stroke
+newpath
+71971 35065 moveto
+71971 35037 lineto
+71986 35008 lineto
+72000 34994 lineto
+72029 34980 lineto
+72086 34965 lineto
+72157 34965 lineto
+72214 34980 lineto
+72243 34994 lineto
+72257 35008 lineto
+72271 35037 lineto
+72271 35065 lineto
+72257 35094 lineto
+72243 35108 lineto
+72214 35123 lineto
+72157 35137 lineto
+72086 35137 lineto
+72029 35123 lineto
+72000 35108 lineto
+71986 35094 lineto
+71971 35065 lineto
+stroke
+newpath
+72271 34679 moveto
+72271 34851 lineto
+stroke
+newpath
+72271 34765 moveto
+71971 34765 lineto
+72014 34794 lineto
+72043 34822 lineto
+72057 34851 lineto
+stroke
+newpath
+71971 34493 moveto
+71971 34465 lineto
+71986 34436 lineto
+72000 34422 lineto
+72029 34408 lineto
+72086 34393 lineto
+72157 34393 lineto
+72214 34408 lineto
+72243 34422 lineto
+72257 34436 lineto
+72271 34465 lineto
+72271 34493 lineto
+72257 34522 lineto
+72243 34536 lineto
+72214 34551 lineto
+72157 34565 lineto
+72086 34565 lineto
+72029 34551 lineto
+72000 34536 lineto
+71986 34522 lineto
+71971 34493 lineto
+stroke
+newpath
+72100 34222 moveto
+72086 34250 lineto
+72071 34265 lineto
+72043 34279 lineto
+72029 34279 lineto
+72000 34265 lineto
+71986 34250 lineto
+71971 34222 lineto
+71971 34165 lineto
+71986 34136 lineto
+72000 34122 lineto
+72029 34107 lineto
+72043 34107 lineto
+72071 34122 lineto
+72086 34136 lineto
+72100 34165 lineto
+72100 34222 lineto
+72114 34250 lineto
+72129 34265 lineto
+72157 34279 lineto
+72214 34279 lineto
+72243 34265 lineto
+72257 34250 lineto
+72271 34222 lineto
+72271 34165 lineto
+72257 34136 lineto
+72243 34122 lineto
+72214 34107 lineto
+72157 34107 lineto
+72129 34122 lineto
+72114 34136 lineto
+72100 34165 lineto
+stroke
+0 0 0 setrgbcolor
+newpath
+74771 36520 moveto
+75014 36520 lineto
+75043 36509 lineto
+75057 36497 lineto
+75071 36473 lineto
+75071 36425 lineto
+75057 36401 lineto
+75043 36390 lineto
+75014 36378 lineto
+74771 36378 lineto
+stroke
+newpath
+74771 36282 moveto
+74771 36128 lineto
+74886 36211 lineto
+74886 36175 lineto
+74900 36151 lineto
+74914 36139 lineto
+74943 36128 lineto
+75014 36128 lineto
+75043 36139 lineto
+75057 36151 lineto
+75071 36175 lineto
+75071 36247 lineto
+75057 36270 lineto
+75043 36282 lineto
+stroke
+0 0 0 setrgbcolor
+newpath
+75350 37737 moveto
+75364 37723 lineto
+75407 37709 lineto
+75436 37709 lineto
+75479 37723 lineto
+75507 37751 lineto
+75522 37780 lineto
+75536 37837 lineto
+75536 37880 lineto
+75522 37937 lineto
+75507 37966 lineto
+75479 37994 lineto
+75436 38009 lineto
+75407 38009 lineto
+75364 37994 lineto
+75350 37980 lineto
+stroke
+newpath
+75250 38009 moveto
+75064 38009 lineto
+75164 37894 lineto
+75122 37894 lineto
+75093 37880 lineto
+75079 37866 lineto
+75064 37837 lineto
+75064 37766 lineto
+75079 37737 lineto
+75093 37723 lineto
+75122 37709 lineto
+75207 37709 lineto
+75236 37723 lineto
+75250 37737 lineto
+stroke
+0 0 0 setrgbcolor
+newpath
+76893 35080 moveto
+76907 35094 lineto
+76921 35137 lineto
+76921 35166 lineto
+76907 35209 lineto
+76879 35237 lineto
+76850 35252 lineto
+76793 35266 lineto
+76750 35266 lineto
+76693 35252 lineto
+76664 35237 lineto
+76636 35209 lineto
+76621 35166 lineto
+76621 35137 lineto
+76636 35094 lineto
+76650 35080 lineto
+stroke
+newpath
+76650 34966 moveto
+76636 34952 lineto
+76621 34923 lineto
+76621 34852 lineto
+76636 34823 lineto
+76650 34809 lineto
+76679 34794 lineto
+76707 34794 lineto
+76750 34809 lineto
+76921 34980 lineto
+76921 34794 lineto
+stroke
+0 0 0 setrgbcolor
+newpath
+76977 37072 moveto
+76989 37084 lineto
+77001 37119 lineto
+77001 37143 lineto
+76989 37179 lineto
+76965 37203 lineto
+76942 37214 lineto
+76894 37226 lineto
+76858 37226 lineto
+76811 37214 lineto
+76787 37203 lineto
+76763 37179 lineto
+76751 37143 lineto
+76751 37119 lineto
+76763 37084 lineto
+76775 37072 lineto
+stroke
+newpath
+77001 36834 moveto
+77001 36976 lineto
+stroke
+newpath
+77001 36905 moveto
+76751 36905 lineto
+76787 36929 lineto
+76811 36953 lineto
+76823 36976 lineto
+stroke
+0 0 0 setrgbcolor
+newpath
+74977 35072 moveto
+74989 35084 lineto
+75001 35119 lineto
+75001 35143 lineto
+74989 35179 lineto
+74965 35203 lineto
+74942 35214 lineto
+74894 35226 lineto
+74858 35226 lineto
+74811 35214 lineto
+74787 35203 lineto
+74763 35179 lineto
+74751 35143 lineto
+74751 35119 lineto
+74763 35084 lineto
+74775 35072 lineto
+stroke
+newpath
+74835 34857 moveto
+75001 34857 lineto
+stroke
+newpath
+74739 34917 moveto
+74918 34976 lineto
+74918 34822 lineto
+stroke
+0 0 0 setrgbcolor
+newpath
+75801 35072 moveto
+75682 35155 lineto
+stroke
+newpath
+75801 35214 moveto
+75551 35214 lineto
+75551 35119 lineto
+75563 35095 lineto
+75575 35084 lineto
+75599 35072 lineto
+75635 35072 lineto
+75658 35084 lineto
+75670 35095 lineto
+75682 35119 lineto
+75682 35214 lineto
+stroke
+newpath
+75575 34976 moveto
+75563 34964 lineto
+75551 34941 lineto
+75551 34881 lineto
+75563 34857 lineto
+75575 34845 lineto
+75599 34834 lineto
+75623 34834 lineto
+75658 34845 lineto
+75801 34988 lineto
+75801 34834 lineto
+stroke
+showpage
+grestore
+%%EOF

@@ -1,0 +1,136 @@
+# EESchema Netlist Version 1.1 created  Sat 16 Jun 2012 09:44:31 PM MDT
+(
+ ( /4FDBCF84 C1 C1 0.1uF
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /4FDBCF31 C1 C2 0.1uF
+  ( 1 VDD )
+  ( 2 GNDPWR )
+ )
+ ( /4FDBCF5A C1 C3 0.1uF
+  ( 1 VDD )
+  ( 2 GNDPWR )
+ )
+ ( /4F6D547B D3 D1 DIODE
+  ( 1 N-000008 )
+  ( 2 N-000007 )
+ )
+ ( /4FD973FC D3 D2 DIODE
+  ( 1 N-000001 )
+  ( 2 N-000002 )
+ )
+ ( /4FD972A2 PIN_ARRAY-6X1 P1 CONN_6
+  ( 1 adc.7 )
+  ( 2 gpa.A )
+  ( 3 VDD )
+  ( 4 GND )
+  ( 5 gpa.8 )
+  ( 6 adc.8 )
+ )
+ ( /4FD972A0 AK300-2 P2 CONN_2
+  ( 1 +12V )
+  ( 2 GNDPWR )
+ )
+ ( /4FDADA3B 1HOLE P3 CONN_1
+  ( 1 +12V )
+ )
+ ( /4FDADA40 1HOLE P4 CONN_1
+  ( 1 GNDPWR )
+ )
+ ( /4FD97A44 R3-LARGE_PADS PTC1 1
+  ( 1 GND )
+  ( 2 GNDPWR )
+ )
+ ( /4F2C9CC1 DPAKGDS Q1 FET_N
+  ( D N-000012 )
+  ( G gpa.A )
+  ( S GNDPWR )
+ )
+ ( /4FD973FE DPAKGDS Q2 FET_N
+  ( D N-000005 )
+  ( G gpa.8 )
+  ( S GNDPWR )
+ )
+ ( /4FD96FD2 R3-LARGE_PADS R1 1k
+  ( 1 N-000008 )
+  ( 2 +12V )
+ )
+ ( /4FD973F9 R3-LARGE_PADS R2 1k
+  ( 1 N-000001 )
+  ( 2 +12V )
+ )
+ ( /4FD9701B R3-LARGE_PADS R3 1k
+  ( 1 N-000007 )
+  ( 2 N-000012 )
+ )
+ ( /4FD973F8 R3-LARGE_PADS R4 1k
+  ( 1 N-000002 )
+  ( 2 N-000005 )
+ )
+ ( /4FD96D9E AK300-2 R5 IGNITER
+  ( 1 +12V )
+  ( 2 N-000012 )
+ )
+ ( /4FD973FB AK300-2 R6 IGNITER
+  ( 1 +12V )
+  ( 2 N-000005 )
+ )
+ ( /4FD97024 R3-LARGE_PADS R7 5.1k
+  ( 1 N-000012 )
+  ( 2 GNDPWR )
+ )
+ ( /4FD973F7 R3-LARGE_PADS R8 5.1k
+  ( 1 N-000005 )
+  ( 2 GNDPWR )
+ )
+ ( /4FD974F9 R3-LARGE_PADS R9 1k
+  ( 1 gpa.A )
+  ( 2 GND )
+ )
+ ( /4FD974E4 R3-LARGE_PADS R10 1k
+  ( 1 GND )
+  ( 2 gpa.8 )
+ )
+ ( /4F2C9D43 SOT23-5 U1 TSC888
+  ( 1 adc.7 )
+  ( 2 GNDPWR )
+  ( 3 N-000008 )
+  ( 4 N-000007 )
+  ( 5 VDD )
+ )
+ ( /4FD973FD SOT23-5 U2 TSC888
+  ( 1 adc.8 )
+  ( 2 GNDPWR )
+  ( 3 N-000001 )
+  ( 4 N-000002 )
+  ( 5 VDD )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$endfootprintlist
+}

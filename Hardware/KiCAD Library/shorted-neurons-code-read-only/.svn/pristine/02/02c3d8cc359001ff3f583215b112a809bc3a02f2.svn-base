@@ -1,0 +1,22 @@
+EESchema-DOCLIB  Version 2.0  Date: Tue 07 Aug 2012 10:44:02 PM MDT
+#
+$CMP R
+D R
+K resistor
+$ENDCMP
+#
+$CMP TSC888
+D current sense shunt amplifier
+$ENDCMP
+#
+$CMP TXB0106
+D auto sensing bidirectional level shifter
+K level shift voltage translation
+$ENDCMP
+#
+$CMP TXB0108
+D auto sensing bidirectional level shifter
+K level shift voltage translation
+$ENDCMP
+#
+#End Doc Library

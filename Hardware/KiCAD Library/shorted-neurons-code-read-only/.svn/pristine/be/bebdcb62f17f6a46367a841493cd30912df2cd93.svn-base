@@ -1,0 +1,141 @@
+Rambling around, random thoughts about how we arrived at our design choices.
+
+This file should eventually be better structured and in HTML format so that it is actually readable.
+
+
+___________________________________
+Kevin's manifesto:
+
+Just to recap, the hardware design goals I've been trying to stick with for the core elements are that they should form something that 1) anyone can build, 2) with common parts, 3) for modest cost.
+
+Some of the specific things I'm thinking for the core design requirements are:
+-only elements strictly necessary for safe launch operations are considered core elements
+-all components are easily solder-able with a standard tip (1mm or so)
+ -should be easily replaceable with common tools (use sockets where possible)
+ -does limit this to mostly through hole components, though something like the radio still fits my idea of 'easily'
+ -commercially produced breakout boards could be considered
+ -I also want to be able to solder the thing with a 200 watt soldering gun, no mere iron for me! (just kidding)
+-all components highly likely to be around several years from now
+-ensure elements can be replaced without rewiring or new programming
+-all interfaces between devices and for MCU programming (SPI, RS232, etc) highly likely to be around several years from now
+-all code and schematics publishable under an open source license
+-should be possible, with frugal choices, to build a 4 channel unit for ~$40, excluding enclosures and radios
+-would eventually require someone providing schematics and possibly code for cat5 connection between units, maybe a good feature for some initial work by a broader community
+
+Things I can think of that we've discussed so far, which wouldn't be considered core elements, are current sensing, battery voltage sensing, an alphanumeric display, and an RTC. Even with non-core elements, I'd certainly like to keep it as open as possible.
+
+I'd really like to get a solid core design working with 4 channels, and then expand and modify things as necessary for CRASH. I think we'll learn more by doing that, and it will force us to think about it in a modular fashion.
+
+Here's how I'm thinking the i/o pins would break out for a core elements only design supporting 4 channels.
+
+Pad side:
+9x Outputs
+ -4x pad relay
+ -1x arm
+ -1x launch
+ -1x buzzer
+ -1x connected to console LED
+ -1x armed LED
+
+5x Inputs
+ -4x continuity (analog)
+1x available
+
+Console side:
+6x Inputs
+ -4x select switch
+ -1x arm key
+ -1x launch
+
+8x Outputs
+ -4x continuity LEDs
+ -4x selected LEDs
+
+
+_____________________________________________________
+Why AVR and Arduino?
+
+The launcher project could be done with any microcontroller.  Not wanting to get into MCU religious wars, we had to make a choice, and here is why we wound up with AVR chips and the Arduino software stack to start.
+- we were both already familiar
+- low barriers to entry for the beginner
+- but not too many sacrifices for someone who really wants to optimize and expand
+- many libraries available both for beginner (arduino toolset) and more advanced user
+- open source toolchain
+- modest cost
+- contains a nice mix of digital and analog IO for this application
+- DIP packages available and in reasonable cost (allow build of this project on protoboard)
+- several packet radio implementations already have mature libraries, we will design for modularity of the RF module implementation 
+- user can move up to AVR System-on-Chip implementations which include packet radios (in fact, we hope someone will, just more than we wanted to bite off on this little adventure)
+
+Acknowledged disadvantages:
+- experienced users universally hate the Arduino IDE (workarounds available w/ effort)
+- "bloaty" code according to the purist crowd
+- more costly than some alternatives (sacrifice for ease of entry)
+
+
+
+
+______________________________________________________
+How the continuity circuit works and why it matters or something:
+
+- one end of ignitor is always grounded
+- other end of ignitor hooks to relay output and thru 10k to +12V.  this resistor is required to have nice ~1mA thru ignitor for continuity test.
+- THEN
+
+
+DIODE on low side wins... see below at "WINNER"
+- with diode D1 and 30Ω ignitor
+	- on scope, open circuit = 1.91
+	- with 30 ohm ignitor, 18mV
+	- when firing, 2.2V
+	- when firing and it opens, 2.3V
+
+- without diode 
+	- on scope, open circuit = 2V (diode has .1 drop at this current)
+	- with 30Ω ignitor, 29mV
+	- when firing 2.31V
+	- when firing and it opens, 2.38 
+
+
+DIODE on low side wins... see below at "WINNER"
+- with diode D1 and 1Ω ignitor
+	- on scope, open circuit = 1.91
+	- with 1 ohm ignitor, 18mV
+	- when firing, 1.32
+	- when firing and it opens, 2.27V
+
+- without diode 
+	- on scope, open circuit = 2V (diode has .1 drop at this current)
+	- with 1Ω ignitor, 18mV
+	- when firing 1.4V
+	- when firing and it opens, 2.38 
+
+
+
+DIODE on low side wins... see below at "WINNER"
+____________
+WINNER........
+- with diode on low side and 1Ω ignitor
+	- open circuit = 2.45V
+	- with 1 ohm ignitor, 21mV
+	- when firing, 1.84
+	- when firing and it opens, 2.82V
+
+- with diode on bottome side and 30ohm ignitor
+	- open circuit = 2.45V
+	- with 30Ω ignitor, 82mV
+	- when firing 2.75V
+	- when firing and it opens, 2.82V
+
+- with estes ignitor that seemed normal, seems to measur 0.5 ohms
+	- would not fire at 800mA with 11ohms resistors
+	- would not fire at 1A with 6ohms
+	- would not fire at 1.2A with 4ohms
+	- fired at 1.8A with 1ohm resistor, nichrome did not break, continues at 1.8A, scope said 2.2V while firing this way
+
+
+- another estes ignitor, seems like 0.5ohms
+	- tried straight away, no resitor:
+	- fired quickly, 2A, wire getting warm was the trouble
+
+

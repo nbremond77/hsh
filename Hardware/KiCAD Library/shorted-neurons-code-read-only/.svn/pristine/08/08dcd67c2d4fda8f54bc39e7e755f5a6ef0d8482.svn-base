@@ -1,0 +1,381 @@
+EESchema Schematic File Version 2  date Tue 31 Jan 2012 10:13:17 PM MST
+LIBS:bryan_custom
+LIBS:rfm12
+LIBS:ULN280xA
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:bryan_4chan-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 3 5
+Title ""
+Date "1 feb 2012"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 950  4100 1    60   ~ 12
+Connectors are\n at +12V if igniter\nhas continuity\n
+Wire Wire Line
+	3100 4950 1950 4950
+Wire Wire Line
+	1950 4950 1950 4050
+Wire Wire Line
+	3100 4250 2450 4250
+Wire Wire Line
+	2450 4250 2450 3850
+Wire Wire Line
+	2450 3850 1950 3850
+Wire Wire Line
+	3100 3450 2700 3450
+Wire Wire Line
+	2700 3450 2700 3650
+Wire Wire Line
+	2700 3650 1950 3650
+Wire Wire Line
+	3100 2750 2200 2750
+Wire Wire Line
+	2200 2750 2200 3450
+Wire Wire Line
+	2200 3450 1950 3450
+Wire Wire Line
+	7000 3550 7000 3450
+Wire Wire Line
+	7000 3450 6050 3450
+Wire Wire Line
+	6050 4050 6350 4050
+Wire Wire Line
+	6050 3750 6350 3750
+Wire Wire Line
+	6050 3300 6350 3300
+Wire Wire Line
+	3900 2400 3900 5300
+Wire Wire Line
+	3500 4600 3500 4450
+Wire Wire Line
+	3500 4450 4550 4450
+Wire Wire Line
+	4550 4450 4550 4050
+Wire Wire Line
+	4550 4050 4700 4050
+Wire Wire Line
+	3500 3900 3500 3750
+Wire Wire Line
+	4700 3600 3500 3600
+Wire Wire Line
+	3500 3600 3500 3450
+Wire Wire Line
+	4700 3300 4550 3300
+Wire Wire Line
+	4550 3300 4550 2900
+Wire Wire Line
+	4550 2900 3500 2900
+Wire Wire Line
+	3500 2900 3500 2750
+Wire Wire Line
+	4700 3150 4700 2550
+Wire Wire Line
+	4700 2550 3500 2550
+Wire Wire Line
+	3500 2550 3500 2400
+Wire Wire Line
+	3500 3100 3500 3250
+Wire Wire Line
+	3500 3250 4400 3250
+Wire Wire Line
+	4400 3250 4400 3450
+Wire Wire Line
+	4400 3450 4700 3450
+Wire Wire Line
+	3500 3750 4700 3750
+Wire Wire Line
+	3500 4250 3500 4100
+Wire Wire Line
+	3500 4100 4400 4100
+Wire Wire Line
+	4400 4100 4400 3900
+Wire Wire Line
+	4400 3900 4700 3900
+Wire Wire Line
+	4700 4200 4700 4800
+Wire Wire Line
+	4700 4800 3500 4800
+Wire Wire Line
+	3500 4800 3500 4950
+Wire Wire Line
+	6050 3150 6350 3150
+Wire Wire Line
+	6350 3150 6350 2900
+Wire Wire Line
+	6050 3600 6350 3600
+Wire Wire Line
+	6050 3900 6350 3900
+Wire Wire Line
+	6050 4200 6200 4200
+Wire Wire Line
+	6200 4200 6200 4450
+Wire Wire Line
+	1950 3350 1950 2400
+Wire Wire Line
+	1950 2400 3100 2400
+Wire Wire Line
+	1950 3550 2450 3550
+Wire Wire Line
+	2450 3550 2450 3100
+Wire Wire Line
+	2450 3100 3100 3100
+Wire Wire Line
+	3100 3900 2700 3900
+Wire Wire Line
+	2700 3900 2700 3750
+Wire Wire Line
+	2700 3750 1950 3750
+Wire Wire Line
+	3100 4600 2200 4600
+Wire Wire Line
+	2200 4600 2200 3950
+Wire Wire Line
+	2200 3950 1950 3950
+$Comp
+L CONN_8 P1
+U 1 1 4F25EEE5
+P 1600 3700
+F 0 "P1" V 1550 3700 60  0000 C CNN
+F 1 "CONN_8" V 1650 3700 60  0000 C CNN
+	1    1600 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #U010
+U 1 1 4F25EE8A
+P 6200 4450
+F 0 "#U010" H 6250 4500 60  0001 C CNN
+F 1 "GND" H 6200 4215 60  0000 C CNN
+	1    6200 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #U011
+U 1 1 4F25EE87
+P 7000 3550
+F 0 "#U011" H 7050 3600 60  0001 C CNN
+F 1 "GND" H 7000 3315 60  0000 C CNN
+	1    7000 3550
+	1    0    0    -1  
+$EndComp
+Text HLabel 6350 4050 2    60   Input ~ 12
+ADC_CS
+Text HLabel 6350 3900 2    60   Input ~ 12
+MOSI
+Text HLabel 6350 3750 2    60   Input ~ 12
+MISO
+Text HLabel 6350 3300 2    60   Input ~ 12
+VREF
+Text HLabel 6350 3600 2    60   Input ~ 12
+SCK
+$Comp
+L VDD #PWR012
+U 1 1 4F25EDC8
+P 6350 2900
+F 0 "#PWR012" H 6350 3000 30  0001 C CNN
+F 1 "VDD" H 6350 3010 30  0000 C CNN
+	1    6350 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #U013
+U 1 1 4F25EC11
+P 3900 5300
+F 0 "#U013" H 3950 5350 60  0001 C CNN
+F 1 "GND" H 3900 5065 60  0000 C CNN
+	1    3900 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R12
+U 1 1 4F25EAE6
+P 3700 3900
+F 0 "R12" H 3740 3970 50  0000 C CNN
+F 1 "R" H 3730 3830 50  0000 C CNN
+	1    3700 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R11
+U 1 1 4F25EAE5
+P 3300 3900
+F 0 "R11" H 3340 3970 50  0000 C CNN
+F 1 "R" H 3330 3830 50  0000 C CNN
+	1    3300 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R13
+U 1 1 4F25EAE4
+P 3300 4250
+F 0 "R13" H 3340 4320 50  0000 C CNN
+F 1 "R" H 3330 4180 50  0000 C CNN
+	1    3300 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R14
+U 1 1 4F25EAE3
+P 3700 4250
+F 0 "R14" H 3740 4320 50  0000 C CNN
+F 1 "R" H 3730 4180 50  0000 C CNN
+	1    3700 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R18
+U 1 1 4F25EAE2
+P 3700 4950
+F 0 "R18" H 3740 5020 50  0000 C CNN
+F 1 "R" H 3730 4880 50  0000 C CNN
+	1    3700 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R17
+U 1 1 4F25EAE1
+P 3300 4950
+F 0 "R17" H 3340 5020 50  0000 C CNN
+F 1 "R" H 3330 4880 50  0000 C CNN
+	1    3300 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R15
+U 1 1 4F25EAE0
+P 3300 4600
+F 0 "R15" H 3340 4670 50  0000 C CNN
+F 1 "R" H 3330 4530 50  0000 C CNN
+	1    3300 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R16
+U 1 1 4F25EADF
+P 3700 4600
+F 0 "R16" H 3740 4670 50  0000 C CNN
+F 1 "R" H 3730 4530 50  0000 C CNN
+	1    3700 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R8
+U 1 1 4F25EAD8
+P 3700 3100
+F 0 "R8" H 3740 3170 50  0000 C CNN
+F 1 "R" H 3730 3030 50  0000 C CNN
+	1    3700 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R7
+U 1 1 4F25EAD7
+P 3300 3100
+F 0 "R7" H 3340 3170 50  0000 C CNN
+F 1 "R" H 3330 3030 50  0000 C CNN
+	1    3300 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R9
+U 1 1 4F25EAD6
+P 3300 3450
+F 0 "R9" H 3340 3520 50  0000 C CNN
+F 1 "R" H 3330 3380 50  0000 C CNN
+	1    3300 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R10
+U 1 1 4F25EAD5
+P 3700 3450
+F 0 "R10" H 3740 3520 50  0000 C CNN
+F 1 "R" H 3730 3380 50  0000 C CNN
+	1    3700 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R6
+U 1 1 4F25EACA
+P 3700 2750
+F 0 "R6" H 3740 2820 50  0000 C CNN
+F 1 "R" H 3730 2680 50  0000 C CNN
+	1    3700 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 4F25EAC9
+P 3300 2750
+F 0 "R5" H 3340 2820 50  0000 C CNN
+F 1 "R" H 3330 2680 50  0000 C CNN
+	1    3300 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 4F25EAA4
+P 3300 2400
+F 0 "R3" H 3340 2470 50  0000 C CNN
+F 1 "R" H 3330 2330 50  0000 C CNN
+	1    3300 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 4F25EA95
+P 3700 2400
+F 0 "R4" H 3740 2470 50  0000 C CNN
+F 1 "R" H 3730 2330 50  0000 C CNN
+	1    3700 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCP3208 U4
+U 1 1 4F25EA8B
+P 5350 3700
+F 0 "U4" H 5750 4450 60  0000 C CNN
+F 1 "MCP3208" H 5350 3000 60  0000 C CNN
+F 2 "DIP-16" H 5100 4450 60  0000 C CNN
+	1    5350 3700
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

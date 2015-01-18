@@ -1,0 +1,171 @@
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Sat 16 Jun 2012 09:44:31 PM MDT
+
+BeginCmp
+TimeStamp = /4FDBCF84;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDBCF31;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDBCF5A;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F6D547B;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FD973FC;
+Reference = D2;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FD972A2;
+Reference = P1;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FD972A0;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = AK300-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDADA3B;
+Reference = P3;
+ValeurCmp = CONN_1;
+IdModule  = 1HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDADA40;
+Reference = P4;
+ValeurCmp = CONN_1;
+IdModule  = 1HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FD97A44;
+Reference = PTC1;
+ValeurCmp = 1;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F2C9CC1;
+Reference = Q1;
+ValeurCmp = FET_N;
+IdModule  = DPAKGDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FD973FE;
+Reference = Q2;
+ValeurCmp = FET_N;
+IdModule  = DPAKGDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FD96FD2;
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FD973F9;
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FD9701B;
+Reference = R3;
+ValeurCmp = 1k;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FD973F8;
+Reference = R4;
+ValeurCmp = 1k;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FD96D9E;
+Reference = R5;
+ValeurCmp = IGNITER;
+IdModule  = AK300-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FD973FB;
+Reference = R6;
+ValeurCmp = IGNITER;
+IdModule  = AK300-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FD97024;
+Reference = R7;
+ValeurCmp = 5.1k;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FD973F7;
+Reference = R8;
+ValeurCmp = 5.1k;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FD974F9;
+Reference = R9;
+ValeurCmp = 1k;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FD974E4;
+Reference = R10;
+ValeurCmp = 1k;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F2C9D43;
+Reference = U1;
+ValeurCmp = TSC888;
+IdModule  = SOT23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FD973FD;
+Reference = U2;
+ValeurCmp = TSC888;
+IdModule  = SOT23-5;
+EndCmp
+
+EndListe

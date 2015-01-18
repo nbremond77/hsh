@@ -1,0 +1,19 @@
+arg
+--This line, and those below, will be ignored--
+
+M    CRASH_4-channel_rackUnit.sch
+A    CRASH_4-channel.cmp
+A    modules/1wire.mod
+M    CRASH_4-channel_controller.sch
+M    libraries/bryan_custom.bak
+M    libraries/bryan_custom.bck
+M    libraries/bryan_custom.dcm
+M    libraries/bryan_custom.lib
+A    libraries/1wire.lib
+A    CRASH_4-channel.dsn
+A    swingsetWeather.bak
+A    swingsetWeather-cache.bak
+A    swingsetWeather.pro
+A    swingsetWeather-cache.lib
+A    swingsetWeather.sch
+A    CRASH_4-channel-cache.lib

@@ -1,0 +1,50 @@
+/*
+  For Loop Iteration
+ 
+ Demonstrates the use of a for() loop. 
+ Lights multiple LEDs in sequence, then in reverse.
+ 
+ The circuit:
+ * LEDs from pins 2 through 7 to ground
+ 
+ created 2006
+ by David A. Mellis
+ modified 5 Jul 2009
+ by Tom Igoe 
+ 
+ http://www.arduino.cc/en/Tutorial/ForLoop
+ */
+
+int timer = 100;           // The higher the number, the slower the timing.
+
+void setup() {
+  // use a for loop to initialize each pin as an output:
+  for (int thisPin = 2; thisPin < 20; thisPin++)  {
+    pinMode(thisPin, OUTPUT);      
+  }
+}
+
+void loop() {
+  // start with all pins high
+  for (int thisPin = 2; thisPin < 20; thisPin++) { 
+    // turn the pin on:
+    digitalWrite(thisPin, HIGH);   
+//    delay(timer);                  
+    // turn the pin off:
+//    digitalWrite(thisPin, LOW);    
+  }
+
+  // pring cathodes low
+  for (int thisPin = 15; thisPin < 20; thisPin++) { 
+    // turn the pin on:
+    digitalWrite(thisPin, LOW);   
+    delay(timer);                  
+  }
+
+//
+  for (int thisPin = 2; thisPin < 20; thisPin++) { 
+
+    //turn the pin off:
+    digitalWrite(thisPin, LOW);    
+  }
+}

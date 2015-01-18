@@ -1,0 +1,311 @@
+EESchema Schematic File Version 2  date Fri 23 Mar 2012 11:21:48 PM MDT
+LIBS:bryan_custom
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:rfm12
+LIBS:CRASH_4-channel-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 3 5
+Title ""
+Date "24 mar 2012"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	7400 4750 4700 4750
+Wire Wire Line
+	5950 1400 5950 1800
+Wire Wire Line
+	5600 4250 5600 4350
+Wire Wire Line
+	5600 4350 7050 4350
+Wire Wire Line
+	7450 4150 7500 4150
+Wire Wire Line
+	7500 4150 7500 4050
+Wire Wire Line
+	7050 5950 7050 5650
+Wire Wire Line
+	7050 4750 7050 4950
+Wire Wire Line
+	7050 5900 7800 5900
+Connection ~ 7050 5900
+Wire Wire Line
+	6700 1650 7150 1650
+Connection ~ 5950 2750
+Wire Wire Line
+	7150 2750 5950 2750
+Connection ~ 5950 1650
+Wire Wire Line
+	5950 1000 5950 800 
+Connection ~ 2850 4500
+Wire Wire Line
+	2850 3100 2850 4500
+Wire Wire Line
+	3550 3400 3550 3100
+Connection ~ 1200 2700
+Wire Wire Line
+	1200 4850 1200 3550
+Wire Wire Line
+	1200 2850 1200 2200
+Wire Wire Line
+	1200 1600 1200 1200
+Wire Wire Line
+	1200 2700 3550 2700
+Connection ~ 2850 2700
+Wire Wire Line
+	3550 3800 3550 4500
+Wire Wire Line
+	3550 4500 1200 4500
+Connection ~ 1200 4500
+Connection ~ 3550 3250
+Wire Wire Line
+	4650 3250 3550 3250
+Wire Wire Line
+	8250 2200 7150 2200
+Connection ~ 7150 2200
+Wire Wire Line
+	5950 2800 5950 2500
+Wire Wire Line
+	5950 1650 6300 1650
+Wire Wire Line
+	7150 1650 7150 2350
+Wire Wire Line
+	7050 4350 7050 3950
+Connection ~ 7050 4150
+Wire Wire Line
+	7800 5900 7800 4750
+Wire Wire Line
+	5300 4250 4700 4250
+Wire Wire Line
+	4700 4250 4700 4750
+Wire Wire Line
+	5200 4350 5200 4250
+Connection ~ 5200 4250
+$Comp
+L DIODE D?
+U 1 1 4F6D547B
+P 5400 4350
+F 0 "D?" H 5400 4450 40  0000 C CNN
+F 1 "DIODE" H 5400 4250 40  0000 C CNN
+	1    5400 4350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L IGNITER R??
+U 1 1 4F39EEF3
+P 5950 1200
+F 0 "R??" H 5990 1270 50  0000 C CNN
+F 1 "IGNITER" H 5980 1130 50  0000 C CNN
+F 2 "PAD" H 6000 1500 60  0000 C CNN
+	1    5950 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L TSC888 U?
+U 1 1 4F2C9D43
+P 5450 3500
+F 0 "U?" H 5600 3550 60  0000 C CNN
+F 1 "TSC888" H 5900 3000 60  0000 C CNN
+F 2 "SOT23-5" H 5950 2900 60  0000 C CNN
+	1    5450 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R IGNITER
+U 1 1 4F2C9CF8
+P 7050 4550
+F 0 "IGNITER" V 7050 4750 50  0000 C CNN
+F 1 "R" H 7080 4480 50  0000 C CNN
+	1    7050 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 4F2C9CE5
+P 7250 4150
+F 0 "D?" H 7250 4250 40  0000 C CNN
+F 1 "DIODE" H 7250 4050 40  0000 C CNN
+	1    7250 4150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 4F2C9CD2
+P 7500 4050
+F 0 "#PWR?" H 7500 4150 30  0001 C CNN
+F 1 "VCC" H 7500 4150 30  0000 C CNN
+	1    7500 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F2C9CC2
+P 7050 5950
+F 0 "#PWR?" H 7050 5950 30  0001 C CNN
+F 1 "GND" H 7050 5880 30  0001 C CNN
+	1    7050 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L FET_N Q?
+U 1 1 4F2C9CC1
+P 6900 5300
+F 0 "Q?" H 6803 5550 70  0000 C CNN
+F 1 "FET_N" H 6753 5053 60  0000 C CNN
+	1    6900 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR?
+U 1 1 4F2C9CBE
+P 7050 3950
+F 0 "#PWR?" H 7050 3900 20  0001 C CNN
+F 1 "+12V" H 7050 4050 30  0000 C CNN
+	1    7050 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR?
+U 1 1 4EBDD520
+P 5950 800
+F 0 "#PWR?" H 5950 750 20  0001 C CNN
+F 1 "+12V" H 5950 900 30  0000 C CNN
+	1    5950 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4EBDD525
+P 7150 2550
+F 0 "R?" H 7190 2620 50  0000 C CNN
+F 1 "470" H 7180 2480 50  0000 C CNN
+	1    7150 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4EBDD524
+P 6500 1650
+F 0 "R?" H 6540 1720 50  0000 C CNN
+F 1 "2.2k" H 6530 1580 50  0000 C CNN
+	1    6500 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L FET_N Q?
+U 1 1 4EBDD523
+P 5800 2150
+F 0 "Q?" H 5703 2400 70  0000 C CNN
+F 1 "FET_N" H 5653 1903 60  0000 C CNN
+	1    5800 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4EBDD521
+P 5950 2800
+F 0 "#PWR?" H 5950 2800 30  0001 C CNN
+F 1 "GND" H 5950 2730 30  0001 C CNN
+	1    5950 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR?
+U 1 1 4EBDD41E
+P 1200 1200
+F 0 "#PWR?" H 1200 1150 20  0001 C CNN
+F 1 "+12V" H 1200 1300 30  0000 C CNN
+	1    1200 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4EBDD412
+P 1200 4850
+F 0 "#PWR?" H 1200 4850 30  0001 C CNN
+F 1 "GND" H 1200 4780 30  0001 C CNN
+	1    1200 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR L?
+U 1 1 4EBDD3E9
+P 1200 1900
+F 0 "L?" V 1150 1900 40  0000 C CNN
+F 1 "INDUCTOR" V 1300 1900 40  0000 C CNN
+	1    1200 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L FET_N Q?
+U 1 1 4EBDD3CF
+P 1050 3200
+F 0 "Q?" H 953 3450 70  0000 C CNN
+F 1 "FET_N" H 903 2953 60  0000 C CNN
+	1    1050 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R??
+U 1 1 4EBDD39A
+P 2850 2900
+F 0 "R??" H 2890 2970 50  0000 C CNN
+F 1 "3.9k" H 2880 2830 50  0000 C CNN
+	1    2850 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L R R??
+U 1 1 4EBDD396
+P 3550 3600
+F 0 "R??" H 3590 3670 50  0000 C CNN
+F 1 "470" H 3580 3530 50  0000 C CNN
+	1    3550 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L R R??
+U 1 1 4EBDD38A
+P 3550 2900
+F 0 "R??" H 3590 2970 50  0000 C CNN
+F 1 "1k" H 3580 2830 50  0000 C CNN
+	1    3550 2900
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

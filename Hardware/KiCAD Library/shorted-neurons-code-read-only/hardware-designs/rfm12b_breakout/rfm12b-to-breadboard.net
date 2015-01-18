@@ -1,0 +1,208 @@
+# EESchema Netlist Version 1.1 created  Tue 07 Aug 2012 10:51:37 PM MDT
+(
+ ( /5021E2CE $noname  C3 22uF {Lib=CP1}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /5021E263 $noname  C2 22uF {Lib=CP1}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /5021E22B $noname  C1 0.1uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /5021E1BB $noname  C4 10nF {Lib=C}
+  (    1 N-000004 )
+  (    2 GND )
+ )
+ ( /5021E11E $noname  R2 56k {Lib=R}
+  (    1 VCC )
+  (    2 N-000023 )
+ )
+ ( /5021E065 $noname  U3 LP2985LV-33 {Lib=LP2985LV}
+  (    1 VCC )
+  (    2 GND )
+  (    3 N-000023 )
+  (    4 N-000004 )
+  (    5 +3.3V )
+ )
+ ( /5021D882 $noname  U1 TXB0108 {Lib=TXB0108}
+  (    1 N-000024 )
+  (    2 +3.3V )
+  (    3 N-000001 )
+  (    4 N-000002 )
+  (    5 N-000011 )
+  (    6 N-000013 )
+  (    7 N-000014 )
+  (    8 N-000015 )
+  (    9 N-000016 )
+  (   10 N-000020 )
+  (   11 GND )
+  (   12 N-000009 )
+  (   13 N-000018 )
+  (   14 N-000008 )
+  (   15 N-000007 )
+  (   16 N-000023 )
+  (   17 N-000019 )
+  (   18 N-000017 )
+  (   19 VCC )
+  (   20 N-000021 )
+ )
+ ( /5021CF24 $noname  R1 R {Lib=R}
+  (    1 N-000020 )
+  (    2 +3.3V )
+ )
+ ( /4E5D28C9 $noname  P1 CONN_7 {Lib=CONN_7}
+  (    1 N-000021 )
+  (    2 N-000010 )
+  (    3 N-000017 )
+  (    4 N-000019 )
+  (    5 N-000005 )
+  (    6 N-000023 )
+  (    7 GND )
+ )
+ ( /4E5D28BD $noname  P2 CONN_7 {Lib=CONN_7}
+  (    1 N-000006 )
+  (    2 VCC )
+  (    3 GND )
+  (    4 N-000007 )
+  (    5 N-000008 )
+  (    6 N-000018 )
+  (    7 N-000009 )
+ )
+ ( /4E5D2869 $noname  U2 RFM12 {Lib=RFM12}
+  (    1 N-000024 )
+  (    2 N-000010 )
+  (    3 N-000001 )
+  (    4 N-000002 )
+  (    5 N-000005 )
+  (    6 N-000011 )
+  (    7 GND )
+  (    8 N-000006 )
+  (    9 +3.3V )
+  (   10 GND )
+  (   11 N-000013 )
+  (   12 N-000014 )
+  (   13 N-000015 )
+  (   14 N-000016 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C3
+ CP*
+ SM*
+$endlist
+$component C2
+ CP*
+ SM*
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component U1
+ SSOP-20
+ SOIC-20
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ U2 3
+ U1 3
+Net 2 "" ""
+ U1 4
+ U2 4
+Net 3 "GND" "GND"
+ C2 2
+ C1 2
+ C3 2
+ C4 2
+ U3 2
+ P2 3
+ P1 7
+ U2 7
+ U2 10
+ U1 11
+Net 4 "" ""
+ C4 1
+ U3 4
+Net 5 "" ""
+ U2 5
+ P1 5
+Net 6 "" ""
+ U2 8
+ P2 1
+Net 7 "" ""
+ P2 4
+ U1 15
+Net 8 "" ""
+ U1 14
+ P2 5
+Net 9 "" ""
+ U1 12
+ P2 7
+Net 10 "" ""
+ U2 2
+ P1 2
+Net 11 "" ""
+ U1 5
+ U2 6
+Net 12 "+3.3V" "+3.3V"
+ U3 5
+ C3 1
+ U1 2
+ U2 9
+ R1 2
+Net 13 "" ""
+ U1 6
+ U2 11
+Net 14 "" ""
+ U1 7
+ U2 12
+Net 15 "" ""
+ U1 8
+ U2 13
+Net 16 "" ""
+ U1 9
+ U2 14
+Net 17 "" ""
+ U1 18
+ P1 3
+Net 18 "" ""
+ U1 13
+ P2 6
+Net 19 "" ""
+ U1 17
+ P1 4
+Net 20 "" ""
+ R1 1
+ U1 10
+Net 21 "" ""
+ U1 20
+ P1 1
+Net 22 "VCC" "VCC"
+ U3 1
+ P2 2
+ U1 19
+ C1 1
+ R2 1
+ C2 1
+Net 23 "" ""
+ U1 16
+ R2 2
+ P1 6
+ U3 3
+Net 24 "" ""
+ U1 1
+ U2 1
+}
+#End

@@ -1,0 +1,80 @@
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Tue 07 Aug 2012 10:08:05 PM MDT
+
+BeginCmp
+TimeStamp = /5021E22B;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5021E263;
+Reference = C2;
+ValeurCmp = 22uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5021E2CE;
+Reference = C3;
+ValeurCmp = 22uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5021E1BB;
+Reference = C4;
+ValeurCmp = 10nF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E5D28C9;
+Reference = P1;
+ValeurCmp = CONN_7;
+IdModule  = SIL-7;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E5D28BD;
+Reference = P2;
+ValeurCmp = CONN_7;
+IdModule  = SIL-7;
+EndCmp
+
+BeginCmp
+TimeStamp = /5021CF24;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5021E11E;
+Reference = R2;
+ValeurCmp = 56k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5021D882;
+Reference = U1;
+ValeurCmp = TXB0108;
+IdModule  = SSOP20;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E5D2869;
+Reference = U2;
+ValeurCmp = RFM12;
+IdModule  = RFM12;
+EndCmp
+
+BeginCmp
+TimeStamp = /5021E065;
+Reference = U3;
+ValeurCmp = LP2985LV-33;
+IdModule  = SOT23-5;
+EndCmp
+
+EndListe

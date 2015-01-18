@@ -1,0 +1,862 @@
+%!PS-Adobe-3.0
+%%Creator: PCBNEW-PS
+%%CreationDate: Wed Aug  8 21:27:22 2012
+%%Title: /home/bts/playtime/shorted-neurons-code/breakouts/fab/v01/rfm12b-to-breadboard-Back.ps
+%%Pages: 1
+%%PageOrder: Ascend
+%%BoundingBox: 0 0 596 843
+%%DocumentMedia: A4 595 842 0 () ()
+%%Orientation: Landscape
+%%EndComments
+%%Page: 1 1
+/line {
+    newpath
+    moveto
+    lineto
+    stroke
+} bind def
+/cir0 { newpath 0 360 arc stroke } bind def
+/cir1 { newpath 0 360 arc gsave fill grestore stroke } bind def
+/cir2 { newpath 0 360 arc gsave fill grestore stroke } bind def
+/arc0 { newpath arc stroke } bind def
+/arc1 { newpath 4 index 4 index moveto arc closepath gsave fill grestore stroke } bind def
+/arc2 { newpath 4 index 4 index moveto arc closepath gsave fill grestore stroke } bind def
+/poly0 { stroke } bind def
+/poly1 { closepath gsave fill grestore stroke } bind def
+/poly2 { closepath gsave fill grestore stroke } bind def
+/rect0 { rectstroke } bind def
+/rect1 { rectfill } bind def
+/rect2 { rectfill } bind def
+/linemode0 { 0 setlinecap 0 setlinejoin 0 setlinewidth } bind def
+/linemode1 { 1 setlinecap 1 setlinejoin } bind def
+/dashedline { [50 50] 0 setdash } bind def
+/solidline { [] 0 setdash } bind def
+gsave
+0.0072 0.0072 scale
+linemode1
+82670 0 translate 90 rotate
+60 setlinewidth
+150 setlinewidth
+newpath
+63400 41230 moveto
+77600 41230 lineto
+stroke
+newpath
+63300 41230 moveto
+63500 41230 lineto
+stroke
+newpath
+63300 31830 moveto
+63300 41230 lineto
+stroke
+newpath
+77700 31830 moveto
+63300 31830 lineto
+stroke
+newpath
+77700 41130 moveto
+77700 31830 lineto
+stroke
+newpath
+77600 41230 moveto
+77700 41130 lineto
+stroke
+60 setlinewidth
+76800 39330 470 cir1
+70500 39330 470 cir1
+newpath
+71570 33830 moveto
+71130 33830 lineto
+71130 33930 lineto
+71570 33930 lineto
+71570 33830 lineto
+poly1
+newpath
+71570 34080 moveto
+71130 34080 lineto
+71130 34180 lineto
+71570 34180 lineto
+71570 34080 lineto
+poly1
+newpath
+71570 34340 moveto
+71130 34340 lineto
+71130 34440 lineto
+71570 34440 lineto
+71570 34340 lineto
+poly1
+newpath
+71570 34600 moveto
+71130 34600 lineto
+71130 34700 lineto
+71570 34700 lineto
+71570 34600 lineto
+poly1
+newpath
+71570 34850 moveto
+71130 34850 lineto
+71130 34950 lineto
+71570 34950 lineto
+71570 34850 lineto
+poly1
+newpath
+71570 35110 moveto
+71130 35110 lineto
+71130 35210 lineto
+71570 35210 lineto
+71570 35110 lineto
+poly1
+newpath
+71570 35370 moveto
+71130 35370 lineto
+71130 35470 lineto
+71570 35470 lineto
+71570 35370 lineto
+poly1
+newpath
+71570 35620 moveto
+71130 35620 lineto
+71130 35720 lineto
+71570 35720 lineto
+71570 35620 lineto
+poly1
+newpath
+71570 35880 moveto
+71130 35880 lineto
+71130 35980 lineto
+71570 35980 lineto
+71570 35880 lineto
+poly1
+newpath
+71570 36130 moveto
+71130 36130 lineto
+71130 36230 lineto
+71570 36230 lineto
+71570 36130 lineto
+poly1
+newpath
+73670 36130 moveto
+73230 36130 lineto
+73230 36230 lineto
+73670 36230 lineto
+73670 36130 lineto
+poly1
+newpath
+73670 35880 moveto
+73230 35880 lineto
+73230 35980 lineto
+73670 35980 lineto
+73670 35880 lineto
+poly1
+newpath
+73670 35620 moveto
+73230 35620 lineto
+73230 35720 lineto
+73670 35720 lineto
+73670 35620 lineto
+poly1
+newpath
+73670 35370 moveto
+73230 35370 lineto
+73230 35470 lineto
+73670 35470 lineto
+73670 35370 lineto
+poly1
+newpath
+73670 35110 moveto
+73230 35110 lineto
+73230 35210 lineto
+73670 35210 lineto
+73670 35110 lineto
+poly1
+newpath
+73670 34850 moveto
+73230 34850 lineto
+73230 34950 lineto
+73670 34950 lineto
+73670 34850 lineto
+poly1
+newpath
+73670 34600 moveto
+73230 34600 lineto
+73230 34700 lineto
+73670 34700 lineto
+73670 34600 lineto
+poly1
+newpath
+73670 34340 moveto
+73230 34340 lineto
+73230 34440 lineto
+73670 34440 lineto
+73670 34340 lineto
+poly1
+newpath
+73670 34080 moveto
+73230 34080 lineto
+73230 34180 lineto
+73670 34180 lineto
+73670 34080 lineto
+poly1
+newpath
+73670 33830 moveto
+73230 33830 lineto
+73230 33930 lineto
+73670 33930 lineto
+73670 33830 lineto
+poly1
+newpath
+75480 36775 moveto
+75720 36775 lineto
+75720 36635 lineto
+75480 36635 lineto
+75480 36775 lineto
+poly1
+newpath
+75480 36025 moveto
+75720 36025 lineto
+75720 35885 lineto
+75480 35885 lineto
+75480 36025 lineto
+poly1
+newpath
+74480 36775 moveto
+74720 36775 lineto
+74720 36635 lineto
+74480 36635 lineto
+74480 36775 lineto
+poly1
+newpath
+75480 36400 moveto
+75720 36400 lineto
+75720 36260 lineto
+75480 36260 lineto
+75480 36400 lineto
+poly1
+newpath
+74480 36025 moveto
+74720 36025 lineto
+74720 35885 lineto
+74480 35885 lineto
+74480 36025 lineto
+poly1
+newpath
+74380 37460 moveto
+74380 38200 lineto
+74920 38200 lineto
+74920 37460 lineto
+74380 37460 lineto
+poly1
+newpath
+75680 37460 moveto
+75680 38200 lineto
+76220 38200 lineto
+76220 37460 lineto
+75680 37460 lineto
+poly1
+newpath
+76430 35950 moveto
+77170 35950 lineto
+77170 35410 lineto
+76430 35410 lineto
+76430 35950 lineto
+poly1
+newpath
+76430 34650 moveto
+77170 34650 lineto
+77170 34110 lineto
+76430 34110 lineto
+76430 34650 lineto
+poly1
+newpath
+77145 36510 moveto
+76655 36510 lineto
+76655 36800 lineto
+77145 36800 lineto
+77145 36510 lineto
+poly1
+newpath
+77145 37260 moveto
+76655 37260 lineto
+76655 37550 lineto
+77145 37550 lineto
+77145 37260 lineto
+poly1
+newpath
+74655 35550 moveto
+75145 35550 lineto
+75145 35260 lineto
+74655 35260 lineto
+74655 35550 lineto
+poly1
+newpath
+74655 34800 moveto
+75145 34800 lineto
+75145 34510 lineto
+74655 34510 lineto
+74655 34800 lineto
+poly1
+newpath
+75945 34510 moveto
+75455 34510 lineto
+75455 34800 lineto
+75945 34800 lineto
+75945 34510 lineto
+poly1
+newpath
+75945 35260 moveto
+75455 35260 lineto
+75455 35550 lineto
+75945 35550 lineto
+75945 35260 lineto
+poly1
+newpath
+70655 32285 moveto
+70655 32775 lineto
+71145 32775 lineto
+71145 32285 lineto
+70655 32285 lineto
+poly1
+71900 32530 245 cir1
+72900 32530 245 cir1
+73900 32530 245 cir1
+74900 32530 245 cir1
+75900 32530 245 cir1
+76900 32530 245 cir1
+newpath
+77145 40775 moveto
+77145 40285 lineto
+76655 40285 lineto
+76655 40775 lineto
+77145 40775 lineto
+poly1
+75900 40530 245 cir1
+74900 40530 245 cir1
+73900 40530 245 cir1
+72900 40530 245 cir1
+71900 40530 245 cir1
+70900 40530 245 cir1
+68500 38830 145 cir1
+68500 40430 145 cir1
+74000 37830 145 cir1
+72400 34280 145 cir1
+73500 36530 145 cir1
+74900 33630 145 cir1
+76800 33630 145 cir1
+76100 36330 145 cir1
+76100 35930 145 cir1
+76600 38230 145 cir1
+76900 37930 145 cir1
+66300 32530 145 cir1
+67200 34230 145 cir1
+73600 38630 145 cir1
+72900 38630 145 cir1
+71200 37730 145 cir1
+68800 34530 145 cir1
+66900 37930 145 cir1
+66400 38430 145 cir1
+65600 38830 145 cir1
+64800 40530 145 cir1
+71900 38630 145 cir1
+72400 36030 145 cir1
+73500 33130 145 cir1
+72400 33130 145 cir1
+74200 34930 145 cir1
+75200 35930 145 cir1
+64600 32530 145 cir1
+75900 38830 145 cir1
+73900 34130 145 cir1
+75700 34130 145 cir1
+80 setlinewidth
+newpath
+68500 38830 moveto
+68700 38630 lineto
+stroke
+newpath
+71100 38630 moveto
+71500 39030 lineto
+stroke
+newpath
+68700 38630 moveto
+71100 38630 lineto
+stroke
+newpath
+74650 37830 moveto
+74650 38680 lineto
+stroke
+newpath
+74650 38680 moveto
+74300 39030 lineto
+stroke
+newpath
+74300 39030 moveto
+71500 39030 lineto
+stroke
+newpath
+68600 40530 moveto
+68500 40430 lineto
+stroke
+newpath
+74650 37830 moveto
+74500 37980 lineto
+stroke
+newpath
+74000 37830 moveto
+74650 37830 lineto
+stroke
+newpath
+74650 37830 moveto
+74600 37780 lineto
+stroke
+newpath
+74600 37780 moveto
+74600 36705 lineto
+stroke
+newpath
+72250 34130 moveto
+71350 34130 lineto
+stroke
+newpath
+72400 34280 moveto
+72250 34130 lineto
+stroke
+newpath
+73450 36180 moveto
+73450 36480 lineto
+stroke
+newpath
+73450 36480 moveto
+73500 36530 lineto
+stroke
+newpath
+74900 33630 moveto
+74900 34655 lineto
+stroke
+newpath
+76900 32530 moveto
+76900 33530 lineto
+stroke
+newpath
+76800 33630 moveto
+76800 34380 lineto
+stroke
+newpath
+76900 33530 moveto
+76800 33630 lineto
+stroke
+newpath
+76100 35930 moveto
+76100 36330 lineto
+stroke
+newpath
+76100 36330 moveto
+75600 36330 lineto
+stroke
+newpath
+76350 38230 moveto
+75950 37830 lineto
+stroke
+newpath
+76600 38230 moveto
+76350 38230 lineto
+stroke
+newpath
+76900 37405 moveto
+76900 37930 lineto
+stroke
+newpath
+71350 34390 moveto
+70560 34390 lineto
+stroke
+newpath
+68700 32530 moveto
+66300 32530 lineto
+stroke
+newpath
+70560 34390 moveto
+68700 32530 lineto
+stroke
+newpath
+71350 34650 moveto
+70320 34650 lineto
+stroke
+newpath
+69900 34230 moveto
+67200 34230 lineto
+stroke
+newpath
+70320 34650 moveto
+69900 34230 lineto
+stroke
+newpath
+74900 35405 moveto
+74600 35705 lineto
+stroke
+newpath
+74600 35705 moveto
+74600 35955 lineto
+stroke
+newpath
+70500 39330 moveto
+70800 39630 lineto
+stroke
+newpath
+76000 39630 moveto
+71100 39630 lineto
+stroke
+newpath
+76000 39630 moveto
+76900 40530 lineto
+stroke
+newpath
+70800 39630 moveto
+71100 39630 lineto
+stroke
+newpath
+73830 35160 moveto
+74300 35630 lineto
+stroke
+newpath
+74300 35630 moveto
+74300 36930 lineto
+stroke
+newpath
+74300 36930 moveto
+73600 37630 lineto
+stroke
+newpath
+73600 37630 moveto
+73600 38630 lineto
+stroke
+newpath
+73830 35160 moveto
+73450 35160 lineto
+stroke
+newpath
+73450 35420 moveto
+73790 35420 lineto
+stroke
+newpath
+72900 38030 moveto
+72900 38630 lineto
+stroke
+newpath
+74100 36830 moveto
+72900 38030 lineto
+stroke
+newpath
+74100 35730 moveto
+74100 36830 lineto
+stroke
+newpath
+73790 35420 moveto
+74100 35730 lineto
+stroke
+newpath
+71400 37530 moveto
+73000 35930 lineto
+stroke
+newpath
+73450 35930 moveto
+73000 35930 lineto
+stroke
+newpath
+71200 37730 moveto
+71400 37530 lineto
+stroke
+newpath
+71350 34900 moveto
+70170 34900 lineto
+stroke
+newpath
+69800 34530 moveto
+68800 34530 lineto
+stroke
+newpath
+70170 34900 moveto
+69800 34530 lineto
+stroke
+newpath
+69670 35160 moveto
+71350 35160 lineto
+stroke
+newpath
+66900 37930 moveto
+69670 35160 lineto
+stroke
+newpath
+69910 35420 moveto
+71350 35420 lineto
+stroke
+newpath
+67000 38330 moveto
+69910 35420 lineto
+stroke
+newpath
+66500 38330 moveto
+67000 38330 lineto
+stroke
+newpath
+66400 38430 moveto
+66500 38330 lineto
+stroke
+newpath
+71350 35670 moveto
+70260 35670 lineto
+stroke
+newpath
+67100 38830 moveto
+65600 38830 lineto
+stroke
+newpath
+70260 35670 moveto
+67100 38830 lineto
+stroke
+newpath
+71350 35930 moveto
+70500 35930 lineto
+stroke
+newpath
+65900 40530 moveto
+64800 40530 lineto
+stroke
+newpath
+70500 35930 moveto
+65900 40530 lineto
+stroke
+newpath
+73450 34390 moveto
+73010 34390 lineto
+stroke
+newpath
+73010 34390 moveto
+72900 34280 lineto
+stroke
+newpath
+72900 34280 moveto
+72900 32530 lineto
+stroke
+newpath
+73450 35670 moveto
+73740 35670 lineto
+stroke
+newpath
+71900 38630 moveto
+71900 38630 lineto
+stroke
+newpath
+73900 36630 moveto
+71900 38630 lineto
+stroke
+newpath
+73900 35830 moveto
+73900 36630 lineto
+stroke
+newpath
+73740 35670 moveto
+73900 35830 lineto
+stroke
+newpath
+73450 34650 moveto
+74030 34650 lineto
+stroke
+newpath
+74200 32830 moveto
+73900 32530 lineto
+stroke
+newpath
+74200 34480 moveto
+74200 32830 lineto
+stroke
+newpath
+74030 34650 moveto
+74200 34480 lineto
+stroke
+newpath
+71350 36180 moveto
+72250 36180 lineto
+stroke
+newpath
+72250 36180 moveto
+72400 36030 lineto
+stroke
+newpath
+70900 32530 moveto
+71500 33130 lineto
+stroke
+newpath
+73500 33830 moveto
+73450 33880 lineto
+stroke
+newpath
+73500 33130 moveto
+73500 33830 lineto
+stroke
+newpath
+71500 33130 moveto
+72400 33130 lineto
+stroke
+newpath
+75600 35955 moveto
+75225 35955 lineto
+stroke
+newpath
+74200 34930 moveto
+74200 34900 lineto
+stroke
+newpath
+75225 35955 moveto
+75200 35930 lineto
+stroke
+newpath
+75700 35405 moveto
+75600 35505 lineto
+stroke
+newpath
+75600 35505 moveto
+75600 35955 lineto
+stroke
+newpath
+73450 34900 moveto
+74200 34900 lineto
+stroke
+newpath
+74200 34900 moveto
+74280 34900 lineto
+stroke
+newpath
+74280 34900 moveto
+74400 34780 lineto
+stroke
+newpath
+74400 34780 moveto
+74400 33530 lineto
+stroke
+newpath
+74400 33530 moveto
+74650 33280 lineto
+stroke
+newpath
+74650 33280 moveto
+75400 33280 lineto
+stroke
+newpath
+75400 33280 moveto
+75900 32780 lineto
+stroke
+newpath
+75900 32780 moveto
+75900 32530 lineto
+stroke
+newpath
+71350 33880 moveto
+70550 33880 lineto
+stroke
+newpath
+64900 32230 moveto
+64600 32530 lineto
+stroke
+newpath
+68900 32230 moveto
+64900 32230 lineto
+stroke
+newpath
+70550 33880 moveto
+68900 32230 lineto
+stroke
+newpath
+75900 38830 moveto
+75300 38230 lineto
+stroke
+newpath
+75300 37005 moveto
+75600 36705 lineto
+stroke
+newpath
+75300 38230 moveto
+75300 37005 lineto
+stroke
+newpath
+75700 34655 moveto
+75700 34130 lineto
+stroke
+newpath
+73900 34130 moveto
+73450 34130 lineto
+stroke
+newpath
+76850 36705 moveto
+76900 36655 lineto
+stroke
+newpath
+75600 36705 moveto
+76850 36705 lineto
+stroke
+newpath
+76800 35680 moveto
+76800 36555 lineto
+stroke
+newpath
+76800 36555 moveto
+76900 36655 lineto
+stroke
+newpath
+75700 34655 moveto
+75775 34655 lineto
+stroke
+newpath
+75775 34655 moveto
+76800 35680 lineto
+stroke
+1 1 1 setrgbcolor
+60 setlinewidth
+68500 38830 45 cir1
+68500 40430 45 cir1
+74000 37830 45 cir1
+72400 34280 45 cir1
+73500 36530 45 cir1
+74900 33630 45 cir1
+76800 33630 45 cir1
+76100 36330 45 cir1
+76100 35930 45 cir1
+76600 38230 45 cir1
+76900 37930 45 cir1
+66300 32530 45 cir1
+67200 34230 45 cir1
+73600 38630 45 cir1
+72900 38630 45 cir1
+71200 37730 45 cir1
+68800 34530 45 cir1
+66900 37930 45 cir1
+66400 38430 45 cir1
+65600 38830 45 cir1
+64800 40530 45 cir1
+71900 38630 45 cir1
+72400 36030 45 cir1
+73500 33130 45 cir1
+72400 33130 45 cir1
+74200 34930 45 cir1
+75200 35930 45 cir1
+64600 32530 45 cir1
+75900 38830 45 cir1
+73900 34130 45 cir1
+75700 34130 45 cir1
+76800 39330 45 cir1
+70500 39330 45 cir1
+70900 32530 45 cir1
+71900 32530 45 cir1
+72900 32530 45 cir1
+73900 32530 45 cir1
+74900 32530 45 cir1
+75900 32530 45 cir1
+76900 32530 45 cir1
+76900 40530 45 cir1
+75900 40530 45 cir1
+74900 40530 45 cir1
+73900 40530 45 cir1
+72900 40530 45 cir1
+71900 40530 45 cir1
+70900 40530 45 cir1
+0 0 0 setrgbcolor
+showpage
+grestore
+%%EOF

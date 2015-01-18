@@ -1,0 +1,362 @@
+# EESchema Netlist Version 1.1 created  Sun 30 Oct 2011 10:41:37 AM MDT
+(
+ ( /4EAB7ADA PIN_ARRAY_3X1 BT1 BATTERY
+  ( 1 N-000005 )
+  ( 2 GND )
+ )
+ ( /4E488DCE C1 C1 0.1uF
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /4E489546 C1V5 C2 100uF
+  ( 1 N-000060 )
+  ( 2 GND )
+ )
+ ( /4E489521 C1V5 C3 100uF
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /4E48955C C1 C4 0.1uF
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /4E4849A1 C1 C5 0.1uF
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /4EAB7AC9 C1 C6 22pF
+  ( 1 GND )
+  ( 2 N-000051 )
+ )
+ ( /4E485530 C1 C7 22pF
+  ( 1 GND )
+  ( 2 N-000043 )
+ )
+ ( /4EAB7AE3 C1 C8 0.1uF
+  ( 1 N-000055 )
+  ( 2 N-000013 )
+ )
+ ( /4E55BB36 D3 D1 1N4004
+  ( 1 GND )
+  ( 2 N-000023 )
+ )
+ ( /4EAB7ADB D3 D2 1N4004
+  ( 1 N-000023 )
+  ( 2 N-000060 )
+ )
+ ( /4E87E11C D3 D3 TVS_Diode
+  ( 1 GND )
+  ( 2 N-000060 )
+ )
+ ( /4E4860F6 LED-5MM D4 link/act_LED
+  ( 1 N-000034 )
+  ( 2 ? )
+ )
+ ( /4E486088 LED-5MM D5 continuity-chan1_LED
+  ( 1 N-000058 )
+  ( 2 ? )
+ )
+ ( /4E4860DE LED-5MM D6 continuity-chan2_LED
+  ( 1 N-000053 )
+  ( 2 ? )
+ )
+ ( /4E4860E4 LED-5MM D7 continuity-chan3_LED
+  ( 1 N-000007 )
+  ( 2 ? )
+ )
+ ( /4E4860EB LED-5MM D8 continuity-chan4_LED
+  ( 1 N-000054 )
+  ( 2 ? )
+ )
+ ( /4E489E06 C1V8 F1 POLYSWITCH
+  ( 1 N-000023 )
+  ( 2 N-000005 )
+ )
+ ( /4EAB7AE4 RFM12 IC1 RFM12B
+  ( 1 N-000059 )
+  ( 2 N-000035 )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 GND )
+  ( 8 N-000006 )
+  ( 9 +3.3V )
+  ( 10 GND )
+  ( 11 ? )
+  ( 12 N-000039 )
+  ( 13 N-000021 )
+  ( 14 N-000040 )
+ )
+ ( /4EAB7AC0 DIP-28__300 IC2 ATMEGA328P-PU
+  ( 1 N-000055 )
+  ( 2 N-000014 )
+  ( 3 N-000036 )
+  ( 4 N-000035 )
+  ( 5 N-000034 )
+  ( 6 N-000045 )
+  ( 7 N-000042 )
+  ( 8 GND )
+  ( 9 N-000051 )
+  ( 10 N-000043 )
+  ( 11 N-000046 )
+  ( 12 N-000047 )
+  ( 13 N-000041 )
+  ( 14 N-000044 )
+  ( 15 N-000048 )
+  ( 16 N-000040 )
+  ( 17 N-000039 )
+  ( 18 N-000059 )
+  ( 19 N-000021 )
+  ( 20 +3.3V )
+  ( 21 N-000042 )
+  ( 22 GND )
+  ( 23 ? )
+  ( 24 N-000052 )
+  ( 25 N-000058 )
+  ( 26 N-000053 )
+  ( 27 N-000007 )
+  ( 28 N-000054 )
+ )
+ ( /4E486262 PINTST L1 ANTENNA
+  ( 1 ? )
+  ( 2 N-000006 )
+ )
+ ( /4EAB7ACC pin_array_3x2 P1 CONN_3X2
+  ( 1 N-000059 )
+  ( 2 +3.3V )
+  ( 3 N-000021 )
+  ( 4 N-000039 )
+  ( 5 N-000055 )
+  ( 6 GND )
+ )
+ ( /4E4862E2 PIN_ARRAY-6X1 P2 TTL_Serial_/_Prog
+  ( 1 GND )
+  ( 2 ? )
+  ( 3 +3.3V )
+  ( 4 N-000036 )
+  ( 5 N-000014 )
+  ( 6 N-000013 )
+ )
+ ( /4E48946C R3 R1 39k
+  ( 1 ? )
+  ( 2 ? )
+ )
+ ( /4EAB7AE2 R3 R2 10k
+  ( 1 ? )
+  ( 2 ? )
+ )
+ ( /4E4852A7 R3 R3 10k
+  ( 1 ? )
+  ( 2 ? )
+ )
+ ( /4E486144 R3 R4 47
+  ( 1 ? )
+  ( 2 ? )
+ )
+ ( /4E489EF9 R3 R5 47
+  ( 1 ? )
+  ( 2 ? )
+ )
+ ( /4E489EFC R3 R6 47
+  ( 1 ? )
+  ( 2 ? )
+ )
+ ( /4E489F00 R3 R7 47
+  ( 1 ? )
+  ( 2 ? )
+ )
+ ( /4E489F02 R3 R8 47
+  ( 1 ? )
+  ( 2 ? )
+ )
+ ( /4E485FB5 PIN_ARRAY_2X1 SP1 SPEAKER
+  ( 1 N-000048 )
+  ( 2 GND )
+ )
+ ( /4E485C51 R4-LARGE_PADS SW1 SW_ARM
+  ( 1 N-000044 )
+  ( 2 GND )
+ )
+ ( /4E485C16 R7 SW2 SW_FIRE
+  ( 1 GND )
+  ( 2 N-000052 )
+ )
+ ( /4E485D05 INDUCTOR_V SW3 SELECT_1
+  ( 1 N-000045 )
+  ( 2 GND )
+ )
+ ( /4E485D94 SW_PUSH-12mm SW4 SELECT_2
+  ( 1 N-000046 )
+  ( 2 GND )
+ )
+ ( /4E485D98 PINHEAD1-2 SW5 SELECT_3
+  ( 1 N-000047 )
+  ( 2 GND )
+ )
+ ( /4E485D9B SW_PUSH SW6 SELECT_4
+  ( 1 N-000041 )
+  ( 2 GND )
+ )
+ ( /4E4893F3 TO220 U1 LP2950
+  ( 1 N-000060 )
+  ( 2 GND )
+  ( 3 +3.3V )
+ )
+ ( /4EAB7AC8 R6 X1 8MHz
+  ( 1 N-000043 )
+  ( 2 N-000051 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ CP*
+ SM*
+$endlist
+$component C3
+ CP*
+ SM*
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component D3
+ D?
+ SO*
+ SM*
+$endlist
+$component D4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D5
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D6
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D7
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D8
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component IC2
+ 28DIP-ELL600
+ 28dip600
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$endfootprintlist
+}

@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0  Date: Thu 07 Jun 2012 11:19:07 PM MDT
+#
+$CMP CONN_2X8
+D ymbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP IGNITER
+D R
+K resistor
+$ENDCMP
+#
+$CMP MAX60xx
+D Precision Voltage Reference
+K VREF
+$ENDCMP
+#
+$CMP R
+D R
+K resistor
+$ENDCMP
+#
+$CMP TSC888
+D current sense shunt amplifier
+$ENDCMP
+#
+#End Doc Library
